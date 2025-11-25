@@ -26,9 +26,8 @@ const Hero: React.FC = () => {
             Educación de Calidad
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-            ⭐ Bienvenidos a <br/><span className="text-primary-400">Myker Academy</span> ⭐
+            ⭐ Bienvenidos a <br/><span className="text-primary-400 font-serif">Myker Academy</span> ⭐
           </h1>
-          <h1 class="font-serif">Título elegante</h1>
 
           <p className="text-lg md:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
             Descubre tu máximo potencial con nuestra formación especializada en inglés, francés y alemán.
