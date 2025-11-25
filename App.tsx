@@ -4,11 +4,14 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Features from './components/Features';
 import Courses from './components/Courses';
-import Tarifas from './components/Tarifas';
-import MetodologiaNiveles from './components/MetodologiaNiveles';
 import HorariosModalidades from './components/Horarios-Modalidades';
+import MetodologiaNiveles from './components/MetodologiaNiveles';
+import Tarifas from './components/Tarifas';
+import Certificaciones from './components/Certificaciones';
 import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
 import Contact from './components/Contact';
+import CTAFinal from './components/CTAFinal';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,8 +26,11 @@ function App() {
         <HorariosModalidades />
         <MetodologiaNiveles />
         <Tarifas />
+        <Certificaciones />
         <Testimonials />
+        <FAQ />
         <Contact />
+        <CTAFinal />
       </main>
       <Footer />
     </div>
