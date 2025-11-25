@@ -5,6 +5,7 @@ import About from './components/About';
 import Features from './components/Features';
 import Courses from './components/Courses';
 import Tarifas from './components/Tarifas';
+import MetodologiaNiveles from './components/MetodologiaNiveles';
 import HorariosModalidades from './components/Horarios-Modalidades';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
@@ -20,6 +21,7 @@ function App() {
         <Features />
         <Courses />
         <HorariosModalidades />
+        <MetodologiaNiveles />
         <Tarifas />
         <Testimonials />
         <Contact />
