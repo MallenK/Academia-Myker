@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, GraduationCap } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 import { NavItem } from '../types';
 
 const navItems: NavItem[] = [
-  { label: 'Inicio', href: '#home' },
-  { label: 'Sobre Nosotros', href: '#about' },
-  { label: 'Ventajas', href: '#features' },
-  { label: 'Cursos', href: '#courses' },
-  { label: 'Contacto', href: '#contact' },
+  { label: 'Inicio', href: '/' },
+  { label: 'Sobre Nosotros', href: '/sobre-nosotros' },
+  { label: 'Ventajas', href: '/metodologia' },      // podrías renombrar la página si quieres
+  { label: 'Cursos', href: '/cursos' },
+  { label: 'Contacto', href: '/contacto' },
 ];
 
 const Header: React.FC = () => {
@@ -22,50 +23,68 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const baseLinkClasses = isScrolled
+    ? 'text-gray-600 hover:text-primary-500'
+    : 'text-gray-100 hover:text-white';
+
   return (
-    <header 
+    <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-2 text-primary-700 font-bold text-2xl tracking-tight">
+        <NavLink
+          to="/"
+          className="flex items-center gap-2 text-primary-700 font-bold text-2xl tracking-tight"
+        >
           <div className="bg-primary-600 text-white p-2 rounded-lg">
             <GraduationCap size={24} />
           </div>
           <span className={isScrolled ? 'text-gray-900' : 'text-gray-900 lg:text-white'}>
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
-        </a>
+        </NavLink>
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
-            <a
+            <NavLink
               key={item.label}
-              href={item.href}
-              className={`text-sm font-medium transition-colors hover:text-primary-500 ${
-                isScrolled ? 'text-gray-600' : 'text-gray-100 hover:text-white'
-              }`}
+              to={item.href}
+              className={({ isActive }) =>
+                [
+                  'text-sm font-medium transition-colors',
+                  baseLinkClasses,
+                  isActive ? 'text-primary-600' : '',
+                ].join(' ')
+              }
             >
               {item.label}
-            </a>
+            </NavLink>
           ))}
-          <a 
-            href="#contact" 
+          <NavLink
+            to="/contacto"
             className="bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-full font-medium transition-all shadow-lg hover:shadow-xl text-sm"
           >
             Inscríbete
-          </a>
+          </NavLink>
         </nav>
 
         {/* Mobile Menu Button */}
-        <button 
+        <button
           className="lg:hidden text-gray-700 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
-          {isOpen ? <X size={28} className={isScrolled ? 'text-gray-800' : 'text-gray-800'} /> : <Menu size={28} className={isScrolled ? 'text-gray-800' : 'text-gray-800 lg:text-white'} />}
+          {isOpen ? (
+            <X size={28} className={isScrolled ? 'text-gray-800' : 'text-gray-800'} />
+          ) : (
+            <Menu
+              size={28}
+              className={isScrolled ? 'text-gray-800' : 'text-gray-800 lg:text-white'}
+            />
+          )}
         </button>
       </div>
 
@@ -74,15 +93,27 @@ const Header: React.FC = () => {
         <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-gray-100">
           <div className="flex flex-col py-4">
             {navItems.map((item) => (
-              <a
+              <NavLink
                 key={item.label}
-                href={item.href}
-                className="px-6 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium border-l-4 border-transparent hover:border-primary-600 transition-all"
+                to={item.href}
+                className={({ isActive }) =>
+                  [
+                    'px-6 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium border-l-4 border-transparent hover:border-primary-600 transition-all',
+                    isActive ? 'border-primary-600 text-primary-700 bg-primary-50' : '',
+                  ].join(' ')
+                }
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
-              </a>
+              </NavLink>
             ))}
+            <NavLink
+              to="/contacto"
+              className="px-6 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
+              onClick={() => setIsOpen(false)}
+            >
+              Inscríbete
+            </NavLink>
           </div>
         </div>
       )}
