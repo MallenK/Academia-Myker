@@ -1,19 +1,44 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, GraduationCap } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
-import { NavItem } from '../types';
 
-const navItems: NavItem[] = [
-  { label: 'Inicio', href: '/' },
-  { label: 'Sobre Nosotros', href: '/sobre-nosotros' },
-  { label: 'Ventajas', href: '/metodologia' },
-  { label: 'Cursos', href: '/cursos' },
-  { label: 'Contacto', href: '/contacto' },
+// NEW: Supported languages
+const LANGUAGES = [
+  { code: 'ca', label: 'Català' },
+  { code: 'es', label: 'Español' },
+  { code: 'en', label: 'English' },
+  { code: 'de', label: 'Deutsch' },
+  { code: 'fr', label: 'Français' }
+];
+
+// NEW: Default language
+const DEFAULT_LANGUAGE = 'en';
+
+// Navigation items in English
+const navItems = [
+  { label: 'Home', href: '/' },
+  { label: 'About Us', href: '/sobre-nosotros' },
+  // Removed "Ventajas" → content will be inside Courses
+  { label: 'Courses', href: '/cursos' },
+  { label: 'Contact', href: '/contacto' }
 ];
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [language, setLanguage] = useState(DEFAULT_LANGUAGE);
+
+  useEffect(() => {
+    const savedLang = localStorage.getItem('myker_lang');
+    if (savedLang) setLanguage(savedLang);
+  }, []);
+
+  const handleLanguageChange = (code: string) => {
+    setLanguage(code);
+    localStorage.setItem('myker_lang', code);
+    // Here you will later trigger translation logic
+    // translatePage(code);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,8 +48,6 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Color por defecto: NEGRO.  
-  // Al hacer scroll sigue siendo negro.
   const baseLinkClasses = 'text-black hover:text-primary-600';
 
   return (
@@ -44,17 +67,16 @@ const Header: React.FC = () => {
             <GraduationCap size={24} />
           </div>
 
-          {/* Por defecto NEGRO */}
           <span className="text-black">
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
         </NavLink>
 
-        {/* Desktop Nav */}
+        {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
             <NavLink
-              key={item.label}
+              key={item.href}
               to={item.href}
               className={({ isActive }) =>
                 [
@@ -68,11 +90,24 @@ const Header: React.FC = () => {
             </NavLink>
           ))}
 
+          {/* Language Selector */}
+          <select
+            value={language}
+            onChange={(e) => handleLanguageChange(e.target.value)}
+            className="border border-neutral-400 rounded-lg px-3 py-1 text-black bg-white"
+          >
+            {LANGUAGES.map((lang) => (
+              <option key={lang.code} value={lang.code}>
+                {lang.label}
+              </option>
+            ))}
+          </select>
+
           <NavLink
             to="/contacto"
             className="bg-primary-600 hover:bg-primary-700 text-black px-5 py-2 rounded-full font-medium transition-all shadow-lg hover:shadow-xl text-sm"
           >
-            Inscríbete
+            Enroll
           </NavLink>
         </nav>
 
@@ -89,13 +124,14 @@ const Header: React.FC = () => {
         </button>
       </div>
 
-      {/* Mobile Nav */}
+      {/* Mobile Navigation */}
       {isOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-neutral-300">
           <div className="flex flex-col py-4">
+
             {navItems.map((item) => (
               <NavLink
-                key={item.label}
+                key={item.href}
                 to={item.href}
                 className={({ isActive }) =>
                   [
@@ -109,12 +145,27 @@ const Header: React.FC = () => {
               </NavLink>
             ))}
 
+            {/* Mobile Language Selector */}
+            <div className="px-6 py-3">
+              <select
+                value={language}
+                onChange={(e) => handleLanguageChange(e.target.value)}
+                className="w-full border border-neutral-400 rounded-lg px-3 py-2 text-black bg-white"
+              >
+                {LANGUAGES.map((lang) => (
+                  <option key={lang.code} value={lang.code}>
+                    {lang.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+
             <NavLink
               to="/contacto"
               className="px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
               onClick={() => setIsOpen(false)}
             >
-              Inscríbete
+              Enroll
             </NavLink>
           </div>
         </div>
