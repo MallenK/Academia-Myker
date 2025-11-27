@@ -3,7 +3,6 @@ import { Menu, X, GraduationCap } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-// Supported languages
 const LANGUAGES = [
   { code: 'ca', label: 'Català' },
   { code: 'es', label: 'Español' },
@@ -21,7 +20,6 @@ const Header: React.FC = () => {
 
   const { t, i18n } = useTranslation();
 
-  // Restore language
   useEffect(() => {
     const savedLang = localStorage.getItem('myker_lang');
     if (savedLang) {
@@ -36,7 +34,6 @@ const Header: React.FC = () => {
     localStorage.setItem('myker_lang', code);
   };
 
-  // Scroll behavior
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
@@ -45,7 +42,6 @@ const Header: React.FC = () => {
 
   const baseLinkClasses = 'text-black hover:text-primary-600';
 
-  // Navigation (keys instead of hardcoded labels)
   const navItems = [
     { key: 'home', href: '/' },
     { key: 'about', href: '/sobre-nosotros' },
@@ -69,35 +65,53 @@ const Header: React.FC = () => {
           <div className="bg-primary-600 text-black p-2 rounded-lg">
             <GraduationCap size={24} />
           </div>
-
           <span className="text-black">
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
         </NavLink>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-8">
-          {navItems.map((item) => (
-            <NavLink
-              key={item.key}
-              to={item.href}
-              className={({ isActive }) =>
-                [
-                  'text-sm font-medium transition-colors',
-                  baseLinkClasses,
-                  isActive ? 'text-primary-600' : ''
-                ].join(' ')
-              }
-            >
-              {t(`header.${item.key}`)}
-            </NavLink>
-          ))}
+        {/* DESKTOP RIGHT SIDE */}
+        <div className="hidden lg:flex items-center gap-6">
 
-          {/* Language Selector */}
+          <nav className="flex items-center gap-8">
+            {navItems.map((item) => (
+              <NavLink
+                key={item.key}
+                to={item.href}
+                className={({ isActive }) =>
+                  [
+                    'text-sm font-medium transition-colors',
+                    baseLinkClasses,
+                    isActive ? 'text-primary-600' : ''
+                  ].join(' ')
+                }
+              >
+                {t(`header.${item.key}`)}
+              </NavLink>
+            ))}
+          </nav>
+
+          {/* Desktop Language Selector */}
           <select
             value={language}
             onChange={(e) => handleLanguageChange(e.target.value)}
-            className="border border-neutral-400 rounded-lg px-3 py-1 text-black bg-white"
+            className="border border-neutral-400 rounded-lg px-3 py-1 text-black bg-white cursor-pointer"
+          >
+            {LANGUAGES.map((lang) => (
+              <option key={lang.code} value={lang.code}>
+                {lang.label}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        {/* MOBILE: Language selector outside menu */}
+        <div className="flex items-center gap-4 lg:hidden">
+
+          <select
+            value={language}
+            onChange={(e) => handleLanguageChange(e.target.value)}
+            className="border border-neutral-400 rounded-lg px-3 py-1 text-black bg-white cursor-pointer"
           >
             {LANGUAGES.map((lang) => (
               <option key={lang.code} value={lang.code}>
@@ -106,33 +120,23 @@ const Header: React.FC = () => {
             ))}
           </select>
 
-          {/* Enroll button */}
-          <NavLink
-            to="/contacto"
-            className="bg-primary-600 hover:bg-primary-700 text-black px-5 py-2 rounded-full font-medium transition-all shadow-lg hover:shadow-xl text-sm"
+          <button
+            className="text-black focus:outline-none"
+            onClick={() => setIsOpen(!isOpen)}
           >
-            {t('header.enroll')}
-          </NavLink>
-        </nav>
-
-        {/* Mobile Menu Button */}
-        <button
-          className="lg:hidden text-black focus:outline-none"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {isOpen ? (
-            <X size={28} className="text-black" />
-          ) : (
-            <Menu size={28} className="text-black" />
-          )}
-        </button>
+            {isOpen ? (
+              <X size={28} className="text-black" />
+            ) : (
+              <Menu size={28} className="text-black" />
+            )}
+          </button>
+        </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* MOBILE MENU */}
       {isOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-neutral-300">
           <div className="flex flex-col py-4">
-
             {navItems.map((item) => (
               <NavLink
                 key={item.key}
@@ -148,29 +152,6 @@ const Header: React.FC = () => {
                 {t(`header.${item.key}`)}
               </NavLink>
             ))}
-
-            {/* Mobile Language Selector */}
-            <div className="px-6 py-3">
-              <select
-                value={language}
-                onChange={(e) => handleLanguageChange(e.target.value)}
-                className="w-full border border-neutral-400 rounded-lg px-3 py-2 text-black bg-white"
-              >
-                {LANGUAGES.map((lang) => (
-                  <option key={lang.code} value={lang.code}>
-                    {lang.label}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <NavLink
-              to="/contacto"
-              className="px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
-              onClick={() => setIsOpen(false)}
-            >
-              {t('header.enroll')}
-            </NavLink>
           </div>
         </div>
       )}
