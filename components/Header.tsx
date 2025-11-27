@@ -23,10 +23,9 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // SOLO negro o verde
-  const baseLinkClasses = isScrolled
-    ? 'text-black hover:text-primary-600'
-    : 'text-primary-600 hover:text-primary-700';
+  // Color por defecto: NEGRO.  
+  // Al hacer scroll sigue siendo negro.
+  const baseLinkClasses = 'text-black hover:text-primary-600';
 
   return (
     <header
@@ -35,6 +34,7 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
+
         {/* Logo */}
         <NavLink
           to="/"
@@ -44,7 +44,8 @@ const Header: React.FC = () => {
             <GraduationCap size={24} />
           </div>
 
-          <span className={isScrolled ? 'text-black' : 'text-primary-600'}>
+          {/* Por defecto NEGRO */}
+          <span className="text-black">
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
         </NavLink>
