@@ -1,39 +1,36 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Features from './components/Features';
-import Courses from './components/Courses';
-import HorariosModalidades from './components/Horarios-Modalidades';
-import MetodologiaNiveles from './components/MetodologiaNiveles';
-import Tarifas from './components/Tarifas';
-import Certificaciones from './components/Certificaciones';
-import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
-import Contact from './components/Contact';
-import CTAFinal from './components/CTAFinal';
 import Footer from './components/Footer';
+
+import HomePage from './pages/HomePage';
+import CursosPage from './pages/CursosPage';
+import MetodologiaPage from './pages/MetodologiaPage';
+import OpinionesPage from './pages/OpinionesPage';
+import ContactoPage from './pages/ContactoPage';
+import SobreNosotrosPage from './pages/SobreNosotrosPage'; // opcional, si la usas
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
-      <Header />
-      <main className="flex-grow">
-        <Hero />
-        <About />
-        <Features />
-        <Courses />
-        <HorariosModalidades />
-        <MetodologiaNiveles />
-        <Tarifas />
-        <Certificaciones />
-        <Testimonials />
-        <FAQ />
-        <Contact />
-        <CTAFinal />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter basename="/Academia-Myker">
+      <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/cursos" element={<CursosPage />} />
+            <Route path="/metodologia" element={<MetodologiaPage />} />
+            <Route path="/opiniones" element={<OpinionesPage />} />
+            <Route path="/contacto" element={<ContactoPage />} />
+            <Route path="/sobre-nosotros" element={<SobreNosotrosPage />} />
+            {/* fallback simple */}
+            <Route path="*" element={<HomePage />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
