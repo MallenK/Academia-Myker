@@ -6,7 +6,7 @@ import { NavItem } from '../types';
 const navItems: NavItem[] = [
   { label: 'Inicio', href: '/' },
   { label: 'Sobre Nosotros', href: '/sobre-nosotros' },
-  { label: 'Ventajas', href: '/metodologia' },      // podrías renombrar la página si quieres
+  { label: 'Ventajas', href: '/metodologia' },
   { label: 'Cursos', href: '/cursos' },
   { label: 'Contacto', href: '/contacto' },
 ];
@@ -24,7 +24,7 @@ const Header: React.FC = () => {
   }, []);
 
   const baseLinkClasses = isScrolled
-    ? 'text-gray-600 hover:text-primary-500'
+    ? 'text-black hover:text-primary-500'
     : 'text-gray-100 hover:text-white';
 
   return (
@@ -74,16 +74,13 @@ const Header: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="lg:hidden text-gray-700 focus:outline-none"
+          className="lg:hidden text-black focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
-            <X size={28} className={isScrolled ? 'text-gray-800' : 'text-gray-800'} />
+            <X size={28} className="text-black" />
           ) : (
-            <Menu
-              size={28}
-              className={isScrolled ? 'text-gray-800' : 'text-gray-800 lg:text-white'}
-            />
+            <Menu size={28} className={isScrolled ? 'text-black' : 'text-black lg:text-white'} />
           )}
         </button>
       </div>
@@ -98,7 +95,7 @@ const Header: React.FC = () => {
                 to={item.href}
                 className={({ isActive }) =>
                   [
-                    'px-6 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium border-l-4 border-transparent hover:border-primary-600 transition-all',
+                    'px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-medium border-l-4 border-transparent hover:border-primary-600 transition-all',
                     isActive ? 'border-primary-600 text-primary-700 bg-primary-50' : '',
                   ].join(' ')
                 }
@@ -109,7 +106,7 @@ const Header: React.FC = () => {
             ))}
             <NavLink
               to="/contacto"
-              className="px-6 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
+              className="px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
               onClick={() => setIsOpen(false)}
             >
               Inscríbete
