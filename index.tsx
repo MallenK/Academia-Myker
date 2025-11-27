@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import "./src/i18n";
+import "./src/i18n";   // ← ESTA ES LA RUTA CORRECTA PARA TU PROYECTO
 
 
 const rootElement = document.getElementById('root');
