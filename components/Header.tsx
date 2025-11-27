@@ -23,9 +23,10 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // SOLO negro o verde
   const baseLinkClasses = isScrolled
-    ? 'text-black hover:text-primary-500'
-    : 'text-white hover:text-white/80';
+    ? 'text-black hover:text-primary-600'
+    : 'text-primary-600 hover:text-primary-700';
 
   return (
     <header
@@ -39,10 +40,11 @@ const Header: React.FC = () => {
           to="/"
           className="flex items-center gap-2 font-bold text-2xl tracking-tight"
         >
-          <div className="bg-primary-600 text-white p-2 rounded-lg">
+          <div className="bg-primary-600 text-black p-2 rounded-lg">
             <GraduationCap size={24} />
           </div>
-          <span className={isScrolled ? 'text-black' : 'text-white'}>
+
+          <span className={isScrolled ? 'text-black' : 'text-primary-600'}>
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
         </NavLink>
@@ -57,16 +59,17 @@ const Header: React.FC = () => {
                 [
                   'text-sm font-medium transition-colors',
                   baseLinkClasses,
-                  isActive ? 'text-primary-600' : '',
+                  isActive ? 'text-primary-600' : ''
                 ].join(' ')
               }
             >
               {item.label}
             </NavLink>
           ))}
+
           <NavLink
             to="/contacto"
-            className="bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-full font-medium transition-all shadow-lg hover:shadow-xl text-sm"
+            className="bg-primary-600 hover:bg-primary-700 text-black px-5 py-2 rounded-full font-medium transition-all shadow-lg hover:shadow-xl text-sm"
           >
             Inscríbete
           </NavLink>
@@ -80,17 +83,14 @@ const Header: React.FC = () => {
           {isOpen ? (
             <X size={28} className="text-black" />
           ) : (
-            <Menu
-              size={28}
-              className={isScrolled ? 'text-black' : 'text-white lg:text-white'}
-            />
+            <Menu size={28} className="text-black" />
           )}
         </button>
       </div>
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-neutral-200">
+        <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-neutral-300">
           <div className="flex flex-col py-4">
             {navItems.map((item) => (
               <NavLink
@@ -99,7 +99,7 @@ const Header: React.FC = () => {
                 className={({ isActive }) =>
                   [
                     'px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-medium border-l-4 border-transparent hover:border-primary-600 transition-all',
-                    isActive ? 'border-primary-600 text-primary-700 bg-primary-50' : '',
+                    isActive ? 'border-primary-600 text-primary-700 bg-primary-50' : ''
                   ].join(' ')
                 }
                 onClick={() => setIsOpen(false)}
@@ -107,6 +107,7 @@ const Header: React.FC = () => {
                 {item.label}
               </NavLink>
             ))}
+
             <NavLink
               to="/contacto"
               className="px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
