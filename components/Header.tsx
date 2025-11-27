@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, GraduationCap } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
-// NEW: Supported languages
+// Supported languages
 const LANGUAGES = [
   { code: 'ca', label: 'Català' },
   { code: 'es', label: 'Español' },
@@ -11,44 +12,46 @@ const LANGUAGES = [
   { code: 'fr', label: 'Français' }
 ];
 
-// NEW: Default language
 const DEFAULT_LANGUAGE = 'en';
-
-// Navigation items in English
-const navItems = [
-  { label: 'Home', href: '/' },
-  { label: 'About Us', href: '/sobre-nosotros' },
-  // Removed "Ventajas" → content will be inside Courses
-  { label: 'Courses', href: '/cursos' },
-  { label: 'Contact', href: '/contacto' }
-];
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [language, setLanguage] = useState(DEFAULT_LANGUAGE);
 
+  const { t, i18n } = useTranslation();
+
+  // Restore language
   useEffect(() => {
     const savedLang = localStorage.getItem('myker_lang');
-    if (savedLang) setLanguage(savedLang);
-  }, []);
+    if (savedLang) {
+      setLanguage(savedLang);
+      i18n.changeLanguage(savedLang);
+    }
+  }, [i18n]);
 
   const handleLanguageChange = (code: string) => {
     setLanguage(code);
+    i18n.changeLanguage(code);
     localStorage.setItem('myker_lang', code);
-    // Here you will later trigger translation logic
-    // translatePage(code);
   };
 
+  // Scroll behavior
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const baseLinkClasses = 'text-black hover:text-primary-600';
+
+  // Navigation (keys instead of hardcoded labels)
+  const navItems = [
+    { key: 'home', href: '/' },
+    { key: 'about', href: '/sobre-nosotros' },
+    { key: 'courses', href: '/cursos' },
+    { key: 'contact', href: '/contacto' }
+  ];
 
   return (
     <header
@@ -76,7 +79,7 @@ const Header: React.FC = () => {
         <nav className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
             <NavLink
-              key={item.href}
+              key={item.key}
               to={item.href}
               className={({ isActive }) =>
                 [
@@ -86,7 +89,7 @@ const Header: React.FC = () => {
                 ].join(' ')
               }
             >
-              {item.label}
+              {t(`header.${item.key}`)}
             </NavLink>
           ))}
 
@@ -103,11 +106,12 @@ const Header: React.FC = () => {
             ))}
           </select>
 
+          {/* Enroll button */}
           <NavLink
             to="/contacto"
             className="bg-primary-600 hover:bg-primary-700 text-black px-5 py-2 rounded-full font-medium transition-all shadow-lg hover:shadow-xl text-sm"
           >
-            Enroll
+            {t('header.enroll')}
           </NavLink>
         </nav>
 
@@ -131,7 +135,7 @@ const Header: React.FC = () => {
 
             {navItems.map((item) => (
               <NavLink
-                key={item.href}
+                key={item.key}
                 to={item.href}
                 className={({ isActive }) =>
                   [
@@ -141,7 +145,7 @@ const Header: React.FC = () => {
                 }
                 onClick={() => setIsOpen(false)}
               >
-                {item.label}
+                {t(`header.${item.key}`)}
               </NavLink>
             ))}
 
@@ -165,7 +169,7 @@ const Header: React.FC = () => {
               className="px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
               onClick={() => setIsOpen(false)}
             >
-              Enroll
+              {t('header.enroll')}
             </NavLink>
           </div>
         </div>
