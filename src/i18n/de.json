@@ -1,0 +1,13 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "courses": "Courses",
+    "contact": "Contact",
+    "enroll": "Enroll"
+  },
+  "professors": {
+    "title": "Our Teachers",
+    "languages": "Languages"
+  }
+}
