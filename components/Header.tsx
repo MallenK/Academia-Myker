@@ -6,7 +6,7 @@ import { NavItem } from '../types';
 const navItems: NavItem[] = [
   { label: 'Inicio', href: '/' },
   { label: 'Sobre Nosotros', href: '/sobre-nosotros' },
-  { label: 'Ventajas', href: '/metodologia' },      // podrías renombrar la página si quieres
+  { label: 'Ventajas', href: '/metodologia' },
   { label: 'Cursos', href: '/cursos' },
   { label: 'Contacto', href: '/contacto' },
 ];
@@ -24,8 +24,8 @@ const Header: React.FC = () => {
   }, []);
 
   const baseLinkClasses = isScrolled
-    ? 'text-gray-600 hover:text-primary-500'
-    : 'text-gray-100 hover:text-white';
+    ? 'text-black hover:text-primary-500'
+    : 'text-white hover:text-white/80';
 
   return (
     <header
@@ -37,12 +37,12 @@ const Header: React.FC = () => {
         {/* Logo */}
         <NavLink
           to="/"
-          className="flex items-center gap-2 text-primary-700 font-bold text-2xl tracking-tight"
+          className="flex items-center gap-2 font-bold text-2xl tracking-tight"
         >
           <div className="bg-primary-600 text-white p-2 rounded-lg">
             <GraduationCap size={24} />
           </div>
-          <span className={isScrolled ? 'text-gray-900' : 'text-gray-900 lg:text-white'}>
+          <span className={isScrolled ? 'text-black' : 'text-white'}>
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
         </NavLink>
@@ -74,15 +74,15 @@ const Header: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="lg:hidden text-gray-700 focus:outline-none"
+          className="lg:hidden text-black focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
-            <X size={28} className={isScrolled ? 'text-gray-800' : 'text-gray-800'} />
+            <X size={28} className="text-black" />
           ) : (
             <Menu
               size={28}
-              className={isScrolled ? 'text-gray-800' : 'text-gray-800 lg:text-white'}
+              className={isScrolled ? 'text-black' : 'text-white lg:text-white'}
             />
           )}
         </button>
@@ -90,7 +90,7 @@ const Header: React.FC = () => {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-gray-100">
+        <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-neutral-200">
           <div className="flex flex-col py-4">
             {navItems.map((item) => (
               <NavLink
@@ -98,7 +98,7 @@ const Header: React.FC = () => {
                 to={item.href}
                 className={({ isActive }) =>
                   [
-                    'px-6 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium border-l-4 border-transparent hover:border-primary-600 transition-all',
+                    'px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-medium border-l-4 border-transparent hover:border-primary-600 transition-all',
                     isActive ? 'border-primary-600 text-primary-700 bg-primary-50' : '',
                   ].join(' ')
                 }
@@ -109,7 +109,7 @@ const Header: React.FC = () => {
             ))}
             <NavLink
               to="/contacto"
-              className="px-6 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
+              className="px-6 py-3 text-black hover:bg-primary-50 hover:text-primary-700 font-semibold border-l-4 border-transparent hover:border-primary-600 transition-all"
               onClick={() => setIsOpen(false)}
             >
               Inscríbete
