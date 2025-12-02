@@ -58,10 +58,11 @@ const Courses: React.FC = () => {
         </div>
 
         {/* GRID 2x2 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12 w-full">
           {courses.map((course, index) => (
             <motion.div
               key={index}
+              className="h-full"
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -69,21 +70,23 @@ const Courses: React.FC = () => {
             >
               <Link
                 to={course.href}
-                className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:border-primary-200 block"
+                className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:border-primary-200 block h-full flex flex-col justify-between"
               >
-                <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-6 ${course.color}`}>
-                  <course.icon size={24} />
+                <div>
+                  <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-6 ${course.color}`}>
+                    <course.icon size={24} />
+                  </div>
+        
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">
+                    {course.title}
+                  </h4>
+        
+                  <p className="text-gray-600 mb-6">
+                    {course.description}
+                  </p>
                 </div>
-
-                <h4 className="text-xl font-bold text-gray-900 mb-3">
-                  {course.title}
-                </h4>
-
-                <p className="text-gray-600 mb-6">
-                  {course.description}
-                </p>
-
-                <span className="text-primary-600 font-semibold text-sm hover:text-primary-700 flex items-center gap-1 group">
+        
+                <span className="text-primary-600 font-semibold text-sm hover:text-primary-700 flex items-center gap-1 group mt-auto">
                   {t('courses.more')}
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
                 </span>
@@ -91,6 +94,7 @@ const Courses: React.FC = () => {
             </motion.div>
           ))}
         </div>
+
 
         {/* CTA */}
         <div className="mt-16 text-center">
