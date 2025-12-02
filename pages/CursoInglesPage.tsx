@@ -41,22 +41,10 @@ export default function CursoInglesPage() {
         </div>
       </section>
 
-      {/* CONTENIDO PRINCIPAL */}
+      {/* CONTENIDO */}
       <section className="py-20 container mx-auto px-6 max-w-5xl space-y-20">
 
-        {/* TARJETA INTRO */}
-        <motion.div
-          className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100"
-          initial={{ opacity: 0, y: 25 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <p className="text-gray-700 text-lg leading-relaxed">
-            {t("courseDetail.englishFull.intro")}
-          </p>
-        </motion.div>
-
-        {/* CARTAS DE INFORMACIÓN */}
+        {/* TARJETAS DE INFORMACIÓN */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {[
             { icon: Star, text: "Clases dinámicas y motivadoras" },
@@ -65,7 +53,7 @@ export default function CursoInglesPage() {
           ].map((item, i) => (
             <motion.div
               key={i}
-              className="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-[2px] transition-all text-center"
+              className="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-[2px] transition-all flex flex-col items-center justify-center text-center"
               initial={{ opacity: 0, y: 25 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
@@ -77,7 +65,7 @@ export default function CursoInglesPage() {
           ))}
         </div>
 
-        {/* PARTICULARES */}
+        {/* UNIFICADO: INTRO + PARTICULARES */}
         <motion.div
           className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100"
           initial={{ opacity: 0, y: 25 }}
@@ -88,7 +76,8 @@ export default function CursoInglesPage() {
             {t("courseDetail.englishFull.privateTitle")}
           </h2>
 
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 text-lg leading-relaxed">
+            {/* Párrafo unificado */}
             {t("courseDetail.englishFull.privateDesc")}
           </p>
         </motion.div>
@@ -107,10 +96,7 @@ export default function CursoInglesPage() {
           <ul className="space-y-3">
             {t("courseDetail.englishFull.extras", { returnObjects: true }).map(
               (item: string, i: number) => (
-                <li
-                  key={i}
-                  className="flex items-center gap-3 text-gray-800"
-                >
+                <li key={i} className="flex items-center gap-3 text-gray-800">
                   <Check size={18} className="text-primary-700" />
                   {item}
                 </li>
@@ -121,7 +107,7 @@ export default function CursoInglesPage() {
 
       </section>
 
-      {/* HORARIOS AL FINAL */}
+      {/* HORARIOS — SIEMPRE AL FINAL */}
       <section className="py-24 bg-gray-100 border-t border-gray-300 mt-10">
         <div className="container mx-auto px-6 max-w-5xl">
 
@@ -133,7 +119,6 @@ export default function CursoInglesPage() {
             <h2 className="text-3xl font-bold text-gray-900">
               {t("courseDetail.englishFull.scheduleTitle")}
             </h2>
-
             <p className="text-gray-500 mt-2">
               {t("courseDetail.englishFull.scheduleNote")}
             </p>
@@ -159,13 +144,13 @@ export default function CursoInglesPage() {
 
                 {/* Bloques */}
                 {["block1", "block2", "block3", "block4"]
-                  .filter((block) => {
-                    const arr = t(
-                      `courseDetail.englishFull.days.${day}.${block}`,
-                      { returnObjects: true }
-                    );
-                    return Array.isArray(arr);
-                  })
+                  .filter((block) =>
+                    Array.isArray(
+                      t(`courseDetail.englishFull.days.${day}.${block}`, {
+                        returnObjects: true
+                      })
+                    )
+                  )
                   .map((block, index) => (
                     <div
                       key={index}
@@ -179,14 +164,10 @@ export default function CursoInglesPage() {
                       </p>
 
                       <ul className="space-y-1">
-                        {t(
-                          `courseDetail.englishFull.days.${day}.${block}`,
-                          { returnObjects: true }
-                        ).map((item: string, idx: number) => (
-                          <li
-                            key={idx}
-                            className="flex items-center gap-2 text-gray-600"
-                          >
+                        {t(`courseDetail.englishFull.days.${day}.${block}`, {
+                          returnObjects: true
+                        }).map((item: string, idx: number) => (
+                          <li key={idx} className="flex items-center gap-2 text-gray-600">
                             <Check size={16} className="text-primary-600" />
                             {item}
                           </li>
