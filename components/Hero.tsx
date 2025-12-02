@@ -1,11 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Hero: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="home" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
           src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
@@ -22,30 +25,37 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+          {/* Etiqueta superior */}
           <span className="inline-block py-1 px-3 rounded-full bg-primary-500/20 border border-primary-400/30 text-primary-200 text-sm font-semibold mb-6 backdrop-blur-sm">
-            Educación de Calidad
+            {t('hero.tagline')}
           </span>
+
+          {/* Título principal */}
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-            ⭐ Bienvenidos a <br/><span className="text-primary-400 font-serif">Myker Academy</span> ⭐
+            ⭐ {t('hero.title.before')} <br/>
+            <span className="text-primary-400 font-serif">{t('hero.title.brand')}</span> ⭐
           </h1>
 
+          {/* Subtítulo */}
           <p className="text-lg md:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-            Descubre tu máximo potencial con nuestra formación especializada en inglés, francés y alemán.
+            {t('hero.subtitle')}
           </p>
           
+          {/* Botones */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
               href="#courses" 
               className="px-8 py-4 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-semibold text-lg transition-all shadow-lg hover:shadow-primary-500/30 flex items-center gap-2 group w-full sm:w-auto justify-center"
             >
-              Descubre nuestros cursos
+              {t('hero.btnCourses')}
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </a>
+
             <a 
               href="#contact" 
               className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-sm rounded-lg font-semibold text-lg transition-all w-full sm:w-auto justify-center flex"
             >
-              Contáctanos
+              {t('hero.btnContact')}
             </a>
           </div>
         </motion.div>
