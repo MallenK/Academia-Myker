@@ -62,19 +62,19 @@
     "items": {
       "english": {
         "title": "Clases de Inglés",
-        "desc": "Desde principiantes hasta niveles avanzados. Preparación para exámenes oficiales."
+        "desc": "En Myker Academy ofrecemos clases de inglés tanto grupales como particulares, adaptadas a cada edad, nivel y objetivo. Las clases grupales se organizan por curso escolar para garantizar un aprendizaje adecuado, dinámico y efectivo."
       },
       "french": {
         "title": "Clases de Francés",
         "desc": "Aprende francés con un método práctico y dinámico. Conversación, vocabulario útil y situaciones reales para comunicarte desde el primer día."
       },
-      "german": {
-        "title": "Clases de Alemán",
-        "desc": "Aprende alemán de forma estructurada y eficiente con nuestros expertos."
+      "math": {
+        "title": "Clases de Matemáticas",
+        "desc": "Ayuda en matemáticas para primaria, ESO y bachillerato: ejercicios guiados, explicaciones claras y refuerzo de base. Ideal para subir notas, recuperar la motivación y entender mejor la asignatura."
       },
       "school": {
         "title": "Clases de Repaso",
-        "desc": "Refuerzo escolar para primaria y secundaria en todas las asignaturas."
+        "desc": "Apoyo en todas las asignaturas: lengua, ciencias, sociales, catalán, técnicas de estudio… Acompañamos al alumno en deberes, exámenes y organización, convirtiendo el estudio en un hábito."
       },
       "modalities": {
         "title": "Individuales o Grupo",
@@ -280,7 +280,42 @@
           ]
         }
       }
+    },
+
+
+    "schoolFull": {
+      "title": "Más información – Refuerzo Escolar",
+      "alt": "Clases de refuerzo escolar",
+    
+      "privateTitle": "Refuerzo Escolar",
+    
+      "desc1": "En Myker Academy el refuerzo escolar se realiza principalmente mediante clases particulares, ya que cada alumno tiene necesidades, ritmos y dificultades diferentes. Este formato nos permite trabajar de forma totalmente personalizada: deberes y tareas, preparación de exámenes, recuperaciones, organización y técnicas de estudio, y refuerzo de asignaturas concretas (lengua, catalán, ciencias, sociales, etc.).",
+    
+      "desc2": "Las clases particulares garantizan un acompañamiento cercano y efectivo, adaptado al nivel real de cada estudiante y centrado en mejorar su rendimiento académico y su confianza. Los horarios se ajustan a la disponibilidad del alumno y del profesor.",
+    
+      "cards": {
+        "groupTitle": "Clases en Grupo",
+        "groupDesc": "Grupos reducidos para aprender en un ambiente motivador, dinámico y participativo. Disponibles para inglés, francés y refuerzo escolar.",
+    
+        "individualTitle": "Clases Individuales",
+        "individualDesc": "Sesiones 100% personalizadas para avanzar más rápido: idiomas, refuerzo, preparación de exámenes o apoyo específico."
+      },
+    
+      "extrasTitle": "Extras incluidos",
+      "extras": [
+        "Prueba de nivel gratuita",
+        "Seguimiento personalizado del alumno",
+        "Refuerzo de hábitos y técnicas de estudio",
+        "Planificación para exámenes y recuperaciones",
+        "Material de apoyo incluido"
+      ],
+    
+      "scheduleTitle": "Horarios disponibles",
+      "scheduleNote": "Los horarios de refuerzo escolar se asignan según disponibilidad del profesor y el alumno.",
+    
+      "days": {}
     }
+
 
 
 
