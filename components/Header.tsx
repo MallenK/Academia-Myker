@@ -121,16 +121,16 @@ const Header: React.FC = () => {
           </select>
 
           <button
-            className="text-black focus:outline-none"
+            className="focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
-              <X size={28} className="text-black" />
+              <X size={28} className={isScrolled ? 'text-black' : 'text-white'} />
             ) : (
               <Menu size={28} className={isScrolled ? 'text-black' : 'text-white'} />
-              <X size={28} className={isScrolled ? 'text-black' : 'text-white'} />
             )}
           </button>
+
         </div>
       </div>
 
