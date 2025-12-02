@@ -698,9 +698,11 @@
   },
 
   "ctaFinal": {
-    "title": "¿Quieres empezar hoy mismo?",
-    "desc": "Escríbenos y te ayudaremos a encontrar el curso o modalidad que mejor encaje contigo.",
-    "button": "Contactar ahora"
+    "tag": "Da el siguiente paso",
+    "title": "¿Quieres mejorar tu inglés, francés o tus asignaturas?",
+    "text": "Reserva una sesión informativa gratuita y encuentra el curso perfecto para tu nivel, tus objetivos y tu horario.",
+    "button": "Reserva tu sesión gratuita",
+    "note": "Sin compromiso. Solo necesitamos conocer tu nivel aproximado y tus objetivos para orientarte mejor."
   },
 
   "contact": {
