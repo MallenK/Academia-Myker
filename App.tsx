@@ -9,13 +9,22 @@ import CursosPage from './pages/CursosPage';
 import MetodologiaPage from './pages/MetodologiaPage';
 import OpinionesPage from './pages/OpinionesPage';
 import ContactoPage from './pages/ContactoPage';
-import SobreNosotrosPage from './pages/SobreNosotrosPage'; // opcional, si la usas
+import SobreNosotrosPage from './pages/SobreNosotrosPage';
+
+// nuevas páginas de cursos
+import CursoInglesPage from './pages/CursoInglesPage';
+import CursoFrancesPage from './pages/CursoFrancesPage';
+import CursoAlemanPage from './pages/CursoAlemanPage';
+import CursoRepasoPage from './pages/CursoRepasoPage';
+import CursoModalidadesPage from './pages/CursoModalidadesPage';
+import CursoHorariosPage from './pages/CursoHorariosPage';
 
 function App() {
   return (
     <BrowserRouter basename="/Academia-Myker">
       <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
         <Header />
+
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -24,10 +33,20 @@ function App() {
             <Route path="/opiniones" element={<OpinionesPage />} />
             <Route path="/contacto" element={<ContactoPage />} />
             <Route path="/sobre-nosotros" element={<SobreNosotrosPage />} />
-            {/* fallback simple */}
+
+            {/* nuevas rutas */}
+            <Route path="/curso-ingles" element={<CursoInglesPage />} />
+            <Route path="/curso-frances" element={<CursoFrancesPage />} />
+            <Route path="/curso-aleman" element={<CursoAlemanPage />} />
+            <Route path="/curso-repaso" element={<CursoRepasoPage />} />
+            <Route path="/curso-modalidades" element={<CursoModalidadesPage />} />
+            <Route path="/curso-horarios" element={<CursoHorariosPage />} />
+
+            {/* fallback */}
             <Route path="*" element={<HomePage />} />
           </Routes>
         </main>
+
         <Footer />
       </div>
     </BrowserRouter>
