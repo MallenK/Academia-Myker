@@ -56,9 +56,15 @@ export default function CursoInglesPage() {
           </h2>
 
           <p className="text-gray-700 text-lg leading-relaxed">
-            {/* Párrafo unificado */}
-            {t("courseDetail.englishFull.privateDesc")}
+            {t("courseDetail.englishFull.privateDesc1")}
           </p>
+          
+          <br />
+          
+          <p className="text-gray-700 text-lg leading-relaxed">
+            {t("courseDetail.englishFull.privateDesc2")}
+          </p>
+
         </motion.div>
 
         
