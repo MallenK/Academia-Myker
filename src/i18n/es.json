@@ -431,9 +431,35 @@
       "ideal": "Ideal para:"
     },
   
+    "levelsList": [
+      {
+        "code": "A1-A2",
+        "name": "Iniciación",
+        "desc": "Primer contacto con el idioma. Vocabulario básico, expresiones cotidianas y estructuras sencillas.",
+        "ideal": "Personas que empiezan desde cero o con nociones muy básicas."
+      },
+      {
+        "code": "B1",
+        "name": "Intermedio",
+        "desc": "Capacidad para desenvolverse en situaciones habituales, conversaciones sencillas y textos breves.",
+        "ideal": "Quien ya se defiende pero quiere ganar seguridad y fluidez."
+      },
+      {
+        "code": "B2",
+        "name": "Intermedio alto",
+        "desc": "Comprensión de textos más complejos, debates y situaciones de trabajo o estudios.",
+        "ideal": "Personas que necesitan el idioma para el ámbito académico o profesional."
+      },
+      {
+        "code": "C1",
+        "name": "Avanzado",
+        "desc": "Uso flexible y efectivo del idioma en contextos formales e informales, con alto nivel de precisión.",
+        "ideal": "Usuarios avanzados que buscan perfeccionar matices, vocabulario y registro."
+      }
+    ],
+  
     "finalNote": "Realizamos una prueba de nivel inicial gratuita para asignarte al grupo adecuado y recomendarte el itinerario que mejor encaje con tus objetivos."
-  }
-
+  },
 
 
 
