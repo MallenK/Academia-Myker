@@ -182,6 +182,74 @@
         "Atención cercana y personalizada"
       ]
     }
+
+
+
+
+    "frenchFull": {
+      "title": "Más información – Clases de Francés",
+      "description": "Clases adaptadas a cada alumno según sus objetivos y nivel.",
+      "alt": "Clase de francés",
+    
+      "desc1": "En Myker Academy ofrecemos clases de francés adaptadas a cada alumno. La mayoría de nuestros estudiantes optan por clases particulares, ya que cada persona tiene objetivos distintos: mejorar la conversación, aprobar una asignatura, preparar un examen oficial, reforzar la gramática o empezar desde cero.",
+    
+      "desc2": "Las clases individuales permiten avanzar al ritmo adecuado y centrarse en las necesidades reales de cada estudiante.",
+    
+      "scheduleTitle": "Horarios de Clases Grupales de Francés",
+      "scheduleNote": "Disponibles para quienes prefieren aprender en grupo según su nivel.",
+    
+      "days": {
+        "monday": {
+          "title": "Lunes",
+          "time": "19:15 – 20:15",
+          "groups": [
+            "Grupo de iniciación al francés",
+            "Ideal para quienes empiezan desde cero o tienen nociones básicas."
+          ]
+        },
+    
+        "wednesday": {
+          "title": "Miércoles",
+          "time": "19:30 – 20:30",
+          "groups": [
+            "Grupo de nivel intermedio",
+            "Pensado para quienes ya se defienden y quieren ganar fluidez, vocabulario y confianza."
+          ]
+        },
+    
+        "friday": {
+          "title": "Viernes",
+          "time": "16:00 – 17:00",
+          "groups": [
+            "Grupo de francés oral",
+            "Sesiones centradas en conversación, pronunciación y expresión espontánea."
+          ]
+        }
+      },
+    
+      "privateTitle": "Clases particulares de francés",
+    
+      "privateDesc1": "Perfectas para estudiantes con objetivos concretos o ritmos diferentes. Puedes trabajar:",
+      "privateDesc2_list": [
+        "Conversación y fluidez",
+        "Gramática aplicada",
+        "Exámenes DELF/DALF",
+        "Refuerzo escolar",
+        "Preparación de entrevistas o situaciones profesionales",
+        "Apoyo para asignaturas de instituto o universidad"
+      ],
+      "privateDesc3": "Los horarios se adaptan a la disponibilidad del alumno y del profesor.",
+    
+      "extrasTitle": "Extras incluidos",
+      "extras": [
+        "Prueba de nivel gratuita",
+        "Enfoque comunicativo y dinámico",
+        "Materiales actualizados",
+        "Seguimiento personalizado",
+        "Metodología práctica desde el primer día"
+      ]
+    }
+
   },
 
   "professors": {
