@@ -3,13 +3,11 @@
     "home": "Inicio",
     "about": "Sobre Nosotros",
     "courses": "Cursos",
-    "contact": "Contacto",
-    "enroll": "Inscribirse"
+    "methodology": "Metodología",
+    "testimonials": "Opiniones",
+    "contact": "Contacto"
   },
-  "professors": {
-    "title": "Nuestros Profesores",
-    "languages": "Idiomas"
-  },
+
   "hero": {
     "tagline": "Idiomas y refuerzo escolar de calidad",
     "title": {
@@ -20,6 +18,7 @@
     "btnCourses": "Descubre nuestros cursos",
     "btnContact": "Contáctanos"
   },
+
   "about": {
     "tag": "Quiénes Somos",
     "title": "Acompañamos tu aprendizaje con cercanía, motivación y calidad",
@@ -27,6 +26,7 @@
     "p2": "Creemos en una enseñanza práctica, dinámica y personalizada. Por eso trabajamos con grupos reducidos, profesores comprometidos y un enfoque que combina la comunicación real, el refuerzo de base y la confianza del alumno en sí mismo. Ya sea para aprender inglés desde cero, mejorar francés, aprobar matemáticas o recuperar una asignatura, en Myker Academy te ayudamos a avanzar paso a paso con un acompañamiento cercano y eficaz.",
     "quote": "“En Myker Academy aprendemos con confianza. Nuestro objetivo es que cada alumno avance, mejore y disfrute del proceso.”"
   },
+
   "features": {
     "tag": "Por qué elegirnos",
     "title": "La diferencia Myker",
@@ -47,6 +47,129 @@
         "title": "Método práctico y motivador",
         "desc": "Tanto en idiomas como en refuerzo, enseñamos a través de actividades útiles, dinámicas y enfocadas en la comprensión real."
       }
+    }
+  },
+
+  "courses": {
+    "tag": "Nuestros servicios",
+    "title": "Formación adaptada a ti",
+    "subtitle": "Ofrecemos una amplia variedad de cursos y modalidades para asegurar que encuentres el camino perfecto hacia el dominio del idioma.",
+    "more": "Más información",
+    "ctaTitle": "¿Listo para dar el primer paso?",
+    "ctaSubtitle": "Únete a nuestra comunidad de estudiantes y comienza a construir tu futuro hoy mismo.",
+    "ctaButton": "Inscríbete ahora",
+
+    "items": {
+      "english": {
+        "title": "Clases de Inglés",
+        "desc": "Desde principiantes hasta niveles avanzados. Preparación para exámenes oficiales."
+      },
+      "french": {
+        "title": "Clases de Francés",
+        "desc": "Sumérgete en la lengua francesa con métodos dinámicos y culturales."
+      },
+      "german": {
+        "title": "Clases de Alemán",
+        "desc": "Aprende alemán de forma estructurada y eficiente con nuestros expertos."
+      },
+      "school": {
+        "title": "Clases de Repaso",
+        "desc": "Refuerzo escolar para primaria y secundaria en todas las asignaturas."
+      },
+      "modalities": {
+        "title": "Individuales o Grupo",
+        "desc": "Elige la modalidad que mejor se adapte a tu estilo de aprendizaje."
+      },
+      "schedule": {
+        "title": "Horarios Flexibles",
+        "desc": "Nos adaptamos a tu rutina. Clases de mañana y tarde."
+      }
+    }
+  },
+
+  "courseDetail": {
+    "english": {
+      "title": "Curso de Inglés",
+      "desc": "Aprende inglés desde cero o mejora tu nivel con clases dinámicas, prácticas y adaptadas a tus objetivos.",
+      "p1": "En este curso trabajarás comprensión oral, expresión escrita, vocabulario y gramática.",
+      "p2": "Ideal para estudiantes que necesitan apoyo escolar, adultos que retoman el idioma o quienes buscan mejorar para el trabajo.",
+      "p3": "Metodología basada en comunicación real y progresión natural del idioma."
+    },
+    "french": {
+      "title": "Curso de Francés",
+      "desc": "Sumérgete en el francés con clases prácticas y enfocadas en la comunicación real.",
+      "p1": "Aprende expresiones comunes, estructuras gramaticales y técnicas de conversación.",
+      "p2": "Curso ideal tanto para principiantes como para estudiantes con base previa."
+    },
+    "german": {
+      "title": "Curso de Alemán",
+      "desc": "Aprende alemán con una metodología clara, estructurada y motivadora.",
+      "p1": "Trabajamos vocabulario útil, gramática paso a paso y comprensión auditiva.",
+      "p2": "Curso ideal para estudiantes que buscan un avance sólido y constante."
+    },
+    "school": {
+      "title": "Refuerzo Escolar",
+      "desc": "Apoyo académico para primaria, ESO y bachillerato.",
+      "p1": "Refuerzo en matemáticas, lenguas, ciencias y más.",
+      "p2": "Acompañamiento cercano para mejorar hábitos de estudio y autoestima."
+    },
+    "modalities": {
+      "title": "Modalidades y tipos de clase",
+      "desc": "Elige entre clases individuales, en pareja o grupos reducidos.",
+      "p1": "Adaptamos las sesiones a tu ritmo, tiempo y estilo de aprendizaje."
+    },
+    "schedule": {
+      "title": "Horarios disponibles",
+      "desc": "Consulta nuestras franjas de mañana y tarde.",
+      "p1": "Ofrecemos flexibilidad total para que puedas aprender sin renunciar a tus responsabilidades."
+    }
+  },
+
+  "professors": {
+    "title": "Nuestros Profesores",
+    "languages": "Idiomas",
+    "desc": "Un equipo joven, preparado y motivado para acompañarte en tu progreso."
+  },
+
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "q1": "¿Cómo puedo inscribirme?",
+    "a1": "Puedes rellenar el formulario de contacto y te responderemos en menos de 24 horas.",
+    "q2": "¿Ofrecéis clases online?",
+    "a2": "Sí, impartimos clases online y presenciales según disponibilidad.",
+    "q3": "¿Qué niveles enseñáis?",
+    "a3": "Impartimos clases desde nivel inicial hasta avanzado.",
+    "q4": "¿Cuántos estudiantes hay por grupo?",
+    "a4": "Trabajamos con grupos reducidos para ofrecer atención real."
+  },
+
+  "testimonials": {
+    "title": "Opiniones de nuestros estudiantes",
+    "subtitle": "Lo que dicen de Myker Academy"
+  },
+
+  "ctaFinal": {
+    "title": "¿Quieres empezar hoy mismo?",
+    "desc": "Escríbenos y te ayudaremos a encontrar el curso o modalidad que mejor encaje contigo.",
+    "button": "Contactar ahora"
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Estamos aquí para ayudarte",
+    "name": "Nombre y apellidos",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "success": "Mensaje enviado correctamente",
+    "error": "Ocurrió un error. Por favor, inténtalo de nuevo."
+  },
+
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "links": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos y Condiciones"
     }
   }
 }
