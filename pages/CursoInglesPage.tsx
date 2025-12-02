@@ -1,5 +1,5 @@
 import React from "react";
-import CoursePageTemplate from "../components/CoursePageTemplate";
+import CoursePageTemplate from "./CoursePageTemplate";
 import { useTranslation } from "react-i18next";
 
 export default function CursoInglesPage() {
