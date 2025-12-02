@@ -51,6 +51,9 @@ export default function CursoFrancesPage() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            {t("courseDetail.frenchFull.privateTitle")}
+          </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
             {t("courseDetail.frenchFull.desc1")}
           </p>
