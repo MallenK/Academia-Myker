@@ -168,7 +168,10 @@
       },
 
       "privateTitle": "Clases particulares de inglés",
-      "privateDesc": "En Myker Academy ofrecemos clases de inglés tanto grupales como particulares, adaptadas a cada edad, nivel y objetivo. Las clases grupales se organizan por curso escolar para garantizar un aprendizaje adecuado, dinámico y efectivo.\n\nDisponibles para todas las edades y niveles: conversación, refuerzo escolar, preparación de exámenes, inglés laboral o entrevistas. Los horarios se establecen según la disponibilidad del profesor y del alumno.",
+      
+      "privateDesc1": "En Myker Academy ofrecemos clases de inglés tanto grupales como particulares, adaptadas a cada edad, nivel y objetivo. Las clases grupales se organizan por curso escolar para garantizar un aprendizaje adecuado, dinámico y efectivo.",
+      
+      "privateDesc2": "Disponibles para todas las edades y niveles: conversación, refuerzo escolar, preparación de exámenes, inglés laboral o entrevistas. Los horarios se establecen según la disponibilidad del profesor y del alumno.",
 
       "extrasTitle": "Extras incluidos",
       "extras": [
