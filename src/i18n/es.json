@@ -248,7 +248,33 @@
         "Seguimiento personalizado",
         "Metodología práctica desde el primer día"
       ]
+    },
+
+
+    "mathFull": {
+      "title": "Más información – Clases de Matemáticas",
+      "alt": "Clases de matemáticas",
+    
+      "privateTitle": "Clases de Matemáticas",
+    
+      "desc1": "En Myker Academy la mayoría de clases de matemáticas son particulares, ya que cada alumno necesita un ritmo, nivel y tipo de refuerzo diferente. Las sesiones individuales permiten trabajar exactamente aquello que el estudiante necesita: deberes, preparación de exámenes, base matemática, resolución de problemas o mejora de la comprensión.",
+    
+      "desc2": "También contamos con un grupo reducido de 4º de ESO, ideal para alumnos que desean avanzar en un entorno compartido y con apoyo continuo.",
+    
+      "scheduleTitle": "Horarios de Clases Grupales de Matemáticas",
+      "scheduleNote": "(Grupos reducidos enfocados en refuerzo y comprensión)",
+    
+      "days": {
+        "wednesday": {
+          "title": "Miércoles",
+          "block1": ["Matemáticas 4º de ESO (grupo reducido) — 17:00 – 18:00"]
+        }
+      }
     }
+
+
+
+    
 
   },
 
