@@ -597,6 +597,11 @@
     "ctaButton": "Reserva una sesión informativa gratuita"
   },
 
+
+
+  
+  
+
   
   "professors": {
     "title": "Nuestros Profesores",
@@ -605,15 +610,40 @@
   },
 
   "faq": {
-    "title": "Preguntas frecuentes",
-    "q1": "¿Cómo puedo inscribirme?",
-    "a1": "Puedes rellenar el formulario de contacto y te responderemos en menos de 24 horas.",
-    "q2": "¿Ofrecéis clases online?",
-    "a2": "Sí, impartimos clases online y presenciales según disponibilidad.",
-    "q3": "¿Qué niveles enseñáis?",
-    "a3": "Impartimos clases desde nivel inicial hasta avanzado.",
-    "q4": "¿Cuántos estudiantes hay por grupo?",
-    "a4": "Trabajamos con grupos reducidos para ofrecer atención real."
+      "title_pre": "Preguntas frecuentes",
+      "title": "Resolvemos tus principales dudas",
+      "subtitle": "Si tienes cualquier otra pregunta sobre horarios, precios, niveles o disponibilidad, escríbenos directamente y te responderemos lo antes posible.",
+      "items": [
+        {
+          "q": "¿Cómo sé cuál es mi nivel?",
+          "a": "Realizamos una prueba de nivel gratuita, online o presencial, para asignarte al grupo adecuado o proponerte el tipo de clase (grupal o particular) que mejor encaje con tus objetivos. En menos de 15 minutos sabremos tu punto de partida."
+        },
+        {
+          "q": "¿Hay cuota de matrícula?",
+          "a": "Sí, en las clases grupales se aplica una matrícula anual de 30 €, que garantiza tu plaza durante todo el curso. Además, el primer mes es obligatorio abonar 15 € en concepto de material (dossier inicial y recursos digitales). Las clases particulares no tienen matrícula."
+        },
+        {
+          "q": "¿Puedo recuperar una clase si falto?",
+          "a": "Sí. En los grupos regulares ofrecemos opciones de recuperación siempre que haya disponibilidad en otro grupo del mismo nivel y edad. En caso de no haber alternativa esa semana, te proporcionamos recursos para que puedas seguir el ritmo de la clase."
+        },
+        {
+          "q": "¿Preparáis exámenes oficiales?",
+          "a": "¡Sí! Preparamos exámenes de Inglés (Cambridge): A2 Key · B1 Preliminary · B2 First · C1 Advanced. Francés: DELF A1–A2–B1–B2 · DALF C1. Otros idiomas bajo demanda. Nuestros cursos incluyen simulacros, estrategias y preparación específica para cada parte del examen."
+        },
+        {
+          "q": "¿Ofrecéis clases para niños, adolescentes y adultos?",
+          "a": "Sí. En Myker Academy trabajamos con todas las edades a partir de los 5 años: Niños (5–11) — grupos dinámicos y aprendizaje natural. Adolescentes (12–18) — refuerzo, idiomas, certificados y apoyo escolar. Adultos — inglés general, conversación, preparación de exámenes y clases individuales. Cada grupo se organiza por nivel y edad para garantizar un buen ambiente de aprendizaje."
+        },
+        {
+          "q": "¿Qué horarios tenéis?",
+          "a": "Estamos disponibles de 9:00 a 20:00 h. Niños y adolescentes: clases grupales por las tardes, después del colegio. Adultos: mañana o tarde según disponibilidad. Particulares: horarios flexibles (mañana/tarde)."
+        },
+        {
+          "q": "¿Las clases pueden ser individuales?",
+          "a": "Sí. Ofrecemos clases particulares con diferentes tarifas: 1 hora suelta: 22 €. Pack 10 horas: 200 € (20 €/h). Pack 20 horas: 350 € (17,5 €/h). Son personalizadas, flexibles y enfocadas 100% en tus objetivos."
+        }
+      ]
+    }
   },
 
   "testimonials": {
