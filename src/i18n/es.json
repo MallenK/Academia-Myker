@@ -463,7 +463,70 @@
 
 
 
+  "examsSection": {
+    "tag": "Exámenes & Certificaciones",
   
+    "title": "Prepárate para tus certificaciones oficiales",
+  
+    "subtitle":
+      "Diseñamos itinerarios específicos para que puedas presentarte a exámenes oficiales con garantías. En Myker Academy trabajamos con práctica real de formato, simulacros, estrategias de examen y seguimiento personalizado para ayudarte a aprobar con seguridad.",
+  
+    "english": {
+      "language": "Inglés",
+      "label": "Preparación de exámenes",
+  
+      "exams": [
+        "A2 Key (KET)",
+        "B1 Preliminary (PET)",
+        "B2 First (FCE)",
+        "C1 Advanced (CAE)"
+      ],
+  
+      "extrasTitle": "Además:",
+      "extras": [
+        "Pruebas internas para medir tu progreso",
+        "Simulacros completos con tiempos reales",
+        "Estrategias para speaking, listening, reading y writing",
+        "Recomendaciones personalizadas para presentarte con confianza"
+      ],
+  
+      "description":
+        "Nuestra preparación Cambridge está diseñada para que llegues al examen seguro, con práctica real y resultados visibles.",
+  
+      "footer":
+        "Consulta próximas convocatorias y grupos de preparación disponibles."
+    },
+  
+    "french": {
+      "language": "Francés",
+      "label": "Preparación de exámenes",
+  
+      "exams": [
+        "DELF A1",
+        "DELF A2",
+        "DELF B1",
+        "DELF B2",
+        "DALF C1",
+        "DALF C2"
+      ],
+  
+      "descriptionTitle":
+        "Te ayudamos a preparar los exámenes oficiales de francés mediante:",
+  
+      "descriptionList": [
+        "Práctica real del formato DELF/DALF",
+        "Actividades específicas para comprensión oral y escrita",
+        "Producción escrita con modelos, correcciones y estrategias",
+        "Entrenamiento oral mediante simulacros reales",
+        "Técnicas para mejorar fluidez, vocabulario y pronunciación"
+      ],
+  
+      "footer":
+        "Nuestro objetivo es que llegues a tu examen con seguridad, dominando el formato y con la práctica necesaria para superarlo con éxito."
+    },
+  
+    "cta": "¡Solicita tu prueba de nivel GRATIS!"
+  },
 
   
   "professors": {
