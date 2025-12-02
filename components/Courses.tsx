@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, Languages, School, User } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
 
 const Courses: React.FC = () => {
   const { t } = useTranslation();
@@ -51,7 +52,6 @@ const Courses: React.FC = () => {
     }
   ];
 
-
   return (
     <section id="courses" className="py-20 md:py-28 bg-white">
       <div className="container mx-auto px-6">
@@ -74,32 +74,35 @@ const Courses: React.FC = () => {
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {courses.map((course, index) => (
-            <motion.a
+            <motion.div
               key={index}
-              href={course.href}
-              className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-lg transition-all duration-300 hover:border-primary-200 block"
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
             >
-              <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-6 ${course.color}`}>
-                <course.icon size={24} />
-              </div>
+              <Link
+                to={course.href}
+                className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-lg transition-all duration-300 hover:border-primary-200 block"
+              >
+                <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-6 ${course.color}`}>
+                  <course.icon size={24} />
+                </div>
 
-              <h4 className="text-xl font-bold text-gray-900 mb-3">
-                {course.title}
-              </h4>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">
+                  {course.title}
+                </h4>
 
-              <p className="text-gray-600 mb-6">
-                {course.description}
-              </p>
+                <p className="text-gray-600 mb-6">
+                  {course.description}
+                </p>
 
-              <span className="text-primary-600 font-semibold text-sm hover:text-primary-700 flex items-center gap-1 group">
-                {t('courses.more')}
-                <span className="group-hover:translate-x-1 transition-transform">→</span>
-              </span>
-            </motion.a>
+                <span className="text-primary-600 font-semibold text-sm hover:text-primary-700 flex items-center gap-1 group">
+                  {t('courses.more')}
+                  <span className="group-hover:translate-x-1 transition-transform">→</span>
+                </span>
+              </Link>
+            </motion.div>
           ))}
         </div>
 
@@ -114,12 +117,12 @@ const Courses: React.FC = () => {
               {t('courses.ctaSubtitle')}
             </p>
 
-            <a 
-              href="#contact" 
+            <Link
+              to="/contacto"
               className="inline-block px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold shadow-lg hover:shadow-primary-500/30 transition-all transform hover:-translate-y-0.5"
             >
               {t('courses.ctaButton')}
-            </a>
+            </Link>
           </div>
         </div>
 
