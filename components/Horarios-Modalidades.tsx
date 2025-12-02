@@ -165,7 +165,7 @@ const HorariosModalidades: React.FC = () => {
 
         {/* 🔥 BLOQUE INDEPENDIENTE AL FINAL */}
         <motion.div
-          className="mt-14 bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-gray-100 max-w-4xl mx-auto"
+          className="mt-14 bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-gray-100 max-w-4xl mx-auto text-center"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
