@@ -1,6 +1,7 @@
 import CoursePageTemplate from "../pages/CoursePageTemplate";
 import { useTranslation } from "react-i18next";
 
+
 export default function CursoRepaso() {
   const { t } = useTranslation();
 
