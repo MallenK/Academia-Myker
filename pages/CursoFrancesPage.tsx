@@ -44,6 +44,22 @@ export default function CursoFrancesPage() {
       {/* CONTENIDO */}
       <section className="py-20 container mx-auto px-6 max-w-5xl space-y-20">
 
+        {/* PÁRRAFOS 1 + 2 UNIFICADOS */}
+        <motion.div
+          className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100 space-y-6"
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          <p className="text-gray-700 text-lg leading-relaxed">
+            {t("courseDetail.frenchFull.desc1")}
+          </p>
+
+          <p className="text-gray-700 text-lg leading-relaxed">
+            {t("courseDetail.frenchFull.desc2")}
+          </p>
+        </motion.div>
+
         {/* TARJETAS DE INFORMACIÓN */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {[
@@ -64,56 +80,6 @@ export default function CursoFrancesPage() {
             </motion.div>
           ))}
         </div>
-
-        {/* PÁRRAFOS 1 + 2 */}
-        <motion.div
-          className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100 space-y-6"
-          initial={{ opacity: 0, y: 25 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <p className="text-gray-700 text-lg leading-relaxed">
-            {t("courseDetail.frenchFull.desc1")}
-          </p>
-
-          <p className="text-gray-700 text-lg leading-relaxed">
-            {t("courseDetail.frenchFull.desc2")}
-          </p>
-        </motion.div>
-
-        {/* PARTICULARES */}
-        <motion.div
-          className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100"
-          initial={{ opacity: 0, y: 25 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            {t("courseDetail.frenchFull.privateTitle")}
-          </h2>
-
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            {t("courseDetail.frenchFull.privateDesc1")}
-          </p>
-
-          <ul className="space-y-3 mb-6">
-            {t("courseDetail.frenchFull.privateDesc2_list", { returnObjects: true }).map(
-              (item: string, i: number) => (
-                <li
-                  key={i}
-                  className="flex items-center gap-3 text-gray-800"
-                >
-                  <Check size={18} className="text-primary-700" />
-                  {item}
-                </li>
-              )
-            )}
-          </ul>
-
-          <p className="text-gray-700 leading-relaxed">
-            {t("courseDetail.frenchFull.privateDesc3")}
-          </p>
-        </motion.div>
 
         {/* EXTRAS */}
         <motion.div
@@ -180,14 +146,17 @@ export default function CursoFrancesPage() {
                   </p>
 
                   <ul className="space-y-1">
-                    {t(`courseDetail.frenchFull.days.${day}.groups`, { returnObjects: true }).map(
-                      (item: string, idx: number) => (
-                        <li key={idx} className="flex items-center gap-2 text-gray-600">
-                          <Check size={16} className="text-primary-600" />
-                          {item}
-                        </li>
-                      )
-                    )}
+                    {t(`courseDetail.frenchFull.days.${day}.groups`, {
+                      returnObjects: true
+                    }).map((item: string, idx: number) => (
+                      <li
+                        key={idx}
+                        className="flex items-center gap-2 text-gray-600"
+                      >
+                        <Check size={16} className="text-primary-600" />
+                        {item}
+                      </li>
+                    ))}
                   </ul>
                 </div>
 
