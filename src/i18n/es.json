@@ -393,6 +393,52 @@
     }
   },
 
+  "metodologySection": {
+    "tag": "Metodología & Niveles",
+  
+    "title": "Una metodología práctica para avanzar nivel a nivel",
+  
+    "subtitle": "Combinamos comunicación real, refuerzo académico, gramática aplicada y actividades dinámicas para que uses lo aprendido desde el primer día.",
+  
+    "methodology": {
+      "title": "Metodología Myker",
+      "intro": "En nuestras clases priorizamos:",
+      "items": [
+        "Comunicación real (hablar, entender, escribir)",
+        "Actividades prácticas en parejas y grupos",
+        "Material auténtico y digital",
+        "Ejercicios útiles y aplicables",
+        "Feedback constante",
+        "Evaluaciones periódicas para medir tu progreso"
+      ]
+    },
+  
+    "followup": {
+      "title": "Seguimiento y objetivos",
+      "intro": "Definimos contigo objetivos claros y revisamos tu evolución regularmente.",
+      "listTitle": "Incluye:",
+      "items": [
+        "Prueba de nivel inicial",
+        "Informes de progreso",
+        "Seguimiento constante del profesor",
+        "Preparación de exámenes oficiales (inglés y francés)",
+        "Comunicación directa con el equipo docente"
+      ]
+    },
+  
+    "levels": {
+      "tag": "Nivel {{code}}",
+      "ideal": "Ideal para:"
+    },
+  
+    "finalNote": "Realizamos una prueba de nivel inicial gratuita para asignarte al grupo adecuado y recomendarte el itinerario que mejor encaje con tus objetivos."
+  }
+
+
+
+
+  
+
   
   "professors": {
     "title": "Nuestros Profesores",
