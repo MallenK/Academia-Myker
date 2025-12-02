@@ -59,7 +59,7 @@ export default function CursoInglesPage() {
             {t("courseDetail.englishFull.privateDesc1")}
           </p>
           
-          <br />
+          <br /><br />
           
           <p className="text-gray-700 text-lg leading-relaxed">
             {t("courseDetail.englishFull.privateDesc2")}
