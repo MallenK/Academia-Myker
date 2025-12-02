@@ -6,10 +6,10 @@ import { Testimonial } from '../types';
 
 const Testimonials: React.FC = () => {
   const { t } = useTranslation();
-
-  const testimonials = t('testimonialsSection.items', {
-    returnObjects: true
-  }) as Testimonial[];
+const testimonials = (t('testimonialsSection.items', {
+  returnObjects: true,
+  defaultValue: []
+}) as Testimonial[]) || [];
 
   return (
     <section className="py-20 bg-gray-50">
