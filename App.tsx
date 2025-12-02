@@ -11,7 +11,6 @@ import OpinionesPage from './pages/OpinionesPage';
 import ContactoPage from './pages/ContactoPage';
 import SobreNosotrosPage from './pages/SobreNosotrosPage';
 
-// nuevas páginas de cursos
 import CursoInglesPage from './pages/CursoInglesPage';
 import CursoFrancesPage from './pages/CursoFrancesPage';
 import CursoAlemanPage from './pages/CursoAlemanPage';
@@ -34,7 +33,6 @@ function App() {
             <Route path="/contacto" element={<ContactoPage />} />
             <Route path="/sobre-nosotros" element={<SobreNosotrosPage />} />
 
-            {/* nuevas rutas */}
             <Route path="/curso-ingles" element={<CursoInglesPage />} />
             <Route path="/curso-frances" element={<CursoFrancesPage />} />
             <Route path="/curso-aleman" element={<CursoAlemanPage />} />
@@ -42,7 +40,6 @@ function App() {
             <Route path="/curso-modalidades" element={<CursoModalidadesPage />} />
             <Route path="/curso-horarios" element={<CursoHorariosPage />} />
 
-            {/* fallback */}
             <Route path="*" element={<HomePage />} />
           </Routes>
         </main>
