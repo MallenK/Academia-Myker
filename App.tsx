@@ -13,10 +13,8 @@ import SobreNosotrosPage from './pages/SobreNosotrosPage';
 
 import CursoInglesPage from './pages/CursoInglesPage';
 import CursoFrancesPage from './pages/CursoFrancesPage';
-import CursoAlemanPage from './pages/CursoAlemanPage';
+import CursoMatematicasPage from './pages/CursoMatematicasPage';
 import CursoRepasoPage from './pages/CursoRepasoPage';
-import CursoModalidadesPage from './pages/CursoModalidadesPage';
-import CursoHorariosPage from './pages/CursoHorariosPage';
 
 function App() {
   return (
