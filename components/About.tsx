@@ -1,11 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const About: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="py-20 md:py-28 bg-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
+
           {/* Image */}
           <motion.div 
             className="w-full lg:w-1/2 relative"
@@ -22,7 +26,7 @@ const About: React.FC = () => {
               />
               <div className="absolute inset-0 bg-primary-600/10"></div>
             </div>
-            {/* Decorative Elements */}
+
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-100 rounded-full z-[-1]"></div>
             <div className="absolute -top-6 -left-6 w-20 h-20 bg-gray-100 rounded-full z-[-1]"></div>
           </motion.div>
@@ -35,20 +39,24 @@ const About: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h2 className="text-primary-600 font-bold tracking-wide uppercase text-sm mb-3">Quiénes Somos</h2>
+            {/* Etiqueta */}
+            <h2 className="text-primary-600 font-bold tracking-wide uppercase text-sm mb-3">
+              {t('about.tag')}
+            </h2>
+
+            {/* Título */}
             <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              Potenciamos tu futuro a través de los idiomas
+              {t('about.title')}
             </h3>
             
+            {/* Textos */}
             <div className="prose prose-lg text-gray-600 space-y-4">
-              <p>
-                Descubre tu máximo potencial con nuestra formación especializada en inglés, francés y alemán. En <span className="font-semibold text-primary-700">Myker Academy</span>, nos comprometemos a ofrecer una educación de alta calidad para estudiantes de todos los niveles.
-              </p>
-              <p>
-                Ya sea que estés empezando desde cero o que busques perfeccionar tus habilidades, nuestro equipo de docentes apasionados y nuestras metodologías dinámicas te ayudarán a alcanzar tus objetivos lingüísticos.
-              </p>
+              <p>{t('about.p1')}</p>
+              <p>{t('about.p2')}</p>
+
+              {/* Cita destacada */}
               <p className="border-l-4 border-primary-500 pl-4 italic text-gray-800 font-medium bg-primary-50 py-2 rounded-r-lg">
-                “Nuestro propósito es sencillo: proporcionar a nuestros estudiantes la confianza para comunicarse con fluidez y seguridad, creando al mismo tiempo un entorno de aprendizaje interactivo, acogedor y motivador.”
+                {t('about.quote')}
               </p>
             </div>
           </motion.div>
