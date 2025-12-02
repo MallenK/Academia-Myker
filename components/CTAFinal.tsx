@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const CTAFinal: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="cta-final"
@@ -15,21 +18,24 @@ const CTAFinal: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
+          {/* LEFT SIDE */}
           <div className="flex-1">
             <h2 className="text-sm font-semibold tracking-wide uppercase text-primary-100 mb-2">
-              Da el siguiente paso
+              {t('ctaFinal.tag')}
             </h2>
+
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              ¿Preparado para mejorar tu inglés, francés o alemán?
+              {t('ctaFinal.title')}
             </h3>
+
             <p className="text-sm md:text-base text-primary-50 max-w-xl">
-              Reserva una sesión informativa gratuita con nuestro equipo y te
-              ayudamos a definir el mejor plan según tu nivel, objetivos y
-              disponibilidad horaria.
+              {t('ctaFinal.text')}
             </p>
           </div>
 
+          {/* RIGHT SIDE */}
           <div className="flex flex-col items-start md:items-end gap-3">
+
             <button
               onClick={() => {
                 const el = document.querySelector('#contact');
@@ -37,12 +43,13 @@ const CTAFinal: React.FC = () => {
               }}
               className="inline-flex items-center justify-center rounded-full bg-white text-primary-700 text-sm font-semibold px-6 py-3 hover:bg-primary-50 transition"
             >
-              Reserva tu sesión gratuita
+              {t('ctaFinal.button')}
             </button>
+
             <p className="text-xs text-primary-100 max-w-xs text-left md:text-right">
-              Sin compromiso. Solo necesitamos conocer tu nivel aproximado y tus
-              objetivos para orientarte mejor.
+              {t('ctaFinal.note')}
             </p>
+
           </div>
         </motion.div>
       </div>
