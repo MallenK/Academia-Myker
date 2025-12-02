@@ -40,7 +40,7 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const baseLinkClasses = 'text-black hover:text-primary-600';
+  const baseLinkClasses = `${isScrolled ? 'text-black' : 'text-white'} hover:text-primary-600`;
 
   const navItems = [
     { key: 'home', href: '/' },
@@ -65,7 +65,7 @@ const Header: React.FC = () => {
           <div className="bg-primary-600 text-black p-2 rounded-lg">
             <GraduationCap size={24} />
           </div>
-          <span className="text-black">
+          <span className={isScrolled ? 'text-black' : 'text-white'}>
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
         </NavLink>
@@ -127,7 +127,8 @@ const Header: React.FC = () => {
             {isOpen ? (
               <X size={28} className="text-black" />
             ) : (
-              <Menu size={28} className="text-black" />
+              <Menu size={28} className={isScrolled ? 'text-black' : 'text-white'} />
+              <X size={28} className={isScrolled ? 'text-black' : 'text-white'} />
             )}
           </button>
         </div>
