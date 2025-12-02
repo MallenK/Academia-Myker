@@ -528,6 +528,75 @@
     "cta": "¡Solicita tu prueba de nivel GRATIS!"
   },
 
+
+  "pricesSection": {
+    "tag": "Tarifas",
+  
+    "title": "Elige el plan que mejor se adapte a ti",
+  
+    "subtitle": "Precios orientativos según nivel y modalidad. Podemos ajustar la propuesta según tus objetivos, frecuencia de clase y tipo de curso.",
+  
+    "groupsKids": {
+      "title": "Clases grupales (5–18 años)",
+      "desc": "Clases en grupo reducido para niños y adolescentes, organizadas por edad y nivel.",
+  
+      "pricesTitle": "Precios mensuales (5–18 años)",
+      "prices": [
+        "1 hora / semana → 33 € / mes",
+        "2 horas / semana → 64,5 € / mes",
+        "1 hora y 15 min / semana → 38 € / mes",
+        "1 hora y 30 min / semana → 43 € / mes",
+        "2 horas y 30 min / semana → 74,5 € / mes",
+        "FCE / Advanced (C1) — 1 hora / semana → 57 € / mes"
+      ],
+  
+      "mathTitle": "Clases grupales de matemáticas (5–18 años)",
+      "mathPrices": [
+        "1 hora / semana → 38 € / mes"
+      ],
+  
+      "enrollmentTitle": "Matrícula y material",
+      "enrollmentItems": [
+        "Matrícula obligatoria (pago una única vez): 30 €",
+        "Material del primer mes: 15 €"
+      ]
+    },
+  
+    "groupsAdults": {
+      "title": "Clases grupales para adultos",
+      "desc": "Orientadas a mayores de 18 años que buscan avanzar, mantener fluidez o preparar objetivos concretos.",
+  
+      "pricesTitle": "Precios para adultos",
+      "prices": [
+        "1 hora / semana → 57 € / mes",
+        "(Disponibilidad mañana/tarde según profesor y alumno.)"
+      ]
+    },
+  
+    "individual": {
+      "title": "Clases particulares",
+      "desc": "Sesiones individuales totalmente personalizadas.",
+  
+      "pricesTitle": "Precios",
+      "prices": [
+        "1 hora suelta → 22 €",
+        "Pack 10 horas → 200 € (20 €/hora)",
+        "Pack 20 horas → 350 € (17,5 €/hora)",
+        "Pack 20 horas para dos personas → 400 €"
+      ],
+  
+      "details": [
+        "Horarios flexibles",
+        "Presencial u online",
+        "Sin matrícula, sin material obligatorio"
+      ]
+    },
+  
+    "ctaNote": "Los precios son orientativos y pueden ajustarse según duración del curso, número de alumnos y modalidad. Consúltanos para una propuesta a medida.",
+  
+    "ctaButton": "Reserva una sesión informativa gratuita"
+  },
+
   
   "professors": {
     "title": "Nuestros Profesores",
