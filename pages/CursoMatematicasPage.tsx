@@ -128,7 +128,7 @@ export default function CursoMatematicasPage() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-12">
             {["wednesday"].map((day, i) => (
               <motion.div
                 key={day}
