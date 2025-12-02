@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Languages, School, User } from 'lucide-react';
+import { BookOpen, Languages, School } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
 
@@ -23,11 +23,11 @@ const Courses: React.FC = () => {
       href: "/curso-frances"
     },
     {
-      title: t('courses.items.german.title'),
-      description: t('courses.items.german.desc'),
-      icon: Languages,
+      title: t('courses.items.math.title'),
+      description: t('courses.items.math.desc'),
+      icon: BookOpen,
       color: "bg-yellow-50 text-yellow-600",
-      href: "/curso-aleman"
+      href: "/curso-matematicas"
     },
     {
       title: t('courses.items.school.title'),
@@ -35,20 +35,6 @@ const Courses: React.FC = () => {
       icon: School,
       color: "bg-emerald-50 text-emerald-600",
       href: "/curso-repaso"
-    },
-    {
-      title: t('courses.items.modalities.title'),
-      description: t('courses.items.modalities.desc'),
-      icon: User,
-      color: "bg-purple-50 text-purple-600",
-      href: "/curso-modalidades"
-    },
-    {
-      title: t('courses.items.schedule.title'),
-      description: t('courses.items.schedule.desc'),
-      icon: BookOpen,
-      color: "bg-orange-50 text-orange-600",
-      href: "/curso-horarios"
     }
   ];
 
@@ -71,8 +57,8 @@ const Courses: React.FC = () => {
           </p>
         </div>
 
-        {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* GRID 2x2 */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12 max-w-4xl mx-auto">
           {courses.map((course, index) => (
             <motion.div
               key={index}
@@ -83,7 +69,7 @@ const Courses: React.FC = () => {
             >
               <Link
                 to={course.href}
-                className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-lg transition-all duration-300 hover:border-primary-200 block"
+                className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:border-primary-200 block"
               >
                 <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-6 ${course.color}`}>
                   <course.icon size={24} />
