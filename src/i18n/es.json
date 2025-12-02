@@ -645,6 +645,33 @@
       ]
   },
 
+  "contactSection": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudarte en todo lo que necesites. Si quieres información sobre horarios, precios, niveles o reservas de plaza, puedes llamarnos, escribirnos o venir a vernos. ¡Estaremos encantados de atenderte!",
+  
+    "phoneLabel": "Teléfono",
+    "phone": "+34 717 70 49 78",
+  
+    "emailLabel": "Email",
+    "email": "mykeringlesacademia@gmail.com",
+  
+    "instagramLabel": "Instagram",
+    "instagram": "@myker.academy",
+  
+    "scheduleLabel": "Horario de atención",
+    "schedule": "Lunes a Viernes: 9:00 – 20:00",
+    "scheduleNote": "(También atendemos mensajes fuera del horario siempre que sea posible.)",
+  
+    "webLabel": "Web / Google",
+    "web": "Visitar sitio alternativo",
+  
+    "addressLine1": "Av. Santa Coloma, 34",
+    "addressLine2": "08690 Santa Coloma de Cervelló (Barcelona)",
+    "addressNote": "Estamos en el centro del pueblo, a pocos minutos de los colegios y de la parada de autobús."
+  },
+
+  
+
   "testimonials": {
     "title": "Opiniones de nuestros estudiantes",
     "subtitle": "Lo que dicen de Myker Academy"
