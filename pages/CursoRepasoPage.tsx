@@ -1,4 +1,4 @@
-import CoursePageTemplate from "../components/CoursePageTemplate";
+import CoursePageTemplate from "../pages/CoursePageTemplate";
 import { useTranslation } from "react-i18next";
 
 export default function CursoRepaso() {
