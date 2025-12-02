@@ -44,6 +44,24 @@ export default function CursoInglesPage() {
       {/* CONTENIDO */}
       <section className="py-20 container mx-auto px-6 max-w-5xl space-y-20">
 
+        {/* UNIFICADO: INTRO + PARTICULARES */}
+        <motion.div
+          className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100"
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            {t("courseDetail.englishFull.privateTitle")}
+          </h2>
+
+          <p className="text-gray-700 text-lg leading-relaxed">
+            {/* Párrafo unificado */}
+            {t("courseDetail.englishFull.privateDesc")}
+          </p>
+        </motion.div>
+
+        
         {/* TARJETAS DE INFORMACIÓN */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {[
@@ -64,23 +82,6 @@ export default function CursoInglesPage() {
             </motion.div>
           ))}
         </div>
-
-        {/* UNIFICADO: INTRO + PARTICULARES */}
-        <motion.div
-          className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100"
-          initial={{ opacity: 0, y: 25 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            {t("courseDetail.englishFull.privateTitle")}
-          </h2>
-
-          <p className="text-gray-700 text-lg leading-relaxed">
-            {/* Párrafo unificado */}
-            {t("courseDetail.englishFull.privateDesc")}
-          </p>
-        </motion.div>
 
         {/* EXTRAS */}
         <motion.div
