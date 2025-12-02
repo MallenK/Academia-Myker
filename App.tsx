@@ -33,10 +33,8 @@ function App() {
 
             <Route path="/curso-ingles" element={<CursoInglesPage />} />
             <Route path="/curso-frances" element={<CursoFrancesPage />} />
-            <Route path="/curso-aleman" element={<CursoAlemanPage />} />
+            <Route path="/curso-matematicas" element={<CursoMatematicasPage />} />
             <Route path="/curso-repaso" element={<CursoRepasoPage />} />
-            <Route path="/curso-modalidades" element={<CursoModalidadesPage />} />
-            <Route path="/curso-horarios" element={<CursoHorariosPage />} />
 
             <Route path="*" element={<HomePage />} />
           </Routes>
