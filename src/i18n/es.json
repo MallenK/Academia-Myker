@@ -672,9 +672,29 @@
 
   
 
-  "testimonials": {
-    "title": "Opiniones de nuestros estudiantes",
-    "subtitle": "Lo que dicen de Myker Academy"
+  "testimonialsSection": {
+    "tag": "Testimonios",
+    "title": "Lo que dicen nuestros alumnos",
+    "items": [
+      {
+        "name": "Pedro Taqi",
+        "role": "Estudiante de Francés",
+        "text": "Buscaba aprobar una asignatura de francés y superé con creces el nivel que necesitaba. El intensivo con Inés fue increíble. Es una excelente profesional y gracias a ella… ¡aprobé!",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Martín Sánchez",
+        "role": "Estudiante de Inglés",
+        "text": "Experiencia inmejorable en esta academia de inglés. El profesor fue siempre amable, atento y dispuesto a ayudar. El sistema de enseñanza es muy dinámico y motivador. ¡Totalmente recomendable!",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Arianna Pairada",
+        "role": "Estudiante",
+        "text": "Mike es excepcional. Su empatía, paciencia y enfoque pedagógico hacen que aprender sea fácil y agradable. Crea un ambiente inclusivo donde te sientes cómodo desde el primer día.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+      }
+    ]
   },
 
   "ctaFinal": {
