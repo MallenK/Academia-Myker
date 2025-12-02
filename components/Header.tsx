@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, GraduationCap } from 'lucide-react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const LANGUAGES = [
@@ -19,6 +19,19 @@ const Header: React.FC = () => {
   const [language, setLanguage] = useState(DEFAULT_LANGUAGE);
 
   const { t, i18n } = useTranslation();
+  const { pathname } = useLocation();
+
+  // Rutas que deben comportarse como la home
+  const homeLikeRoutes = [
+    '/',
+    '/curso-ingles',
+    '/curso-frances',
+    '/curso-matematicas',
+    '/curso-repaso'
+  ];
+
+  const isHomeLike = homeLikeRoutes.includes(pathname);
+  const shouldBeTransparent = isHomeLike && !isScrolled;
 
   useEffect(() => {
     const savedLang = localStorage.getItem('myker_lang');
@@ -40,7 +53,7 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const baseLinkClasses = `${isScrolled ? 'text-black' : 'text-white'} hover:text-primary-600`;
+  const baseLinkClasses = `${shouldBeTransparent ? 'text-white' : 'text-black'} hover:text-primary-600`;
 
   const navItems = [
     { key: 'home', href: '/' },
@@ -52,12 +65,12 @@ const Header: React.FC = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
+        shouldBeTransparent ? 'bg-transparent py-5' : 'bg-white shadow-md py-3'
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
 
-        {/* Logo */}
+        {/* LOGO */}
         <NavLink
           to="/"
           className="flex items-center gap-2 font-bold text-2xl tracking-tight"
@@ -65,12 +78,12 @@ const Header: React.FC = () => {
           <div className="bg-primary-600 text-black p-2 rounded-lg">
             <GraduationCap size={24} />
           </div>
-          <span className={isScrolled ? 'text-black' : 'text-white'}>
+          <span className={shouldBeTransparent ? 'text-white' : 'text-black'}>
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
         </NavLink>
 
-        {/* DESKTOP RIGHT SIDE */}
+        {/* DESKTOP */}
         <div className="hidden lg:flex items-center gap-6">
 
           <nav className="flex items-center gap-8">
@@ -105,9 +118,10 @@ const Header: React.FC = () => {
           </select>
         </div>
 
-        {/* MOBILE: Language selector outside menu */}
+        {/* MOBILE */}
         <div className="flex items-center gap-4 lg:hidden">
 
+          {/* Mobile Language Selector */}
           <select
             value={language}
             onChange={(e) => handleLanguageChange(e.target.value)}
@@ -120,14 +134,15 @@ const Header: React.FC = () => {
             ))}
           </select>
 
+          {/* MENU BUTTON */}
           <button
             className="focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
-              <X size={28} className={isScrolled ? 'text-black' : 'text-white'} />
+              <X size={28} className={shouldBeTransparent ? 'text-white' : 'text-black'} />
             ) : (
-              <Menu size={28} className={isScrolled ? 'text-black' : 'text-white'} />
+              <Menu size={28} className={shouldBeTransparent ? 'text-white' : 'text-black'} />
             )}
           </button>
 
