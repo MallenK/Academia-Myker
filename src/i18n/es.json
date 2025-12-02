@@ -315,15 +315,85 @@
     
       "days": {}
     }
-
-
-
-
-
-    
-
   },
 
+
+  "modalitiesSection": {
+    "tag": "Horarios & Modalidades",
+    "title": "Clases adaptadas a tu ritmo de vida",
+    "intro": "Elige el formato y el horario que mejor encajen contigo. En Myker Academy nos adaptamos a tu día a día para que aprender un idioma sea compatible con tu trabajo, estudios o familia.",
+  
+    "modalities": {
+      "title": "1. Modalidades de clase",
+  
+      "presential": {
+        "title": "Presencial",
+        "desc": "Clases en aula, grupos reducidos y trato cercano. Perfecto para aprender de forma dinámica con compañeros y profesor."
+      },
+  
+      "online": {
+        "title": "Online en directo",
+        "desc": "Sesiones por videollamada con interacción real, actividades orales y acceso a material digital."
+      },
+  
+      "oneToOne": {
+        "title": "Individual / One-to-one",
+        "desc": "Clases totalmente personalizadas, ideales para avanzar rápido o trabajar objetivos específicos (exámenes, speaking, recuperaciones…)."
+      },
+  
+      "groups": {
+        "title": "Grupos reducidos",
+        "desc": "Clases pequeñas pensadas para garantizar participación, seguimiento cercano y un aprendizaje cómodo y eficaz."
+      }
+    },
+  
+    "schedule": {
+      "title": "2. Horarios según edad y tipo de clase",
+  
+      "kids": {
+        "title": "Niños y adolescentes (5 a 18 años)",
+        "subtitle": "Horarios exclusivamente de tarde",
+        "desc": "Pensados para adaptarse a la jornada escolar.",
+        "groupsTitle": "Clases disponibles entre 16:00 y 20:00, según nivel y grupo:",
+        "groups": [
+          "Infantil",
+          "Primaria",
+          "ESO",
+          "Bachillerato",
+          "Grupos de inglés",
+          "Grupos de francés",
+          "Refuerzo escolar y deberes"
+        ],
+        "footer": "Un espacio ideal donde estudian, aprenden y avanzan en un ambiente seguro y motivador."
+      },
+  
+      "adults": {
+        "title": "Adultos, universitarios y profesionales",
+        "subtitle": "Horarios flexibles: mañanas o tardes",
+        "desc": "Disponibilidad de 9:00 a 20:00, adaptándonos a tu rutina y a la disponibilidad del profesor:",
+        "items": [
+          "Clases individuales (mañana o tarde)",
+          "Clases en grupo (mañana o tarde, según demanda)",
+          "Inglés general o profesional",
+          "Francés desde cero o nivel intermedio",
+          "Preparación de exámenes",
+          "Conversación",
+          "Apoyo universitario / tareas específicas"
+        ],
+        "footer": "Tú eliges la franja; nosotros te buscamos el profesor ideal."
+      },
+  
+      "noSchedule": {
+        "title": "¿No encuentras un horario que te encaje?",
+        "desc1": "Creamos nuevos grupos según la demanda, nivel y edad.",
+        "desc2": "Si tienes un horario específico, nos lo dices y te buscamos la mejor opción."
+      },
+  
+      "cta": "Contáctanos para ver horarios y disponibilidad actual"
+    }
+  },
+
+  
   "professors": {
     "title": "Nuestros Profesores",
     "languages": "Idiomas",
