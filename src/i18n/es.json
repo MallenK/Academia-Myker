@@ -95,33 +95,89 @@
       "p2": "Ideal para estudiantes que necesitan apoyo escolar, adultos que retoman el idioma o quienes buscan mejorar para el trabajo.",
       "p3": "Metodología basada en comunicación real y progresión natural del idioma."
     },
+
     "french": {
       "title": "Curso de Francés",
       "desc": "Sumérgete en el francés con clases prácticas y enfocadas en la comunicación real.",
       "p1": "Aprende expresiones comunes, estructuras gramaticales y técnicas de conversación.",
       "p2": "Curso ideal tanto para principiantes como para estudiantes con base previa."
     },
+
     "german": {
       "title": "Curso de Alemán",
       "desc": "Aprende alemán con una metodología clara, estructurada y motivadora.",
       "p1": "Trabajamos vocabulario útil, gramática paso a paso y comprensión auditiva.",
       "p2": "Curso ideal para estudiantes que buscan un avance sólido y constante."
     },
+
     "school": {
       "title": "Refuerzo Escolar",
       "desc": "Apoyo académico para primaria, ESO y bachillerato.",
       "p1": "Refuerzo en matemáticas, lenguas, ciencias y más.",
       "p2": "Acompañamiento cercano para mejorar hábitos de estudio y autoestima."
     },
+
     "modalities": {
       "title": "Modalidades y tipos de clase",
       "desc": "Elige entre clases individuales, en pareja o grupos reducidos.",
       "p1": "Adaptamos las sesiones a tu ritmo, tiempo y estilo de aprendizaje."
     },
+
     "schedule": {
       "title": "Horarios disponibles",
       "desc": "Consulta nuestras franjas de mañana y tarde.",
       "p1": "Ofrecemos flexibilidad total para que puedas aprender sin renunciar a tus responsabilidades."
+    },
+
+    "englishFull": {
+      "title": "Más información – Clases de Inglés",
+      "description": "Clases grupales y particulares adaptadas a cada edad, nivel y objetivo.",
+      "alt": "Clase de inglés",
+      "intro": "Las clases grupales se organizan por curso escolar para garantizar un aprendizaje adecuado, dinámico y efectivo. También ofrecemos clases particulares totalmente adaptadas a los objetivos del alumno.",
+
+      "scheduleTitle": "Horarios de Clases Grupales de Inglés",
+      "scheduleNote": "(Grupos reducidos organizados por curso y nivel)",
+
+      "days": {
+        "monday": {
+          "title": "Lunes",
+          "block1": ["1º de ESO", "2º de ESO", "2º de Bachillerato"],
+          "block2": ["5º de Primaria", "6º de Primaria"],
+          "block3": ["5º y 6º de Primaria (grupo ampliado)"],
+          "block4": ["1º de Primaria"]
+        },
+
+        "tuesday": {
+          "title": "Martes",
+          "block1": ["3º de ESO", "4º de ESO", "1º de Bachillerato"],
+          "block2": ["3º de Primaria"],
+          "block3": ["Inglés para adultos"]
+        },
+
+        "wednesday": {
+          "title": "Miércoles",
+          "block1": ["1º de ESO", "2º de ESO", "2º de Bachillerato"],
+          "block2": ["EI5 (P5)", "1º de Primaria"],
+          "block3": ["4º de ESO"]
+        },
+
+        "thursday": {
+          "title": "Jueves",
+          "block1": ["3º de ESO", "4º de ESO", "1º de Bachillerato"]
+        }
+      },
+
+      "privateTitle": "Clases particulares de inglés",
+      "privateDesc": "Disponibles para todas las edades y niveles: conversación, refuerzo escolar, preparación de exámenes, inglés laboral o entrevistas. Los horarios se establecen según la disponibilidad del profesor y del alumno.",
+
+      "extrasTitle": "Extras incluidos",
+      "extras": [
+        "Prueba de nivel gratuita",
+        "Material digital incluido en los grupos",
+        "Preparación Cambridge",
+        "Seguimiento del progreso",
+        "Atención cercana y personalizada"
+      ]
     }
   },
 
@@ -173,57 +229,3 @@
     }
   }
 }
-
-
-
-"englishFull": {
-  "title": "Más información – Clases de Inglés",
-  "description": "Clases grupales y particulares adaptadas a cada edad, nivel y objetivo.",
-  "alt": "Clase de inglés",
-  "intro": "Las clases grupales se organizan por curso escolar para garantizar un aprendizaje adecuado, dinámico y efectivo. También ofrecemos clases particulares totalmente adaptadas a los objetivos del alumno.",
-
-  "scheduleTitle": "Horarios de Clases Grupales de Inglés",
-  "scheduleNote": "(Grupos reducidos organizados por curso y nivel)",
-
-  "days": {
-    "monday": {
-      "title": "Lunes",
-      "block1": ["1º de ESO", "2º de ESO", "2º de Bachillerato"],
-      "block2": ["5º de Primaria", "6º de Primaria"],
-      "block3": ["5º y 6º de Primaria (grupo ampliado)"],
-      "block4": ["1º de Primaria"]
-    },
-
-    "tuesday": {
-      "title": "Martes",
-      "block1": ["3º de ESO", "4º de ESO", "1º de Bachillerato"],
-      "block2": ["3º de Primaria"],
-      "block3": ["Inglés para adultos"]
-    },
-
-    "wednesday": {
-      "title": "Miércoles",
-      "block1": ["1º de ESO", "2º de ESO", "2º de Bachillerato"],
-      "block2": ["EI5 (P5)", "1º de Primaria"],
-      "block3": ["4º de ESO"]
-    },
-
-    "thursday": {
-      "title": "Jueves",
-      "block1": ["3º de ESO", "4º de ESO", "1º de Bachillerato"]
-    }
-  },
-
-  "privateTitle": "Clases particulares de inglés",
-  "privateDesc": "Disponibles para todas las edades y niveles: conversación, refuerzo escolar, preparación de exámenes, inglés laboral o entrevistas. Los horarios se establecen según la disponibilidad del profesor y del alumno.",
-
-  "extrasTitle": "Extras incluidos",
-  "extras": [
-    "Prueba de nivel gratuita",
-    "Material digital incluido en los grupos",
-    "Preparación Cambridge",
-    "Seguimiento del progreso",
-    "Atención cercana y personalizada"
-  ]
-}
-
