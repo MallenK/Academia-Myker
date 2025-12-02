@@ -12,42 +12,42 @@ const Courses: React.FC = () => {
       description: t('courses.items.english.desc'),
       icon: Languages,
       color: "bg-blue-50 text-blue-600",
-      href: "/curso-ingles"
+      href: "/Academia-Myker/curso-ingles"
     },
     {
       title: t('courses.items.french.title'),
       description: t('courses.items.french.desc'),
       icon: Languages,
       color: "bg-indigo-50 text-indigo-600",
-      href: "/curso-frances"
+      href: "/Academia-Myker/curso-frances"
     },
     {
       title: t('courses.items.german.title'),
       description: t('courses.items.german.desc'),
       icon: Languages,
       color: "bg-yellow-50 text-yellow-600",
-      href: "/curso-aleman"
+      href: "/Academia-Myker/curso-aleman"
     },
     {
       title: t('courses.items.school.title'),
       description: t('courses.items.school.desc'),
       icon: School,
       color: "bg-emerald-50 text-emerald-600",
-      href: "/curso-repaso"
+      href: "/Academia-Myker/curso-repaso"
     },
     {
       title: t('courses.items.modalities.title'),
       description: t('courses.items.modalities.desc'),
       icon: User,
       color: "bg-purple-50 text-purple-600",
-      href: "/curso-modalidades"
+      href: "/Academia-Myker/curso-modalidades"
     },
     {
       title: t('courses.items.schedule.title'),
       description: t('courses.items.schedule.desc'),
       icon: BookOpen,
       color: "bg-orange-50 text-orange-600",
-      href: "/curso-horarios"
+      href: "/Academia-Myker/curso-horarios"
     }
   ];
 
