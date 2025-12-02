@@ -19,5 +19,34 @@
     "subtitle": "Aprende inglés, francés o mejora tus asignaturas con un acompañamiento cercano, práctico y personalizado. En Myker Academy te ayudamos a avanzar con confianza… ¡y a disfrutar del proceso!",
     "btnCourses": "Descubre nuestros cursos",
     "btnContact": "Contáctanos"
+  },
+  "about": {
+    "tag": "Quiénes Somos",
+    "title": "Acompañamos tu aprendizaje con cercanía, motivación y calidad",
+    "p1": "En Myker Academy somos una academia especializada en inglés, francés y clases de refuerzo escolar para primaria, ESO y bachillerato. Nuestro propósito es ofrecer un espacio donde cada estudiante se sienta acompañado, motivado y capaz de alcanzar sus objetivos académicos y lingüísticos.",
+    "p2": "Creemos en una enseñanza práctica, dinámica y personalizada. Por eso trabajamos con grupos reducidos, profesores comprometidos y un enfoque que combina la comunicación real, el refuerzo de base y la confianza del alumno en sí mismo. Ya sea para aprender inglés desde cero, mejorar francés, aprobar matemáticas o recuperar una asignatura, en Myker Academy te ayudamos a avanzar paso a paso con un acompañamiento cercano y eficaz.",
+    "quote": "“En Myker Academy aprendemos con confianza. Nuestro objetivo es que cada alumno avance, mejore y disfrute del proceso.”"
+  },
+  "features": {
+    "tag": "Por qué elegirnos",
+    "title": "La diferencia Myker",
+    "items": {
+      "teachers": {
+        "title": "Profesores cercanos y especializados",
+        "desc": "Un equipo joven, preparado y apasionado por enseñar idiomas y reforzar asignaturas clave."
+      },
+      "groups": {
+        "title": "Grupos reducidos",
+        "desc": "Clases pequeñas para garantizar una atención real y un aprendizaje activo y participativo."
+      },
+      "schedule": {
+        "title": "Horarios flexibles",
+        "desc": "Distintas franjas por las tardes y packs de clases particulares para ajustarnos a cada situación."
+      },
+      "method": {
+        "title": "Método práctico y motivador",
+        "desc": "Tanto en idiomas como en refuerzo, enseñamos a través de actividades útiles, dinámicas y enfocadas en la comprensión real."
+      }
+    }
   }
 }
