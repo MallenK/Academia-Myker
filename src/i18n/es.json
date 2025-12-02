@@ -1,13 +1,23 @@
 {
   "header": {
-    "home": "Home",
-    "about": "About Us",
-    "courses": "Courses",
-    "contact": "Contact",
-    "enroll": "Enroll"
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "courses": "Cursos",
+    "contact": "Contacto",
+    "enroll": "Inscribirse"
   },
   "professors": {
-    "title": "Our Teachers",
-    "languages": "Languages"
+    "title": "Nuestros Profesores",
+    "languages": "Idiomas"
+  },
+  "hero": {
+    "tagline": "Idiomas y refuerzo escolar de calidad",
+    "title": {
+      "before": "Bienvenidos a",
+      "brand": "Myker Academy"
+    },
+    "subtitle": "Aprende inglés, francés o mejora tus asignaturas con un acompañamiento cercano, práctico y personalizado. En Myker Academy te ayudamos a avanzar con confianza… ¡y a disfrutar del proceso!",
+    "btnCourses": "Descubre nuestros cursos",
+    "btnContact": "Contáctanos"
   }
 }
