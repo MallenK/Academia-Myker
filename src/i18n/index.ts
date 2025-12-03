@@ -4,7 +4,6 @@ import { initReactI18next } from "react-i18next";
 import ca from "./ca.json";
 import es from "./es.json";
 import en from "./en.json";
-import de from "./de.json";
 import fr from "./fr.json";
 
 i18n
@@ -14,7 +13,6 @@ i18n
       ca: { translation: ca },
       es: { translation: es },
       en: { translation: en },
-      de: { translation: de },
       fr: { translation: fr }
     },
     lng: localStorage.getItem("myker_lang") || "en",
