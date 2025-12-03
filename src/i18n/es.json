@@ -27,28 +27,29 @@
     "quote": "“En Myker Academy aprendemos con confianza. Nuestro objetivo es que cada alumno avance, mejore y disfrute del proceso.”"
   },
 
-  "features": {
-    "tag": "Por qué elegirnos",
-    "title": "La diferencia Myker",
-    "items": {
-      "teachers": {
-        "title": "Profesores cercanos y especializados",
-        "desc": "Un equipo joven, preparado y apasionado por enseñar idiomas y reforzar asignaturas clave."
-      },
-      "groups": {
-        "title": "Grupos reducidos",
-        "desc": "Clases pequeñas para garantizar una atención real y un aprendizaje activo y participativo."
-      },
-      "schedule": {
-        "title": "Horarios flexibles",
-        "desc": "Distintas franjas por las tardes y packs de clases particulares para ajustarnos a cada situación."
-      },
-      "method": {
-        "title": "Método práctico y motivador",
-        "desc": "Tanto en idiomas como en refuerzo, enseñamos a través de actividades útiles, dinámicas y enfocadas en la comprensión real."
-      }
+  "featuresSection": {
+  "tag": "Por qué elegirnos",
+  "title": "La diferencia Myker",
+
+  "items": [
+    {
+      "title": "Profesores cercanos y especializados",
+      "description": "Un equipo joven, preparado y apasionado por enseñar idiomas y reforzar asignaturas clave."
+    },
+    {
+      "title": "Grupos reducidos",
+      "description": "Clases pequeñas para garantizar una atención real y un aprendizaje activo y participativo."
+    },
+    {
+      "title": "Horarios flexibles",
+      "description": "Distintas franjas por las tardes y packs de clases particulares para ajustarnos a cada situación."
+    },
+    {
+      "title": "Método práctico y motivador",
+      "description": "Tanto en idiomas como en refuerzo, enseñamos a través de actividades útiles, dinámicas y enfocadas en la comprensión real."
     }
-  },
+  ]
+},
 
   "courses": {
     "tag": "Nuestros servicios",
