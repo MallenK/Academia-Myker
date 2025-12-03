@@ -1,13 +1,695 @@
 {
   "header": {
-    "home": "Home",
-    "about": "About Us",
-    "courses": "Courses",
-    "contact": "Contact",
-    "enroll": "Enroll"
+    "home": "Accueil",
+    "about": "À Propos",
+    "courses": "Cours",
+    "methodology": "Méthodologie",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
   },
-  "professors": {
-    "title": "Our Teachers",
-    "languages": "Languages"
+
+  "hero": {
+    "tagline": "Langues et soutien scolaire de qualité",
+    "title": {
+      "before": "Bienvenue à",
+      "brand": "Myker Academy"
+    },
+    "subtitle": "Apprenez l’anglais, le français ou améliorez vos matières scolaires avec un accompagnement proche, pratique et personnalisé. Chez Myker Academy, nous vous aidons à progresser en toute confiance… et à profiter du processus !",
+    "btnCourses": "Découvrez nos cours",
+    "btnContact": "Contactez-nous"
+  },
+
+  "about": {
+    "tag": "Qui sommes-nous",
+    "title": "Nous accompagnons votre apprentissage avec proximité, motivation et qualité",
+    "p1": "Myker Academy est une académie spécialisée en anglais, français et soutien scolaire pour le primaire, le collège et le lycée. Notre objectif est d’offrir un espace où chaque élève se sent accompagné, motivé et capable d’atteindre ses objectifs académiques et linguistiques.",
+    "p2": "Nous croyons en un enseignement pratique, dynamique et personnalisé. C’est pourquoi nous travaillons en petits groupes, avec des professeurs engagés et une approche combinant communication réelle, renforcement des bases et confiance de l’élève en lui-même. Que ce soit pour apprendre l’anglais depuis zéro, améliorer son français, réussir les mathématiques ou récupérer une matière, Myker Academy vous aide à avancer pas à pas avec un accompagnement proche et efficace.",
+    "quote": "« À Myker Academy, nous apprenons avec confiance. Notre objectif est que chaque élève progresse, s’améliore et profite du processus. »"
+  },
+
+  "featuresSection": {
+    "tag": "Pourquoi nous choisir",
+    "title": "La différence Myker",
+    "items": [
+      {
+        "title": "Professeurs proches et spécialisés",
+        "description": "Une équipe jeune, formée et passionnée par l’enseignement des langues et le renforcement des matières clés."
+      },
+      {
+        "title": "Groupes réduits",
+        "description": "Des classes petites pour garantir une attention réelle et un apprentissage actif et participatif."
+      },
+      {
+        "title": "Horaires flexibles",
+        "description": "Différents créneaux l’après-midi et des packs de cours particuliers adaptés à chaque situation."
+      },
+      {
+        "title": "Méthode pratique et motivante",
+        "description": "En langues comme en soutien scolaire, nous enseignons à travers des activités utiles, dynamiques et centrées sur la compréhension réelle."
+      }
+    ]
+  },
+
+  "courses": {
+    "tag": "Nos Services",
+    "title": "Une formation adaptée à vous",
+    "subtitle": "Nous proposons une large variété de cours et de modalités pour vous assurer de trouver le chemin idéal vers la maîtrise de la langue.",
+    "more": "Plus d’informations",
+    "ctaTitle": "Prêt à faire le premier pas ?",
+    "ctaSubtitle": "Rejoignez notre communauté d’étudiants et commencez à construire votre avenir dès aujourd’hui.",
+    "ctaButton": "Inscrivez-vous maintenant",
+
+    "items": {
+      "english": {
+        "title": "Cours d’Anglais",
+        "desc": "Chez Myker Academy, nous proposons des cours d’anglais en groupe ou particuliers, adaptés à chaque âge, niveau et objectif. Les cours en groupe sont organisés par année scolaire afin de garantir un apprentissage adéquat, dynamique et efficace."
+      },
+      "french": {
+        "title": "Cours de Français",
+        "desc": "Apprenez le français avec une méthode pratique et dynamique. Conversation, vocabulaire utile et situations réelles pour communiquer dès le premier jour."
+      },
+      "math": {
+        "title": "Cours de Mathématiques",
+        "desc": "Aide en mathématiques pour le primaire, le collège et le lycée : exercices guidés, explications claires et renforcement des bases. Idéal pour améliorer ses notes, retrouver la motivation et mieux comprendre la matière."
+      },
+      "school": {
+        "title": "Cours de Soutien Scolaire",
+        "desc": "Soutien dans toutes les matières : langue, sciences, histoire-géo, catalan, techniques d’étude… Nous accompagnons l’élève dans ses devoirs, examens et organisation, transformant l’étude en une habitude."
+      },
+      "modalities": {
+        "title": "Individuel ou Groupe",
+        "desc": "Choisissez la modalité qui convient le mieux à votre style d’apprentissage."
+      },
+      "schedule": {
+        "title": "Horaires Flexibles",
+        "desc": "Nous nous adaptons à votre routine. Cours le matin et l’après-midi."
+      }
+    }
+  },
+
+  "courseDetail": {
+    "english": {
+      "title": "Cours d’Anglais",
+      "desc": "Apprenez l’anglais depuis zéro ou améliorez votre niveau avec des cours dynamiques, pratiques et adaptés à vos objectifs.",
+      "p1": "Dans ce cours, vous travaillerez compréhension orale, expression écrite, vocabulaire et grammaire.",
+      "p2": "Idéal pour les étudiants ayant besoin de soutien scolaire, les adultes reprenant la langue ou les personnes souhaitant progresser pour le travail.",
+      "p3": "Méthodologie basée sur la communication réelle et la progression naturelle de la langue."
+    },
+
+    "french": {
+      "title": "Cours de Français",
+      "desc": "Immergez-vous dans le français avec des cours pratiques axés sur la communication réelle.",
+      "p1": "Apprenez des expressions courantes, des structures grammaticales et des techniques de conversation.",
+      "p2": "Cours idéal pour les débutants comme pour les étudiants ayant déjà une base."
+    },
+
+    "german": {
+      "title": "Cours d’Allemand",
+      "desc": "Apprenez l’allemand avec une méthodologie claire, structurée et motivante.",
+      "p1": "Nous travaillons vocabulaire utile, grammaire pas à pas et compréhension orale.",
+      "p2": "Cours idéal pour les étudiants cherchant une progression solide et constante."
+    },
+
+    "school": {
+      "title": "Soutien Scolaire",
+      "desc": "Soutien académique pour le primaire, le collège et le lycée.",
+      "p1": "Renforcement en mathématiques, langues, sciences et plus.",
+      "p2": "Accompagnement proche pour améliorer les habitudes d’étude et l’estime de soi."
+    },
+
+    "modalities": {
+      "title": "Modalités et types de cours",
+      "desc": "Choisissez entre cours individuels, en duo ou en petits groupes.",
+      "p1": "Nous adaptons les sessions à votre rythme, disponibilité et style d’apprentissage."
+    },
+
+    "schedule": {
+      "title": "Horaires disponibles",
+      "desc": "Consultez nos créneaux du matin et de l’après-midi.",
+      "p1": "Nous offrons une flexibilité totale pour que vous puissiez apprendre sans renoncer à vos responsabilités."
+    },
+
+    "englishFull": {
+      "title": "Cours d’Anglais",
+      "description": "Cours en groupe et particuliers adaptés à chaque âge, niveau et objectif.",
+      "alt": "Cours d’anglais",
+      "intro": "Les cours en groupe sont organisés par année scolaire afin de garantir un apprentissage adéquat, dynamique et efficace. Nous proposons également des cours particuliers entièrement adaptés aux objectifs de l’élève.",
+
+      "scheduleTitle": "Horaires des cours d’anglais en groupe",
+      "scheduleNote": "(Petits groupes organisés par année et niveau)",
+
+      "days": {
+        "monday": {
+          "title": "Lundi",
+          "block1": ["6e (ESO1)", "5e (ESO2)", "Terminale (2n Batxillerat)"],
+          "block2": ["CM2 (5e Primària)", "6e Primaire (6e Primària)"],
+          "block3": ["CM2 & 6e Primaire (groupe élargi)"],
+          "block4": ["CP (1r de Primària)"]
+        },
+
+        "tuesday": {
+          "title": "Mardi",
+          "block1": ["4e (ESO3)", "3e (ESO4)", "Première (1r Batxillerat)"],
+          "block2": ["CE2 (3r de Primària)"],
+          "block3": ["Anglais pour adultes"]
+        },
+
+        "wednesday": {
+          "title": "Mercredi",
+          "block1": ["6e (ESO1)", "5e (ESO2)", "Terminale"],
+          "block2": ["Maternelle GS (P5)", "CP"],
+          "block3": ["3e (4t d’ESO)"]
+        },
+
+        "thursday": {
+          "title": "Jeudi",
+          "block1": ["4e", "3e", "Première"]
+        }
+      },
+
+      "privateTitle": "Cours particuliers d’anglais",
+      "privateDesc1": "Chez Myker Academy, nous proposons des cours d’anglais en groupe et particuliers, adaptés à chaque âge, niveau et objectif. Les cours en groupe sont organisés par année scolaire pour garantir un apprentissage adéquat, dynamique et efficace.",
+      "privateDesc2": "Disponibles pour tous les âges et niveaux : conversation, soutien scolaire, préparation d’examens, anglais professionnel ou entretiens. Les horaires sont fixés selon la disponibilité du professeur et de l’élève.",
+
+      "extrasTitle": "Extras inclus",
+      "extras": [
+        "Test de niveau gratuit",
+        "Matériel digital inclus dans les groupes",
+        "Préparation Cambridge",
+        "Suivi des progrès",
+        "Accompagnement proche et personnalisé"
+      ]
+    },
+
+    "frenchFull": {
+      "title": "Plus d’informations – Cours de Français",
+      "description": "Cours adaptés à chaque élève selon ses objectifs et son niveau.",
+      "alt": "Cours de français",
+
+      "desc1": "À Myker Academy, nous proposons des cours de français adaptés à chaque élève. La majorité de nos étudiants choisissent des cours particuliers, car chacun a des objectifs différents : améliorer la conversation, réussir une matière, préparer un examen officiel, renforcer la grammaire ou commencer depuis zéro.",
+      "desc2": "Les cours individuels permettent d’avancer au rythme adéquat et de se concentrer sur les besoins réels de chaque étudiant.",
+
+      "scheduleTitle": "Horaires des cours de français en groupe",
+      "scheduleNote": "Disponibles pour ceux qui préfèrent apprendre en groupe selon leur niveau.",
+
+      "days": {
+        "monday": {
+          "title": "Lundi",
+          "time": "19:15 – 20:15",
+          "groups": [
+            "Groupe d’initiation au français",
+            "Idéal pour les personnes qui commencent depuis zéro ou ont des notions de base."
+          ]
+        },
+
+        "wednesday": {
+          "title": "Mercredi",
+          "time": "19:30 – 20:30",
+          "groups": [
+            "Groupe de niveau intermédiaire",
+            "Conçu pour ceux qui se débrouillent déjà et souhaitent gagner en fluidité, vocabulaire et confiance."
+          ]
+        },
+
+        "friday": {
+          "title": "Vendredi",
+          "time": "16:00 – 17:00",
+          "groups": [
+            "Groupe d’expression orale",
+            "Sessions centrées sur la conversation, la prononciation et l’expression spontanée."
+          ]
+        }
+      },
+
+      "privateTitle": "Cours particuliers de français",
+
+      "privateDesc1": "Parfaits pour les étudiants ayant des objectifs spécifiques ou des rythmes différents. Vous pouvez travailler :",
+      "privateDesc2_list": [
+        "Conversation et fluidité",
+        "Grammaire appliquée",
+        "Examens DELF/DALF",
+        "Soutien scolaire",
+        "Préparation aux entretiens ou situations professionnelles",
+        "Aide pour les matières du lycée ou de l’université"
+      ],
+      "privateDesc3": "Les horaires s’adaptent à la disponibilité de l’élève et du professeur.",
+
+      "extrasTitle": "Extras inclus",
+      "extras": [
+        "Test de niveau gratuit",
+        "Approche communicative et dynamique",
+        "Matériel actualisé",
+        "Suivi personnalisé",
+        "Méthodologie pratique dès le premier jour"
+      ]
+    },
+
+    "mathFull": {
+      "title": "Cours de Mathématiques",
+      "alt": "Cours de mathématiques",
+
+      "privateTitle": "Cours de Mathématiques",
+
+      "desc1": "À Myker Academy, la majorité des cours de mathématiques sont individuels, car chaque élève a un rythme, un niveau et un type de soutien différents. Les sessions individuelles permettent de travailler exactement ce dont l’étudiant a besoin : devoirs, préparation d’examens, bases mathématiques, résolution de problèmes ou amélioration de la compréhension.",
+      "desc2": "Nous proposons également un petit groupe de 3e/4e (équivalent 4t d’ESO), idéal pour les élèves souhaitant progresser dans un environnement partagé avec un accompagnement continu.",
+
+      "extrasTitle": "Extras inclus",
+      "extras": [
+        "Test de niveau gratuit",
+        "Soutien entièrement adapté",
+        "Suivi personnalisé",
+        "Exercices guidés et expliqués",
+        "Méthodologie claire et pratique"
+      ],
+
+      "scheduleTitle": "Horaires des cours de mathématiques en groupe",
+      "scheduleNote": "(Petits groupes centrés sur le soutien et la compréhension)",
+
+      "days": {
+        "wednesday": {
+          "title": "Mercredi",
+          "block1": [
+            "Mathématiques – 3e/4e (groupe réduit) — 17:00 – 18:00"
+          ]
+        }
+      }
+    },
+
+    "schoolFull": {
+      "title": "Plus d’informations – Soutien Scolaire",
+      "alt": "Cours de soutien scolaire",
+
+      "privateTitle": "Soutien Scolaire",
+
+      "desc1": "À Myker Academy, le soutien scolaire se fait principalement à travers des cours particuliers, car chaque élève a des besoins, des rythmes et des difficultés différents. Ce format permet un travail totalement personnalisé : devoirs, préparation d’examens, récupérations, organisation et techniques d’étude, et renforcement de matières spécifiques (langue, catalan, sciences, histoire, etc.).",
+
+      "desc2": "Les cours particuliers garantissent un accompagnement proche et efficace, adapté au niveau réel de chaque élève et axé sur l’amélioration de ses résultats académiques et de sa confiance. Les horaires s’ajustent selon la disponibilité de l’élève et du professeur.",
+
+      "cards": {
+        "groupTitle": "Cours en Groupe",
+        "groupDesc": "Petits groupes pour apprendre dans un environnement motivant, dynamique et participatif. Disponibles pour l’anglais, le français et le soutien scolaire.",
+
+        "individualTitle": "Cours Individuels",
+        "individualDesc": "Sessions 100% personnalisées pour progresser plus rapidement : langues, soutien, préparation d’examens ou aide spécifique."
+      },
+
+      "extrasTitle": "Extras inclus",
+      "extras": [
+        "Test de niveau gratuit",
+        "Suivi personnalisé de l’élève",
+        "Renforcement des habitudes et techniques d’étude",
+        "Planification pour examens et récupérations",
+        "Matériel de soutien inclus"
+      ],
+
+      "scheduleTitle": "Horaires disponibles",
+      "scheduleNote": "Les horaires de soutien scolaire sont assignés selon la disponibilité du professeur et de l’élève.",
+
+      "days": {}
+    }
+  },
+
+  "modalitiesSection": {
+    "tag": "Horaires et Modalités",
+    "title": "Des cours adaptés à votre rythme de vie",
+    "intro": "Choisissez le format et l’horaire qui vous conviennent le mieux. Chez Myker Academy, nous nous adaptons à votre quotidien pour que l’apprentissage d’une langue soit compatible avec votre travail, vos études ou votre famille.",
+
+    "modalities": {
+      "title": "1. Modalités de cours",
+
+      "presential": {
+        "title": "Présentiel",
+        "desc": "Cours en salle, petits groupes et approche humaine. Parfait pour apprendre de manière dynamique avec d’autres élèves et le professeur."
+      },
+
+      "online": {
+        "title": "En ligne en direct",
+        "desc": "Sessions par visioconférence avec interaction réelle, activités orales et accès au matériel digital."
+      },
+
+      "oneToOne": {
+        "title": "Individuel / One-to-One",
+        "desc": "Cours entièrement personnalisés, idéaux pour progresser rapidement ou travailler des objectifs spécifiques (examens, conversation, récupérations…)."
+      },
+
+      "groups": {
+        "title": "Groupes réduits",
+        "desc": "Cours en petits groupes pour garantir participation, suivi rapproché et apprentissage confortable et efficace."
+      }
+    },
+
+    "schedule": {
+      "title": "2. Horaires selon l’âge et le type de cours",
+
+      "kids": {
+        "title": "Enfants et adolescents (5 à 18 ans)",
+        "subtitle": "Horaires exclusivement l’après-midi",
+        "desc": "Pensés pour s’adapter à la journée scolaire.",
+        "groupsTitle": "Cours disponibles entre 16:00 et 20:00 selon niveau et groupe :",
+        "groups": [
+          "Maternelle",
+          "Primaire",
+          "Collège",
+          "Lycée",
+          "Groupes d’anglais",
+          "Groupes de français",
+          "Soutien scolaire et devoirs"
+        ],
+        "footer": "Un espace idéal où ils étudient, apprennent et progressent dans un environnement sûr et motivant."
+      },
+
+      "adults": {
+        "title": "Adultes, universitaires et professionnels",
+        "subtitle": "Horaires flexibles : matin ou après-midi",
+        "desc": "Disponibilité de 9:00 à 20:00, en nous adaptant à votre routine et à la disponibilité du professeur :",
+        "items": [
+          "Cours individuels (matin ou après-midi)",
+          "Cours en groupe (matin ou après-midi, selon la demande)",
+          "Anglais général ou professionnel",
+          "Français débutant ou intermédiaire",
+          "Préparation d’examens",
+          "Conversation",
+          "Soutien universitaire / tâches spécifiques"
+        ],
+        "footer": "Vous choisissez le créneau ; nous vous trouvons le professeur idéal."
+      },
+
+      "noSchedule": {
+        "title": "Vous ne trouvez pas un horaire qui vous convienne ?",
+        "desc1": "Nous créons de nouveaux groupes selon la demande, le niveau et l’âge.",
+        "desc2": "Si vous avez un horaire spécifique, dites-le-nous et nous trouverons la meilleure option."
+      },
+
+      "cta": "Contactez-nous pour connaître les horaires et disponibilités actuels"
+    }
+  },
+
+  "metodologySection": {
+    "tag": "Méthodologie et Niveaux",
+
+    "title": "Une méthodologie pratique pour avancer niveau par niveau",
+
+    "subtitle": "Nous combinons communication réelle, soutien académique, grammaire appliquée et activités dynamiques pour que vous utilisiez ce que vous apprenez dès le premier jour.",
+
+    "methodology": {
+      "title": "Méthodologie Myker",
+      "intro": "Dans nos cours, nous privilégions :",
+      "items": [
+        "Communication réelle (parler, comprendre, écrire)",
+        "Activités pratiques en binômes et en groupes",
+        "Matériel authentique et digital",
+        "Exercices utiles et applicables",
+        "Feedback constant",
+        "Évaluations périodiques pour mesurer vos progrès"
+      ]
+    },
+
+    "followup": {
+      "title": "Suivi et objectifs",
+      "intro": "Nous définissons avec vous des objectifs clairs et révisons votre évolution régulièrement.",
+      "listTitle": "Comprend :",
+      "items": [
+        "Test de niveau initial",
+        "Rapports de progression",
+        "Suivi constant du professeur",
+        "Préparation aux examens officiels (anglais et français)",
+        "Communication directe avec l’équipe pédagogique"
+      ]
+    },
+
+    "levels": {
+      "tag": "Niveau {{code}}",
+      "ideal": "Idéal pour :"
+    },
+
+    "levelsList": [
+      {
+        "code": "A1-A2",
+        "name": "Initiation",
+        "desc": "Premier contact avec la langue. Vocabulaire de base, expressions quotidiennes et structures simples.",
+        "ideal": "Personnes qui commencent depuis zéro ou avec des notions très basiques."
+      },
+      {
+        "code": "B1",
+        "name": "Intermédiaire",
+        "desc": "Capacité à se débrouiller dans des situations courantes, conversations simples et textes courts.",
+        "ideal": "Personnes qui se défendent déjà mais souhaitent gagner en sécurité et en fluidité."
+      },
+      {
+        "code": "B2",
+        "name": "Intermédiaire supérieur",
+        "desc": "Compréhension de textes plus complexes, débats et situations professionnelles ou académiques.",
+        "ideal": "Personnes qui ont besoin de la langue pour leurs études ou leur travail."
+      },
+      {
+        "code": "C1",
+        "name": "Avancé",
+        "desc": "Utilisation flexible et efficace de la langue dans des contextes formels et informels, avec un haut niveau de précision.",
+        "ideal": "Utilisateurs avancés souhaitant perfectionner nuances, vocabulaire et registre."
+      }
+    ],
+
+    "finalNote": "Nous réalisons un test de niveau initial gratuit pour vous assigner au groupe adapté et vous recommander l’itinéraire correspondant à vos objectifs."
+  },
+
+  "examsSection": {
+    "tag": "Examens et Certifications",
+
+    "title": "Préparez-vous pour vos certifications officielles",
+
+    "subtitle":
+      "Nous concevons des parcours spécifiques pour que vous puissiez vous présenter aux examens officiels avec les meilleures garanties. Chez Myker Academy, nous travaillons avec de la pratique réelle, des simulations, des stratégies d’examen et un suivi personnalisé pour vous aider à réussir avec confiance.",
+
+    "english": {
+      "language": "Anglais",
+      "label": "Préparation aux examens",
+      "exams": ["A2 Key (KET)", "B1 Preliminary (PET)", "B2 First (FCE)", "C1 Advanced (CAE)"],
+      "extrasTitle": "De plus :",
+      "extras": [
+        "Tests internes pour mesurer vos progrès",
+        "Simulations complètes avec temps réel",
+        "Stratégies pour speaking, listening, reading et writing",
+        "Recommandations personnalisées pour vous présenter en confiance"
+      ],
+      "description": "Notre préparation Cambridge est conçue pour que vous arriviez à l’examen sûr de vous, avec une pratique réelle et des résultats visibles.",
+      "footer": "Consultez les prochaines sessions et les groupes de préparation disponibles."
+    },
+
+    "french": {
+      "language": "Français",
+      "label": "Préparation aux examens",
+      "exams": ["DELF A1", "DELF A2", "DELF B1", "DELF B2", "DALF C1", "DALF C2"],
+      "descriptionTitle": "Nous vous aidons à préparer les examens officiels de français grâce à :",
+      "descriptionList": [
+        "Pratique réelle du format DELF/DALF",
+        "Activités spécifiques de compréhension orale et écrite",
+        "Production écrite avec modèles, corrections et stratégies",
+        "Entraînement oral avec simulations réelles",
+        "Techniques pour améliorer fluidité, vocabulaire et prononciation"
+      ],
+      "footer": "Notre objectif est que vous arriviez à votre examen avec sécurité, en maîtrisant le format et avec la pratique nécessaire pour le réussir."
+    },
+
+    "cta": "Demandez votre test de niveau GRATUIT !"
+  },
+
+  "pricesSection": {
+    "tag": "Tarifs",
+    "title": "Choisissez le plan qui vous convient le mieux",
+    "subtitle": "Prix indicatifs selon niveau et modalité. Nous pouvons ajuster la proposition selon vos objectifs, la fréquence des cours et le type de formation.",
+
+    "groupsKids": {
+      "title": "Cours en groupe (5–18 ans)",
+      "desc": "Cours en petits groupes pour enfants et adolescents, organisés par âge et par niveau.",
+      "pricesTitle": "Tarifs mensuels (5–18 ans)",
+      "prices": [
+        "1 heure / semaine → 33 € / mois",
+        "2 heures / semaine → 64,5 € / mois",
+        "1h15 / semaine → 38 € / mois",
+        "1h30 / semaine → 43 € / mois",
+        "2h30 / semaine → 74,5 € / mois",
+        "FCE / Advanced (C1) — 1 heure / semaine → 57 € / mois"
+      ],
+      "mathTitle": "Cours de mathématiques en groupe (5–18 ans)",
+      "mathPrices": ["1 heure / semaine → 38 € / mois"],
+      "enrollmentTitle": "Inscription et matériel",
+      "enrollmentItems": [
+        "Frais d’inscription obligatoires (paiement unique) : 30 €",
+        "Matériel du premier mois : 15 €"
+      ]
+    },
+
+    "groupsAdults": {
+      "title": "Cours en groupe pour adultes",
+      "desc": "Destinés aux personnes majeures souhaitant progresser, maintenir leur niveau ou atteindre des objectifs spécifiques.",
+      "pricesTitle": "Tarifs pour adultes",
+      "prices": ["1 heure / semaine → 57 € / mois", "(Disponibilité matin/après-midi selon professeur et élève.)"]
+    },
+
+    "individual": {
+      "title": "Cours particuliers",
+      "desc": "Sessions individuelles entièrement personnalisées.",
+      "pricesTitle": "Tarifs",
+      "prices": [
+        "1 heure → 22 €",
+        "Pack 10 heures → 200 € (20 €/heure)",
+        "Pack 20 heures → 350 € (17,5 €/heure)",
+        "Pack 20 heures pour deux personnes → 400 €"
+      ],
+      "details": ["Horaires flexibles", "Présentiel ou en ligne", "Sans inscription ni matériel obligatoire"]
+    },
+
+    "ctaNote": "Les prix sont indicatifs et peuvent être ajustés selon la durée du cours, le nombre d’élèves et la modalité. Contactez-nous pour une proposition personnalisée.",
+    "ctaButton": "Réservez une session d’information gratuite"
+  },
+
+  "teachersSection": {
+    "tag": "Nos Professeurs",
+    "items": [
+      {
+        "name": "Inés",
+        "subjects": "Français · Anglais · Soutien scolaire",
+        "bio": "Née en France et passionnée d’enseignement depuis son enfance, Inés a toujours rêvé d’être professeure et de transmettre ses connaissances. Elle adore travailler avec les enfants et créer une ambiance amusante, dynamique et chaleureuse pour qu’ils apprennent sans peur. Les langues sont sa grande passion et son énergie communicative rend chaque cours unique. De plus, si vous nous écrivez, c’est elle qui vous répondra et vous accompagnera tout au long du processus.",
+        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Alex",
+        "subjects": "Anglais · Soutien scolaire",
+        "bio": "Très apprécié des plus jeunes, Alex combine l’enseignement avec un style sportif, dynamique et plein d’énergie. Il aime s’amuser avec les enfants, les motiver et les aider à surmonter toutes leurs difficultés scolaires. Ses cours sont remplis de mouvement, de rires et d’apprentissage significatif.",
+        "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Mike",
+        "subjects": "Anglais (Natif)",
+        "bio": "Professeur natif avec une longue expérience dans l’enseignement de l’anglais. Mike se distingue par sa proximité, son empathie et sa capacité à transformer chaque cours en une expérience unique et motivante. Ses principaux groupes sont des adultes, qu’il accompagne dans leurs objectifs professionnels, préparations d’examens et amélioration de la communication réelle. Avec lui, apprendre l’anglais devient naturel et accessible.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Noa",
+        "subjects": "Anglais · Soutien scolaire",
+        "bio": "Spécialisée en éducation primaire, Noa a un don unique pour connecter avec les plus petits. Sa douceur, sa créativité et sa patience font que les enfants apprécient tellement ses cours qu’ils veulent toujours revenir. Son objectif est qu’ils apprennent l’anglais de manière naturelle, en jouant et en se sentant en sécurité.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Laia",
+        "subjects": "Anglais",
+        "bio": "Après avoir vécu au Canada, Laia apporte avec elle son amour pour la culture anglophone et un anglais réel et actuel. Dans ses cours, elle transmet son expérience internationale à travers des activités dynamiques, du plaisir et une méthode pratique qui motive tous les élèves. Son approche combine proximité, immersion culturelle et apprentissage authentique.",
+        "image": "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?auto=format&fit=crop&w=500&q=60"
+      }
+    ]
+  },
+
+  "faq": {
+    "title_pre": "Questions fréquentes",
+    "title": "Nous répondons à vos principales questions",
+    "subtitle": "Si vous avez d’autres questions concernant les horaires, tarifs, niveaux ou réservations, écrivez-nous directement et nous vous répondrons au plus vite.",
+
+    "items": [
+      {
+        "q": "Comment connaître mon niveau ?",
+        "a": "Nous réalisons un test de niveau gratuit, en ligne ou en présentiel, pour vous assigner au groupe adéquat ou vous proposer le type de cours (groupe ou individuel) qui correspond le mieux à vos objectifs. En moins de 15 minutes, nous déterminerons votre niveau initial."
+      },
+      {
+        "q": "Y a-t-il des frais d’inscription ?",
+        "a": "Oui, pour les cours en groupe il y a une inscription annuelle de 30 €, qui garantit votre place pour toute l’année scolaire. De plus, le premier mois, un paiement de 15 € est requis pour le matériel (dossier et ressources digitales). Les cours particuliers n’ont pas de frais d’inscription."
+      },
+      {
+        "q": "Puis-je rattraper un cours si je suis absent ?",
+        "a": "Oui. Dans les groupes réguliers, nous proposons des options de rattrapage lorsqu’il y a de la disponibilité dans un autre groupe du même niveau et âge. En cas d’absence d’alternative cette semaine-là, nous vous fournissons du matériel pour suivre le rythme du cours."
+      },
+      {
+        "q": "Préparez-vous aux examens officiels ?",
+        "a": "Oui ! Nous préparons aux examens d’anglais (Cambridge) : A2 Key · B1 Preliminary · B2 First · C1 Advanced. Français : DELF A1–A2–B1–B2 · DALF C1. Autres langues sur demande. Nos cours incluent des simulations, des stratégies et une préparation spécifique pour chaque partie de l’examen."
+      },
+      {
+        "q": "Proposez-vous des cours pour enfants, adolescents et adultes ?",
+        "a": "Oui. À Myker Academy, nous travaillons avec tous les âges à partir de 5 ans : Enfants (5–11) — groupes dynamiques et apprentissage naturel. Adolescents (12–18) — soutien, langues, certifications et aide scolaire. Adultes — anglais général, conversation, préparation d’examens et cours individuels. Chaque groupe est organisé par niveau et âge pour garantir un bon environnement d’apprentissage."
+      },
+      {
+        "q": "Quels sont vos horaires ?",
+        "a": "Nous sommes disponibles de 9:00 à 20:00. Enfants et adolescents : cours en groupe l’après-midi, après l’école. Adultes : matin ou après-midi selon disponibilité. Cours particuliers : horaires flexibles (matin/après-midi)."
+      },
+      {
+        "q": "Les cours peuvent-ils être individuels ?",
+        "a": "Oui. Nous proposons des cours particuliers à différents tarifs : 1 heure : 22 €. Pack 10 heures : 200 € (20 €/h). Pack 20 heures : 350 € (17,5 €/h). Ils sont personnalisés, flexibles et entièrement axés sur vos objectifs."
+      }
+    ]
+  },
+
+  "contactSection": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes ici pour vous aider dans tout ce dont vous avez besoin. Si vous souhaitez des informations sur les horaires, tarifs, niveaux ou réservations, vous pouvez nous appeler, nous écrire ou venir nous voir. Nous serons ravis de vous aider !",
+
+    "phoneLabel": "Téléphone",
+    "phone": "+34 717 70 49 78",
+
+    "emailLabel": "Email",
+    "email": "mykeringlesacademia@gmail.com",
+
+    "instagramLabel": "Instagram",
+    "instagram": "@myker.academy",
+
+    "scheduleLabel": "Horaires d’attention",
+    "schedule": "Lundi à Vendredi : 9:00 – 20:00",
+    "scheduleNote": "(Nous répondons également aux messages en dehors de ces horaires lorsque possible.)",
+
+    "webLabel": "Site Web / Google",
+    "web": "Visiter le site alternatif",
+
+    "addressLine1": "Av. Santa Coloma, 34",
+    "addressLine2": "08690 Santa Coloma de Cervelló (Barcelone)",
+    "addressNote": "Nous sommes au centre du village, à quelques minutes des écoles et de l’arrêt de bus."
+  },
+
+  "testimonialsSection": {
+    "tag": "Témoignages",
+    "title": "Ce que disent nos élèves",
+    "items": [
+      {
+        "name": "Pedro Taqi",
+        "role": "Étudiant de Français",
+        "text": "Je voulais réussir une matière de français et j’ai largement dépassé le niveau requis. L’intensif avec Inés a été incroyable. C’est une excellente professionnelle et grâce à elle… j’ai réussi !",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Martín Sánchez",
+        "role": "Étudiant d’Anglais",
+        "text": "Expérience exceptionnelle dans cette académie d’anglais. Le professeur a toujours été aimable, attentif et prêt à aider. Le système d’enseignement est très dynamique et motivant. Totalement recommandé !",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Arianna Pairada",
+        "role": "Étudiante",
+        "text": "Mike est exceptionnel. Son empathie, sa patience et son approche pédagogique rendent l’apprentissage facile et agréable. Il crée un environnement inclusif où l’on se sent à l’aise dès le premier jour.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "ctaFinal": {
+    "tag": "Faites le prochain pas",
+    "title": "Vous souhaitez améliorer votre anglais, votre français ou vos matières scolaires ?",
+    "text": "Réservez une session d’information gratuite et trouvez le cours parfait pour votre niveau, vos objectifs et votre horaire.",
+    "button": "Réservez votre session gratuite",
+    "note": "Sans engagement. Nous avons seulement besoin de connaître votre niveau approximatif et vos objectifs pour mieux vous orienter."
+  },
+
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Nous sommes ici pour vous aider",
+    "name": "Nom et prénom",
+    "email": "Adresse email",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "success": "Message envoyé avec succès",
+    "error": "Une erreur s’est produite. Veuillez réessayer."
+  },
+
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "links": {
+      "privacy": "Politique de Confidentialité",
+      "terms": "Termes et Conditions"
+    }
   }
 }
