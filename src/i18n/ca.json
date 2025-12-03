@@ -30,7 +30,6 @@
   "featuresSection": {
     "tag": "Per què escollir-nos",
     "title": "La diferència Myker",
-
     "items": [
       {
         "title": "Professors propers i especialitzats",
@@ -50,7 +49,6 @@
       }
     ]
   },
-
   "courses": {
     "tag": "Els nostres serveis",
     "title": "Formació adaptada a tu",
@@ -183,564 +181,558 @@
     },
 
     "frenchFull": {
-  "title": "Més informació – Classes de Francès",
-  "description": "Classes adaptades a cada alumne segons els seus objectius i nivell.",
-  "alt": "Classe de francès",
+      "title": "Més informació – Classes de Francès",
+      "description": "Classes adaptades a cada alumne segons els seus objectius i nivell.",
+      "alt": "Classe de francès",
 
-  "desc1": "A Myker Academy oferim classes de francès adaptades a cada alumne. La majoria dels nostres estudiants opten per classes particulars, ja que cada persona té objectius diferents: millorar la conversa, aprovar una assignatura, preparar un examen oficial, reforçar la gramàtica o començar des de zero.",
+      "desc1": "A Myker Academy oferim classes de francès adaptades a cada alumne. La majoria dels nostres estudiants opten per classes particulars, ja que cada persona té objectius diferents: millorar la conversa, aprovar una assignatura, preparar un examen oficial, reforçar la gramàtica o començar des de zero.",
+      "desc2": "Les classes individuals permeten avançar al ritme adequat i centrar-se en les necessitats reals de cada estudiant.",
 
-  "desc2": "Les classes individuals permeten avançar al ritme adequat i centrar-se en les necessitats reals de cada estudiant.",
+      "scheduleTitle": "Horaris de Classes Grupals de Francès",
+      "scheduleNote": "Disponibles per a qui prefereixi aprendre en grup segons el seu nivell.",
 
-  "scheduleTitle": "Horaris de Classes Grupals de Francès",
-  "scheduleNote": "Disponibles per a qui prefereixi aprendre en grup segons el seu nivell.",
+      "days": {
+        "monday": {
+          "title": "Dilluns",
+          "time": "19:15 – 20:15",
+          "groups": [
+            "Grup d’iniciació al francès",
+            "Ideal per a persones que comencen des de zero o tenen nocions bàsiques."
+          ]
+        },
 
-  "days": {
-    "monday": {
-      "title": "Dilluns",
-      "time": "19:15 – 20:15",
-      "groups": [
-        "Grup d’iniciació al francès",
-        "Ideal per a persones que comencen des de zero o tenen nocions bàsiques."
-      ]
-    },
+        "wednesday": {
+          "title": "Dimecres",
+          "time": "19:30 – 20:30",
+          "groups": [
+            "Grup de nivell intermig",
+            "Pensat per a qui ja es defensa i vol guanyar fluïdesa, vocabulari i confiança."
+          ]
+        },
 
-    "wednesday": {
-      "title": "Dimecres",
-      "time": "19:30 – 20:30",
-      "groups": [
-        "Grup de nivell intermig",
-        "Pensat per a qui ja es defensa i vol guanyar fluïdesa, vocabulari i confiança."
-      ]
-    },
+        "friday": {
+          "title": "Divendres",
+          "time": "16:00 – 17:00",
+          "groups": [
+            "Grup de francès oral",
+            "Sessions centrades en conversa, pronunciació i expressió espontània."
+          ]
+        }
+      },
 
-    "friday": {
-      "title": "Divendres",
-      "time": "16:00 – 17:00",
-      "groups": [
-        "Grup de francès oral",
-        "Sessions centrades en conversa, pronunciació i expressió espontània."
-      ]
-    }
-  },
+      "privateTitle": "Classes particulars de francès",
 
-  "privateTitle": "Classes particulars de francès",
-
-  "privateDesc1": "Perfectes per a estudiants amb objectius concrets o ritmes diferents. Pots treballar:",
-  "privateDesc2_list": [
-    "Conversa i fluïdesa",
-    "Gramàtica aplicada",
-    "Exàmens DELF/DALF",
-    "Reforç escolar",
-    "Preparació d'entrevistes o situacions professionals",
-    "Suport per a assignatures d'institut o universitat"
-  ],
-  "privateDesc3": "Els horaris s’adapten a la disponibilitat de l’alumne i del professor.",
-
-  "extrasTitle": "Extres inclosos",
-  "extras": [
-    "Prova de nivell gratuïta",
-    "Enfocament comunicatiu i dinàmic",
-    "Materials actualitzats",
-    "Seguiment personalitzat",
-    "Metodologia pràctica des del primer dia"
-  ]
-},
-
-"mathFull": {
-  "title": "Classes de Matemàtiques",
-  "alt": "Classes de matemàtiques",
-
-  "privateTitle": "Classes de Matemàtiques",
-
-  "desc1": "A Myker Academy la majoria de classes de matemàtiques són particulars, ja que cada alumne necessita un ritme, nivell i tipus de reforç diferent. Les sessions individuals permeten treballar exactament allò que l’estudiant necessita: deures, preparació d’exàmens, base matemàtica, resolució de problemes o millora de la comprensió.",
-  "desc2": "També comptem amb un grup reduït de 4t d’ESO, ideal per a alumnes que volen avançar en un entorn compartit i amb suport continu.",
-
-  "extrasTitle": "Extres inclosos",
-  "extras": [
-    "Prova de nivell gratuïta",
-    "Reforç totalment adaptat",
-    "Seguiment personalitzat",
-    "Exercicis guiats i explicats",
-    "Metodologia clara i pràctica"
-  ],
-
-  "scheduleTitle": "Horaris de Classes Grupals de Matemàtiques",
-  "scheduleNote": "(Grups reduïts enfocats al reforç i la comprensió)",
-
-  "days": {
-    "wednesday": {
-      "title": "Dimecres",
-      "block1": [
-        "Matemàtiques 4t d’ESO (grup reduït) — 17:00 – 18:00"
-      ]
-    }
-  }
-},
-
-"schoolFull": {
-  "title": "Més informació – Reforç Escolar",
-  "alt": "Classes de reforç escolar",
-
-  "privateTitle": "Reforç Escolar",
-
-  "desc1": "A Myker Academy el reforç escolar es realitza principalment mitjançant classes particulars, ja que cada alumne té necessitats, ritmes i dificultats diferents. Aquest format ens permet treballar de manera totalment personalitzada: deures i tasques, preparació d’exàmens, recuperacions, organització i tècniques d’estudi, i reforç d’assignatures concretes (llengua, català, ciències, socials, etc.).",
-
-  "desc2": "Les classes particulars garanteixen un acompanyament proper i efectiu, adaptat al nivell real de cada estudiant i centrat a millorar el seu rendiment acadèmic i la seva confiança. Els horaris s’ajusten a la disponibilitat de l’alumne i del professor.",
-
-  "cards": {
-    "groupTitle": "Classes en Grup",
-    "groupDesc": "Grups reduïts per aprendre en un ambient motivador, dinàmic i participatiu. Disponibles per a anglès, francès i reforç escolar.",
-
-    "individualTitle": "Classes Individuals",
-    "individualDesc": "Sessions 100% personalitzades per avançar més ràpid: idiomes, reforç, preparació d’exàmens o suport específic."
-  },
-
-  "extrasTitle": "Extres inclosos",
-  "extras": [
-    "Prova de nivell gratuïta",
-    "Seguiment personalitzat de l’alumne",
-    "Reforç d’hàbits i tècniques d’estudi",
-    "Planificació per a exàmens i recuperacions",
-    "Material de suport inclòs"
-  ],
-
-  "scheduleTitle": "Horaris disponibles",
-  "scheduleNote": "Els horaris de reforç escolar s’assignen segons disponibilitat del professor i l’alumne.",
-
-  "days": {}
-},
-
-"modalitiesSection": {
-  "tag": "Horaris i Modalitats",
-  "title": "Classes adaptades al teu ritme de vida",
-  "intro": "Tria el format i l’horari que millor encaixin amb tu. A Myker Academy ens adaptem al teu dia a dia perquè aprendre un idioma sigui compatible amb la teva feina, els teus estudis o la teva família.",
-
-  "modalities": {
-    "title": "1. Modalitats de classe",
-
-    "presential": {
-      "title": "Presencial",
-      "desc": "Classes a l’aula, grups reduïts i tracte proper. Perfecte per aprendre de manera dinàmica amb companys i professor."
-    },
-
-    "online": {
-      "title": "Online en directe",
-      "desc": "Sessions per videotrucada amb interacció real, activitats orals i accés a material digital."
-    },
-
-    "oneToOne": {
-      "title": "Individual / One-to-one",
-      "desc": "Classes totalment personalitzades, ideals per avançar ràpid o treballar objectius específics (exàmens, speaking, recuperacions…)."
-    },
-
-    "groups": {
-      "title": "Grups reduïts",
-      "desc": "Classes petites pensades per garantir participació, seguiment proper i un aprenentatge còmode i eficaç."
-    }
-  },
-
-  "schedule": {
-    "title": "2. Horaris segons edat i tipus de classe",
-
-    "kids": {
-      "title": "Nens i adolescents (5 a 18 anys)",
-      "subtitle": "Horaris exclusivament de tarda",
-      "desc": "Pensats per adaptar-se a la jornada escolar.",
-      "groupsTitle": "Classes disponibles entre les 16:00 i les 20:00, segons nivell i grup:",
-      "groups": [
-        "Infantil",
-        "Primària",
-        "ESO",
-        "Batxillerat",
-        "Grups d’anglès",
-        "Grups de francès",
-        "Reforç escolar i deures"
+      "privateDesc1": "Perfectes per a estudiants amb objectius concrets o ritmes diferents. Pots treballar:",
+      "privateDesc2_list": [
+        "Conversa i fluïdesa",
+        "Gramàtica aplicada",
+        "Exàmens DELF/DALF",
+        "Reforç escolar",
+        "Preparació d'entrevistes o situacions professionals",
+        "Suport per a assignatures d'institut o universitat"
       ],
-      "footer": "Un espai ideal on estudien, aprenen i avancen en un ambient segur i motivador."
+      "privateDesc3": "Els horaris s’adapten a la disponibilitat de l’alumne i del professor.",
+
+      "extrasTitle": "Extres inclosos",
+      "extras": [
+        "Prova de nivell gratuïta",
+        "Enfocament comunicatiu i dinàmic",
+        "Materials actualitzats",
+        "Seguiment personalitzat",
+        "Metodologia pràctica des del primer dia"
+      ]
     },
 
-    "adults": {
-      "title": "Adults, universitaris i professionals",
-      "subtitle": "Horaris flexibles: matins o tardes",
-      "desc": "Disponibilitat de 9:00 a 20:00, adaptant-nos a la teva rutina i a la disponibilitat del professor:",
+    "mathFull": {
+      "title": "Classes de Matemàtiques",
+      "alt": "Classes de matemàtiques",
+
+      "privateTitle": "Classes de Matemàtiques",
+
+      "desc1": "A Myker Academy la majoria de classes de matemàtiques són particulars, ja que cada alumne necessita un ritme, nivell i tipus de reforç diferent. Les sessions individuals permeten treballar exactament allò que l’estudiant necessita: deures, preparació d’exàmens, base matemàtica, resolució de problemes o millora de la comprensió.",
+      "desc2": "També comptem amb un grup reduït de 4t d’ESO, ideal per a alumnes que volen avançar en un entorn compartit i amb suport continu.",
+
+      "extrasTitle": "Extres inclosos",
+      "extras": [
+        "Prova de nivell gratuïta",
+        "Reforç totalment adaptat",
+        "Seguiment personalitzat",
+        "Exercicis guiats i explicats",
+        "Metodologia clara i pràctica"
+      ],
+
+      "scheduleTitle": "Horaris de Classes Grupals de Matemàtiques",
+      "scheduleNote": "(Grups reduïts enfocats al reforç i la comprensió)",
+
+      "days": {
+        "wednesday": {
+          "title": "Dimecres",
+          "block1": [
+            "Matemàtiques 4t d’ESO (grup reduït) — 17:00 – 18:00"
+          ]
+        }
+      }
+    },
+
+    "schoolFull": {
+      "title": "Més informació – Reforç Escolar",
+      "alt": "Classes de reforç escolar",
+
+      "privateTitle": "Reforç Escolar",
+
+      "desc1": "A Myker Academy el reforç escolar es realitza principalment mitjançant classes particulars, ja que cada alumne té necessitats, ritmes i dificultats diferents. Aquest format ens permet treballar de manera totalment personalitzada: deures i tasques, preparació d’exàmens, recuperacions, organització i tècniques d’estudi, i reforç d’assignatures concretes (llengua, català, ciències, socials, etc.).",
+
+      "desc2": "Les classes particulars garanteixen un acompanyament proper i efectiu, adaptat al nivell real de cada estudiant i centrat a millorar el seu rendiment acadèmic i la seva confiança. Els horaris s’ajusten a la disponibilitat de l’alumne i del professor.",
+
+      "cards": {
+        "groupTitle": "Classes en Grup",
+        "groupDesc": "Grups reduïts per aprendre en un ambient motivador, dinàmic i participatiu. Disponibles per a anglès, francès i reforç escolar.",
+
+        "individualTitle": "Classes Individuals",
+        "individualDesc": "Sessions 100% personalitzades per avançar més ràpid: idiomes, reforç, preparació d’exàmens o suport específic."
+      },
+
+      "extrasTitle": "Extres inclosos",
+      "extras": [
+        "Prova de nivell gratuïta",
+        "Seguiment personalitzat de l’alumne",
+        "Reforç d’hàbits i tècniques d’estudi",
+        "Planificació per a exàmens i recuperacions",
+        "Material de suport inclòs"
+      ],
+
+      "scheduleTitle": "Horaris disponibles",
+      "scheduleNote": "Els horaris de reforç escolar s’assignen segons disponibilitat del professor i l’alumne.",
+
+      "days": {}
+    }
+  },
+
+  "modalitiesSection": {
+    "tag": "Horaris i Modalitats",
+    "title": "Classes adaptades al teu ritme de vida",
+    "intro": "Tria el format i l’horari que millor encaixin amb tu. A Myker Academy ens adaptem al teu dia a dia perquè aprendre un idioma sigui compatible amb la teva feina, els teus estudis o la teva família.",
+
+    "modalities": {
+      "title": "1. Modalitats de classe",
+
+      "presential": {
+        "title": "Presencial",
+        "desc": "Classes a l’aula, grups reduïts i tracte proper. Perfecte per aprendre de manera dinàmica amb companys i professor."
+      },
+
+      "online": {
+        "title": "Online en directe",
+        "desc": "Sessions per videotrucada amb interacció real, activitats orals i accés a material digital."
+      },
+
+      "oneToOne": {
+        "title": "Individual / One-to-one",
+        "desc": "Classes totalment personalitzades, ideals per avançar ràpid o treballar objectius específics (exàmens, speaking, recuperacions…)."
+      },
+
+      "groups": {
+        "title": "Grups reduïts",
+        "desc": "Classes petites pensades per garantir participació, seguiment proper i un aprenentatge còmode i eficaç."
+      }
+    },
+
+    "schedule": {
+      "title": "2. Horaris segons edat i tipus de classe",
+
+      "kids": {
+        "title": "Nens i adolescents (5 a 18 anys)",
+        "subtitle": "Horaris exclusivament de tarda",
+        "desc": "Pensats per adaptar-se a la jornada escolar.",
+        "groupsTitle": "Classes disponibles entre les 16:00 i les 20:00, segons nivell i grup:",
+        "groups": [
+          "Infantil",
+          "Primària",
+          "ESO",
+          "Batxillerat",
+          "Grups d’anglès",
+          "Grups de francès",
+          "Reforç escolar i deures"
+        ],
+        "footer": "Un espai ideal on estudien, aprenen i avancen en un ambient segur i motivador."
+      },
+
+      "adults": {
+        "title": "Adults, universitaris i professionals",
+        "subtitle": "Horaris flexibles: matins o tardes",
+        "desc": "Disponibilitat de 9:00 a 20:00, adaptant-nos a la teva rutina i a la disponibilitat del professor:",
+        "items": [
+          "Classes individuals (matí o tarda)",
+          "Classes en grup (matí o tarda, segons demanda)",
+          "Anglès general o professional",
+          "Francès des de zero o nivell intermig",
+          "Preparació d’exàmens",
+          "Conversa",
+          "Suport universitari / tasques específiques"
+        ],
+        "footer": "Tu tries la franja; nosaltres et busquem el professor ideal."
+      },
+
+      "noSchedule": {
+        "title": "No trobes un horari que t’encaixi?",
+        "desc1": "Creem nous grups segons la demanda, nivell i edat.",
+        "desc2": "Si tens un horari específic, digue’ns-ho i et busquem la millor opció."
+      },
+
+      "cta": "Contacta'ns per veure horaris i disponibilitat actual"
+    }
+  },
+
+  "metodologySection": {
+    "tag": "Metodologia i Nivells",
+
+    "title": "Una metodologia pràctica per avançar nivell a nivell",
+
+    "subtitle": "Combinen comunicació real, reforç acadèmic, gramàtica aplicada i activitats dinàmiques perquè utilitzis allò après des del primer dia.",
+
+    "methodology": {
+      "title": "Metodologia Myker",
+      "intro": "A les nostres classes prioritzem:",
       "items": [
-        "Classes individuals (matí o tarda)",
-        "Classes en grup (matí o tarda, segons demanda)",
-        "Anglès general o professional",
-        "Francès des de zero o nivell intermig",
-        "Preparació d’exàmens",
-        "Conversa",
-        "Suport universitari / tasques específiques"
+        "Comunicació real (parlar, entendre, escriure)",
+        "Activitats pràctiques en parelles i grups",
+        "Material autèntic i digital",
+        "Exercicis útils i aplicables",
+        "Feedback constant",
+        "Avaluacions periòdiques per mesurar el teu progrés"
+      ]
+    },
+
+    "followup": {
+      "title": "Seguiment i objectius",
+      "intro": "Definim amb tu objectius clars i revisem la teva evolució regularment.",
+      "listTitle": "Inclou:",
+      "items": [
+        "Prova de nivell inicial",
+        "Informes de progrés",
+        "Seguiment constant del professor",
+        "Preparació d’exàmens oficials (anglès i francès)",
+        "Comunicació directa amb l’equip docent"
+      ]
+    },
+
+    "levels": {
+      "tag": "Nivell {{code}}",
+      "ideal": "Ideal per a:"
+    },
+
+    "levelsList": [
+      {
+        "code": "A1-A2",
+        "name": "Iniciació",
+        "desc": "Primer contacte amb l’idioma. Vocabulari bàsic, expressions quotidianes i estructures senzilles.",
+        "ideal": "Persones que comencen des de zero o amb nocions molt bàsiques."
+      },
+      {
+        "code": "B1",
+        "name": "Intermedi",
+        "desc": "Capacitat per desenvolupar-se en situacions habituals, converses senzilles i textos breus.",
+        "ideal": "Qui ja es defensa però vol guanyar seguretat i fluïdesa."
+      },
+      {
+        "code": "B2",
+        "name": "Intermedi alt",
+        "desc": "Comprensió de textos més complexos, debats i situacions de treball o estudis.",
+        "ideal": "Persones que necessiten l’idioma per a l’àmbit acadèmic o professional."
+      },
+      {
+        "code": "C1",
+        "name": "Avançat",
+        "desc": "Ús flexible i efectiu de l’idioma en contextos formals i informals, amb un alt nivell de precisió.",
+        "ideal": "Usuaris avançats que busquen perfeccionar matisos, vocabulari i registre."
+      }
+    ],
+
+    "finalNote": "Realitzem una prova de nivell inicial gratuïta per assignar-te al grup adequat i recomanar-te l’itinerari que millor encaixi amb els teus objectius."
+  },
+
+  "examsSection": {
+    "tag": "Exàmens i Certificacions",
+
+    "title": "Prepara’t per a les teves certificacions oficials",
+
+    "subtitle":
+      "Dissenyem itineraris específics perquè puguis presentar-te a exàmens oficials amb garanties. A Myker Academy treballem amb pràctica real de format, simulacres, estratègies d’examen i seguiment personalitzat per ajudar-te a aprovar amb seguretat.",
+
+    "english": {
+      "language": "Anglès",
+      "label": "Preparació d’exàmens",
+
+      "exams": [
+        "A2 Key (KET)",
+        "B1 Preliminary (PET)",
+        "B2 First (FCE)",
+        "C1 Advanced (CAE)"
       ],
-      "footer": "Tu tries la franja; nosaltres et busquem el professor ideal."
+
+      "extrasTitle": "A més:",
+      "extras": [
+        "Proves internes per mesurar el teu progrés",
+        "Simulacres complets amb temps reals",
+        "Estratègies per al speaking, listening, reading i writing",
+        "Recomanacions personalitzades per presentar-te amb confiança"
+      ],
+
+      "description":
+        "La nostra preparació Cambridge està dissenyada perquè arribis a l’examen segur, amb pràctica real i resultats visibles.",
+
+      "footer":
+        "Consulta pròximes convocatòries i grups de preparació disponibles."
     },
 
-    "noSchedule": {
-      "title": "No trobes un horari que t’encaixi?",
-      "desc1": "Creem nous grups segons la demanda, nivell i edat.",
-      "desc2": "Si tens un horari específic, digue’ns-ho i et busquem la millor opció."
+    "french": {
+      "language": "Francès",
+      "label": "Preparació d’exàmens",
+
+      "exams": [
+        "DELF A1",
+        "DELF A2",
+        "DELF B1",
+        "DELF B2",
+        "DALF C1",
+        "DALF C2"
+      ],
+
+      "descriptionTitle":
+        "T’ajudem a preparar els exàmens oficials de francès mitjançant:",
+
+      "descriptionList": [
+        "Pràctica real del format DELF/DALF",
+        "Activitats específiques per a comprensió oral i escrita",
+        "Producció escrita amb models, correccions i estratègies",
+        "Entrenament oral amb simulacres reals",
+        "Tècniques per millorar fluïdesa, vocabulari i pronunciació"
+      ],
+
+      "footer":
+        "El nostre objectiu és que arribis al teu examen amb seguretat, dominant el format i amb la pràctica necessària per superar-lo amb èxit."
     },
 
-    "cta": "Contacta'ns per veure horaris i disponibilitat actual"
-  }
-},
+    "cta": "Sol·licita la teva prova de nivell GRATIS!"
+  },
 
-"metodologySection": {
-  "tag": "Metodologia i Nivells",
+  "pricesSection": {
+    "tag": "Tarifes",
 
-  "title": "Una metodologia pràctica per avançar nivell a nivell",
+    "title": "Tria el pla que millor s’adapti a tu",
 
-  "subtitle": "Combinen comunicació real, reforç acadèmic, gramàtica aplicada i activitats dinàmiques perquè utilitzis allò après des del primer dia.",
+    "subtitle": "Preus orientatius segons nivell i modalitat. Podem ajustar la proposta segons els teus objectius, freqüència de classe i tipus de curs.",
 
-  "methodology": {
-    "title": "Metodologia Myker",
-    "intro": "A les nostres classes prioritzem:",
+    "groupsKids": {
+      "title": "Classes grupals (5–18 anys)",
+      "desc": "Classes en grup reduït per a infants i adolescents, organitzades per edat i nivell.",
+
+      "pricesTitle": "Preus mensuals (5–18 anys)",
+      "prices": [
+        "1 hora / setmana → 33 € / mes",
+        "2 hores / setmana → 64,5 € / mes",
+        "1 hora i 15 min / setmana → 38 € / mes",
+        "1 hora i 30 min / setmana → 43 € / mes",
+        "2 hores i 30 min / setmana → 74,5 € / mes",
+        "FCE / Advanced (C1) — 1 hora / setmana → 57 € / mes"
+      ],
+
+      "mathTitle": "Classes grupals de matemàtiques (5–18 anys)",
+      "mathPrices": [
+        "1 hora / setmana → 38 € / mes"
+      ],
+
+      "enrollmentTitle": "Matrícula i material",
+      "enrollmentItems": [
+        "Matrícula obligatòria (pagament únic): 30 €",
+        "Material del primer mes: 15 €"
+      ]
+    },
+
+    "groupsAdults": {
+      "title": "Classes grupals per a adults",
+      "desc": "Orientades a persones majors de 18 anys que busquen avançar, mantenir fluïdesa o preparar objectius concrets.",
+
+      "pricesTitle": "Preus per a adults",
+      "prices": [
+        "1 hora / setmana → 57 € / mes",
+        "(Disponibilitat matí/tarda segons professor i alumne.)"
+      ]
+    },
+
+    "individual": {
+      "title": "Classes particulars",
+      "desc": "Sessions individuals totalment personalitzades.",
+
+      "pricesTitle": "Preus",
+      "prices": [
+        "1 hora solta → 22 €",
+        "Pack 10 hores → 200 € (20 €/hora)",
+        "Pack 20 hores → 350 € (17,5 €/hora)",
+        "Pack 20 hores per a dues persones → 400 €"
+      ],
+
+      "details": [
+        "Horaris flexibles",
+        "Presencial o online",
+        "Sense matrícula, sense material obligatori"
+      ]
+    },
+
+    "ctaNote": "Els preus són orientatius i poden ajustar-se segons durada del curs, nombre d’alumnes i modalitat. Consulta’ns per a una proposta a mida.",
+
+    "ctaButton": "Reserva una sessió informativa gratuïta"
+  },
+
+  "teachersSection": {
+    "tag": "Els nostres Professors",
+
     "items": [
-      "Comunicació real (parlar, entendre, escriure)",
-      "Activitats pràctiques en parelles i grups",
-      "Material autèntic i digital",
-      "Exercicis útils i aplicables",
-      "Feedback constant",
-      "Avaluacions periòdiques per mesurar el teu progrés"
+      {
+        "name": "Inés",
+        "subjects": "Francès · Anglès · Reforç Escolar",
+        "bio": "Nativa francesa i apassionada de l’ensenyament des de petita, la Inés sempre ha somiat a ser professora i transmetre tot el que sap als seus alumnes. Li encanten els nens i gaudeix creant un ambient divertit, dinàmic i proper perquè aprenguin sense por. Els idiomes són la seva gran passió, i la seva energia contagiosa fa que cada classe sigui especial. A més, si ens escriviu, serà ella qui us atendrà i us acompanyarà en tot el procés.",
+        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Alex",
+        "subjects": "Anglès · Reforç Escolar",
+        "bio": "Molt estimat pels alumnes més joves, l’Alex combina l’ensenyament amb un estil més esportiu, dinàmic i ple d’energia. Li encanta passar-ho bé amb els nens, motivar-los i ajudar-los a superar qualsevol dificultat escolar. Les seves classes estan plenes de moviment, rialles i aprenentatge significatiu.",
+        "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Mike",
+        "subjects": "Anglès (Natiu)",
+        "bio": "Professor natiu amb una llarga trajectòria en l’ensenyament de l’anglès. En Mike destaca per la seva proximitat, empatia i per convertir cada classe en una experiència especial i motivadora. Els seus principals grups són d’adults, a qui acompanya en objectius laborals, preparació de certificacions i millora de la comunicació real. Amb ell, aprendre anglès se sent natural i assequible.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Noa",
+        "subjects": "Anglès · Reforç Escolar",
+        "bio": "Especialista en educació primària, la Noa té un do únic per connectar amb els nens petits. La seva dolçor, creativitat i paciència fan que els alumnes gaudeixin tant que sempre vulguin tornar a classe. El seu objectiu és que aprenguin anglès de manera natural, jugant i sentint-se segurs.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Laia",
+        "subjects": "Anglès",
+        "bio": "Després de viure al Canadà, la Laia porta amb ella el seu amor per la cultura anglosaxona i per un anglès real i actual. A les seves classes transmet la seva experiència internacional a través d’activitats dinàmiques, diversió i un mètode pràctic que motiva qualsevol alumne. El seu enfocament combina proximitat, immersió cultural i aprenentatge autèntic.",
+        "image": "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?auto=format&fit=crop&w=500&q=60"
+      }
     ]
   },
 
-  "followup": {
-    "title": "Seguiment i objectius",
-    "intro": "Definim amb tu objectius clars i revisem la teva evolució regularment.",
-    "listTitle": "Inclou:",
+  "faq": {
+    "title_pre": "Preguntes freqüents",
+    "title": "Resolem els teus principals dubtes",
+    "subtitle": "Si tens qualsevol altra pregunta sobre horaris, preus, nivells o disponibilitat, escriu-nos directament i et respondrem al més aviat possible.",
+
     "items": [
-      "Prova de nivell inicial",
-      "Informes de progrés",
-      "Seguiment constant del professor",
-      "Preparació d’exàmens oficials (anglès i francès)",
-      "Comunicació directa amb l’equip docent"
+      {
+        "q": "Com sé quin és el meu nivell?",
+        "a": "Realitzem una prova de nivell gratuïta, online o presencial, per assignar-te al grup adequat o proposar-te el tipus de classe (grupal o particular) que millor encaixi amb els teus objectius. En menys de 15 minuts sabrem el teu punt de partida."
+      },
+      {
+        "q": "Hi ha quota de matrícula?",
+        "a": "Sí, a les classes grupals s’aplica una matrícula anual de 30 €, que garanteix la teva plaça durant tot el curs. A més, el primer mes és obligatori abonar 15 € en concepte de material (dossier inicial i recursos digitals). Les classes particulars no tenen matrícula."
+      },
+      {
+        "q": "Puc recuperar una classe si falto?",
+        "a": "Sí. Als grups regulars oferim opcions de recuperació sempre que hi hagi disponibilitat en un altre grup del mateix nivell i edat. En cas de no haver-hi alternativa aquella setmana, et proporcionem recursos perquè puguis seguir el ritme de la classe."
+      },
+      {
+        "q": "Prepareu exàmens oficials?",
+        "a": "Sí! Preparem exàmens d’Anglès (Cambridge): A2 Key · B1 Preliminary · B2 First · C1 Advanced. Francès: DELF A1–A2–B1–B2 · DALF C1. Altres idiomes sota demanda. Els nostres cursos inclouen simulacres, estratègies i preparació específica per a cada part de l’examen."
+      },
+      {
+        "q": "Oferiu classes per a nens, adolescents i adults?",
+        "a": "Sí. A Myker Academy treballem amb totes les edats a partir dels 5 anys: Nens (5–11) — grups dinàmics i aprenentatge natural. Adolescents (12–18) — reforç, idiomes, certificats i suport escolar. Adults — anglès general, conversa, preparació d’exàmens i classes individuals. Cada grup s’organitza per nivell i edat per garantir un bon ambient d’aprenentatge."
+      },
+      {
+        "q": "Quins horaris teniu?",
+        "a": "Estem disponibles de 9:00 a 20:00 h. Nens i adolescents: classes grupals a les tardes, després de l’escola. Adults: matí o tarda segons disponibilitat. Particulars: horaris flexibles (matí/tarda)."
+      },
+      {
+        "q": "Les classes poden ser individuals?",
+        "a": "Sí. Oferim classes particulars amb diferents tarifes: 1 hora solta: 22 €. Pack 10 hores: 200 € (20 €/h). Pack 20 hores: 350 € (17,5 €/h). Són personalitzades, flexibles i enfocades 100% en els teus objectius."
+      }
     ]
   },
 
-  "levels": {
-    "tag": "Nivell {{code}}",
-    "ideal": "Ideal per a:"
+  "contactSection": {
+    "title": "Contacta'ns",
+    "subtitle": "Som aquí per ajudar-te en tot el que necessitis. Si vols informació sobre horaris, preus, nivells o reserves de plaça, pots trucar-nos, escriure'ns o venir a veure'ns. Estarem encantats d'atendre't!",
+
+    "phoneLabel": "Telèfon",
+    "phone": "+34 717 70 49 78",
+
+    "emailLabel": "Email",
+    "email": "mykeringlesacademia@gmail.com",
+
+    "instagramLabel": "Instagram",
+    "instagram": "@myker.academy",
+
+    "scheduleLabel": "Horari d’atenció",
+    "schedule": "Dilluns a Divendres: 9:00 – 20:00",
+    "scheduleNote": "(També atenem missatges fora de l’horari sempre que sigui possible.)",
+
+    "webLabel": "Web / Google",
+    "web": "Visitar lloc alternatiu",
+
+    "addressLine1": "Av. Santa Coloma, 34",
+    "addressLine2": "08690 Santa Coloma de Cervelló (Barcelona)",
+    "addressNote": "Som al centre del poble, a pocs minuts de les escoles i de la parada d’autobús."
   },
 
-  "levelsList": [
-    {
-      "code": "A1-A2",
-      "name": "Iniciació",
-      "desc": "Primer contacte amb l’idioma. Vocabulari bàsic, expressions quotidianes i estructures senzilles.",
-      "ideal": "Persones que comencen des de zero o amb nocions molt bàsiques."
-    },
-    {
-      "code": "B1",
-      "name": "Intermedi",
-      "desc": "Capacitat per desenvolupar-se en situacions habituals, converses senzilles i textos breus.",
-      "ideal": "Qui ja es defensa però vol guanyar seguretat i fluïdesa."
-    },
-    {
-      "code": "B2",
-      "name": "Intermedi alt",
-      "desc": "Comprensió de textos més complexos, debats i situacions de treball o estudis.",
-      "ideal": "Persones que necessiten l’idioma per a l’àmbit acadèmic o professional."
-    },
-    {
-      "code": "C1",
-      "name": "Avançat",
-      "desc": "Ús flexible i efectiu de l’idioma en contextos formals i informals, amb un alt nivell de precisió.",
-      "ideal": "Usuaris avançats que busquen perfeccionar matisos, vocabulari i registre."
-    }
-  ],
-
-  "finalNote": "Realitzem una prova de nivell inicial gratuïta per assignar-te al grup adequat i recomanar-te l’itinerari que millor encaixi amb els teus objectius."
-},
-
-"examsSection": {
-  "tag": "Exàmens i Certificacions",
-
-  "title": "Prepara’t per a les teves certificacions oficials",
-
-  "subtitle":
-    "Dissenyem itineraris específics perquè puguis presentar-te a exàmens oficials amb garanties. A Myker Academy treballem amb pràctica real de format, simulacres, estratègies d’examen i seguiment personalitzat per ajudar-te a aprovar amb seguretat.",
-
-  "english": {
-    "language": "Anglès",
-    "label": "Preparació d’exàmens",
-
-    "exams": [
-      "A2 Key (KET)",
-      "B1 Preliminary (PET)",
-      "B2 First (FCE)",
-      "C1 Advanced (CAE)"
-    ],
-
-    "extrasTitle": "A més:",
-    "extras": [
-      "Proves internes per mesurar el teu progrés",
-      "Simulacres complets amb temps reals",
-      "Estratègies per al speaking, listening, reading i writing",
-      "Recomanacions personalitzades per presentar-te amb confiança"
-    ],
-
-    "description":
-      "La nostra preparació Cambridge està dissenyada perquè arribis a l’examen segur, amb pràctica real i resultats visibles.",
-
-    "footer":
-      "Consulta pròximes convocatòries i grups de preparació disponibles."
-  },
-
-  "french": {
-    "language": "Francès",
-    "label": "Preparació d’exàmens",
-
-    "exams": [
-      "DELF A1",
-      "DELF A2",
-      "DELF B1",
-      "DELF B2",
-      "DALF C1",
-      "DALF C2"
-    ],
-
-    "descriptionTitle":
-      "T’ajudem a preparar els exàmens oficials de francès mitjançant:",
-
-    "descriptionList": [
-      "Pràctica real del format DELF/DALF",
-      "Activitats específiques per a comprensió oral i escrita",
-      "Producció escrita amb models, correccions i estratègies",
-      "Entrenament oral amb simulacres reals",
-      "Tècniques per millorar fluïdesa, vocabulari i pronunciació"
-    ],
-
-    "footer":
-      "El nostre objectiu és que arribis al teu examen amb seguretat, dominant el format i amb la pràctica necessària per superar-lo amb èxit."
-  },
-
-  "cta": "Sol·licita la teva prova de nivell GRATIS!"
-},
-
-
-"pricesSection": {
-  "tag": "Tarifes",
-
-  "title": "Tria el pla que millor s’adapti a tu",
-
-  "subtitle": "Preus orientatius segons nivell i modalitat. Podem ajustar la proposta segons els teus objectius, freqüència de classe i tipus de curs.",
-
-  "groupsKids": {
-    "title": "Classes grupals (5–18 anys)",
-    "desc": "Classes en grup reduït per a infants i adolescents, organitzades per edat i nivell.",
-
-    "pricesTitle": "Preus mensuals (5–18 anys)",
-    "prices": [
-      "1 hora / setmana → 33 € / mes",
-      "2 hores / setmana → 64,5 € / mes",
-      "1 hora i 15 min / setmana → 38 € / mes",
-      "1 hora i 30 min / setmana → 43 € / mes",
-      "2 hores i 30 min / setmana → 74,5 € / mes",
-      "FCE / Advanced (C1) — 1 hora / setmana → 57 € / mes"
-    ],
-
-    "mathTitle": "Classes grupals de matemàtiques (5–18 anys)",
-    "mathPrices": [
-      "1 hora / setmana → 38 € / mes"
-    ],
-
-    "enrollmentTitle": "Matrícula i material",
-    "enrollmentItems": [
-      "Matrícula obligatòria (pagament únic): 30 €",
-      "Material del primer mes: 15 €"
+  "testimonialsSection": {
+    "tag": "Testimonis",
+    "title": "El que diuen els nostres alumnes",
+    "items": [
+      {
+        "name": "Pedro Taqi",
+        "role": "Estudiant de Francès",
+        "text": "Buscava aprovar una assignatura de francès i vaig superar amb escreix el nivell que necessitava. L’intensiu amb la Inés va ser increïble. És una excel·lent professional i gràcies a ella… vaig aprovar!",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Martín Sánchez",
+        "role": "Estudiant d’Anglès",
+        "text": "Experiència immillorable en aquesta acadèmia d’anglès. El professor sempre va ser amable, atent i disposat a ajudar. El sistema d’ensenyament és molt dinàmic i motivador. Totalment recomanable!",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Arianna Pairada",
+        "role": "Estudiant",
+        "text": "En Mike és excepcional. La seva empatia, paciència i enfocament pedagògic fan que aprendre sigui fàcil i agradable. Crea un ambient inclusiu on et sents còmode des del primer dia.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+      }
     ]
   },
 
-  "groupsAdults": {
-    "title": "Classes grupals per a adults",
-    "desc": "Orientades a persones majors de 18 anys que busquen avançar, mantenir fluïdesa o preparar objectius concrets.",
-
-    "pricesTitle": "Preus per a adults",
-    "prices": [
-      "1 hora / setmana → 57 € / mes",
-      "(Disponibilitat matí/tarda segons professor i alumne.)"
-    ]
+  "ctaFinal": {
+    "tag": "Fes el següent pas",
+    "title": "Vols millorar el teu anglès, francès o les teves assignatures?",
+    "text": "Reserva una sessió informativa gratuïta i troba el curs perfecte per al teu nivell, objectius i horari.",
+    "button": "Reserva la teva sessió gratuïta",
+    "note": "Sense compromís. Només necessitem conèixer el teu nivell aproximat i els teus objectius per orientar-te millor."
   },
 
-  "individual": {
-    "title": "Classes particulars",
-    "desc": "Sessions individuals totalment personalitzades.",
-
-    "pricesTitle": "Preus",
-    "prices": [
-      "1 hora solta → 22 €",
-      "Pack 10 hores → 200 € (20 €/hora)",
-      "Pack 20 hores → 350 € (17,5 €/hora)",
-      "Pack 20 hores per a dues persones → 400 €"
-    ],
-
-    "details": [
-      "Horaris flexibles",
-      "Presencial o online",
-      "Sense matrícula, sense material obligatori"
-    ]
+  "contact": {
+    "title": "Contacte",
+    "subtitle": "Som aquí per ajudar-te",
+    "name": "Nom i cognoms",
+    "email": "Correu electrònic",
+    "message": "Missatge",
+    "send": "Enviar missatge",
+    "success": "Missatge enviat correctament",
+    "error": "Hi ha hagut un error. Torna-ho a intentar."
   },
 
-  "ctaNote": "Els preus són orientatius i poden ajustar-se segons durada del curs, nombre d’alumnes i modalitat. Consulta’ns per a una proposta a mida.",
-
-  "ctaButton": "Reserva una sessió informativa gratuïta"
-},
-
-
-"teachersSection": {
-  "tag": "Els nostres Professors",
-
-  "items": [
-    {
-      "name": "Inés",
-      "subjects": "Francès · Anglès · Reforç Escolar",
-      "bio": "Nativa francesa i apassionada de l’ensenyament des de petita, la Inés sempre ha somiat a ser professora i transmetre tot el que sap als seus alumnes. Li encanten els nens i gaudeix creant un ambient divertit, dinàmic i proper perquè aprenguin sense por. Els idiomes són la seva gran passió, i la seva energia contagiosa fa que cada classe sigui especial. A més, si ens escriviu, serà ella qui us atendrà i us acompanyarà en tot el procés.",
-      "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "name": "Alex",
-      "subjects": "Anglès · Reforç Escolar",
-      "bio": "Molt estimat pels alumnes més joves, l’Alex combina l’ensenyament amb un estil més esportiu, dinàmic i ple d’energia. Li encanta passar-ho bé amb els nens, motivar-los i ajudar-los a superar qualsevol dificultat escolar. Les seves classes estan plenes de moviment, rialles i aprenentatge significatiu.",
-      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "name": "Mike",
-      "subjects": "Anglès (Natiu)",
-      "bio": "Professor natiu amb una llarga trajectòria en l’ensenyament de l’anglès. En Mike destaca per la seva proximitat, empatia i per convertir cada classe en una experiència especial i motivadora. Els seus principals grups són d’adults, a qui acompanya en objectius laborals, preparació de certificacions i millora de la comunicació real. Amb ell, aprendre anglès se sent natural i assequible.",
-      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
-    },
-    {
-      "name": "Noa",
-      "subjects": "Anglès · Reforç Escolar",
-      "bio": "Especialista en educació primària, la Noa té un do únic per connectar amb els nens petits. La seva dolçor, creativitat i paciència fan que els alumnes gaudeixin tant que sempre vulguin tornar a classe. El seu objectiu és que aprenguin anglès de manera natural, jugant i sentint-se segurs.",
-      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "name": "Laia",
-      "subjects": "Anglès",
-      "bio": "Després de viure al Canadà, la Laia porta amb ella el seu amor per la cultura anglosaxona i per un anglès real i actual. A les seves classes transmet la seva experiència internacional a través d’activitats dinàmiques, diversió i un mètode pràctic que motiva qualsevol alumne. El seu enfocament combina proximitat, immersió cultural i aprenentatge autèntic.",
-      "image": "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?auto=format&fit=crop&w=500&q=60"
+  "footer": {
+    "rights": "Tots els drets reservats.",
+    "links": {
+      "privacy": "Política de Privacitat",
+      "terms": "Termes i Condicions"
     }
-  ]
-},
-
-
-"faq": {
-  "title_pre": "Preguntes freqüents",
-  "title": "Resolem els teus principals dubtes",
-  "subtitle": "Si tens qualsevol altra pregunta sobre horaris, preus, nivells o disponibilitat, escriu-nos directament i et respondrem al més aviat possible.",
-
-  "items": [
-    {
-      "q": "Com sé quin és el meu nivell?",
-      "a": "Realitzem una prova de nivell gratuïta, online o presencial, per assignar-te al grup adequat o proposar-te el tipus de classe (grupal o particular) que millor encaixi amb els teus objectius. En menys de 15 minuts sabrem el teu punt de partida."
-    },
-    {
-      "q": "Hi ha quota de matrícula?",
-      "a": "Sí, a les classes grupals s’aplica una matrícula anual de 30 €, que garanteix la teva plaça durant tot el curs. A més, el primer mes és obligatori abonar 15 € en concepte de material (dossier inicial i recursos digitals). Les classes particulars no tenen matrícula."
-    },
-    {
-      "q": "Puc recuperar una classe si falto?",
-      "a": "Sí. Als grups regulars oferim opcions de recuperació sempre que hi hagi disponibilitat en un altre grup del mateix nivell i edat. En cas de no haver-hi alternativa aquella setmana, et proporcionem recursos perquè puguis seguir el ritme de la classe."
-    },
-    {
-      "q": "Prepareu exàmens oficials?",
-      "a": "Sí! Preparem exàmens d’Anglès (Cambridge): A2 Key · B1 Preliminary · B2 First · C1 Advanced. Francès: DELF A1–A2–B1–B2 · DALF C1. Altres idiomes sota demanda. Els nostres cursos inclouen simulacres, estratègies i preparació específica per a cada part de l’examen."
-    },
-    {
-      "q": "Oferiu classes per a nens, adolescents i adults?",
-      "a": "Sí. A Myker Academy treballem amb totes les edats a partir dels 5 anys: Nens (5–11) — grups dinàmics i aprenentatge natural. Adolescents (12–18) — reforç, idiomes, certificats i suport escolar. Adults — anglès general, conversa, preparació d’exàmens i classes individuals. Cada grup s’organitza per nivell i edat per garantir un bon ambient d’aprenentatge."
-    },
-    {
-      "q": "Quins horaris teniu?",
-      "a": "Estem disponibles de 9:00 a 20:00 h. Nens i adolescents: classes grupals a les tardes, després de l’escola. Adults: matí o tarda segons disponibilitat. Particulars: horaris flexibles (matí/tarda)."
-    },
-    {
-      "q": "Les classes poden ser individuals?",
-      "a": "Sí. Oferim classes particulars amb diferents tarifes: 1 hora solta: 22 €. Pack 10 hores: 200 € (20 €/h). Pack 20 hores: 350 € (17,5 €/h). Són personalitzades, flexibles i enfocades 100% en els teus objectius."
-    }
-  ]
-},
-
-
-"contactSection": {
-  "title": "Contacta'ns",
-  "subtitle": "Som aquí per ajudar-te en tot el que necessitis. Si vols informació sobre horaris, preus, nivells o reserves de plaça, ens pots trucar, escriure o venir a veure’ns. Estarem encantats d’atendre’t!",
-
-  "phoneLabel": "Telèfon",
-  "phone": "+34 717 70 49 78",
-
-  "emailLabel": "Email",
-  "email": "mykeringlesacademia@gmail.com",
-
-  "instagramLabel": "Instagram",
-  "instagram": "@myker.academy",
-
-  "scheduleLabel": "Horari d’atenció",
-  "schedule": "Dilluns a Divendres: 9:00 – 20:00",
-  "scheduleNote": "(També atenem missatges fora d’horari sempre que sigui possible.)",
-
-  "webLabel": "Web / Google",
-  "web": "Visitar lloc alternatiu",
-
-  "addressLine1": "Av. Santa Coloma, 34",
-  "addressLine2": "08690 Santa Coloma de Cervelló (Barcelona)",
-  "addressNote": "Som al centre del poble, a pocs minuts de les escoles i de la parada d’autobús."
-},
-
-
-"testimonialsSection": {
-  "tag": "Testimonis",
-  "title": "El que diuen els nostres alumnes",
-  "items": [
-    {
-      "name": "Pedro Taqi",
-      "role": "Estudiant de Francès",
-      "text": "Buscava aprovar una assignatura de francès i vaig superar amb escreix el nivell que necessitava. L’intensiu amb la Inés va ser increïble. És una excel·lent professional i gràcies a ella… vaig aprovar!",
-      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80&auto=format&fit=crop"
-    },
-    {
-      "name": "Martín Sánchez",
-      "role": "Estudiant d’Anglès",
-      "text": "Experiència immillorable en aquesta acadèmia d’anglès. El professor va ser sempre amable, atent i disposat a ajudar. El sistema d’ensenyament és molt dinàmic i motivador. Totalment recomanable!",
-      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80&auto=format&fit=crop"
-    },
-    {
-      "name": "Arianna Pairada",
-      "role": "Estudiant",
-      "text": "En Mike és excepcional. La seva empatia, paciència i enfocament pedagògic fan que aprendre sigui fàcil i agradable. Crea un ambient inclusiu on et sents còmode des del primer dia.",
-      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
-    }
-  ]
-},
-
-
-"ctaFinal": {
-  "tag": "Fes el següent pas",
-  "title": "Vols millorar el teu anglès, francès o les teves assignatures?",
-  "text": "Reserva una sessió informativa gratuïta i troba el curs perfecte per al teu nivell, els teus objectius i el teu horari.",
-  "button": "Reserva la teva sessió gratuïta",
-  "note": "Sense compromís. Només necessitem conèixer el teu nivell aproximat i els teus objectius per orientar-te millor."
-},
-
-
-"contact": {
-  "title": "Contacte",
-  "subtitle": "Som aquí per ajudar-te",
-  "name": "Nom i cognoms",
-  "email": "Correu electrònic",
-  "message": "Missatge",
-  "send": "Enviar missatge",
-  "success": "Missatge enviat correctament",
-  "error": "Hi ha hagut un error. Si us plau, torna-ho a intentar."
-},
-
-
-"footer": {
-  "rights": "Tots els drets reservats.",
-  "links": {
-    "privacy": "Política de Privacitat",
-    "terms": "Termes i Condicions"
   }
 }
+
