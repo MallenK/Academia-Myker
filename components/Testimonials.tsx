@@ -51,11 +51,10 @@ const testimonials = (t('testimonialsSection.items', {
 
               {/* Name + Role */}
               <div className="flex items-center gap-4">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+                <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-gray-500 text-2xl">
+                  <i className="bi bi-person-circle"></i>
+                </div>
+                
                 <div>
                   <h4 className="font-bold text-gray-900 text-sm">
                     {testimonial.name}
