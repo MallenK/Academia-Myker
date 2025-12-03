@@ -2,45 +2,47 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Users, Clock, MessageCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { Feature } from '../types';
 
-const iconMap = {
-  0: Award,
-  1: Users,
-  2: Clock,
-  3: MessageCircle
-};
+const ICONS = [Award, Users, Clock, MessageCircle];
 
 const Features: React.FC = () => {
   const { t } = useTranslation();
 
-  const items = t('featuresSection.items', { returnObjects: true }) as Feature[];
+  // 1) Obtenemos los items desde traducción
+  const items = t("featuresSection.items", { returnObjects: true });
+
+  // 2) Log para detectar error
+  console.log("👉 FEATURES items recibidos:", items);
+
+  // 3) Seguridad: si NO es un array, lo convertimos en array vacío para evitar el crash
+  const safeItems = Array.isArray(items) ? items : [];
 
   return (
     <section id="features" className="py-20 bg-gray-50 relative overflow-hidden">
-      
+
       {/* Background Blob */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
         <div className="absolute top-10 right-10 w-96 h-96 bg-primary-200/20 rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        
-        {/* Header */}
+
+        {/* HEADER */}
         <div className="text-center mb-16">
           <h2 className="text-primary-600 font-bold uppercase tracking-wider text-sm mb-2">
-            {t('featuresSection.tag')}
+            {t("featuresSection.tag")}
           </h2>
 
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
-            {t('featuresSection.title')}
+            {t("featuresSection.title")}
           </h3>
         </div>
 
-        {/* Grid */}
+        {/* FEATURES GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {items.map((feature, index) => {
-            const Icon = iconMap[index as keyof typeof iconMap];
+
+          {safeItems.map((feature, index) => {
+            const Icon = ICONS[index] || Award; // fallback icon
 
             return (
               <motion.div
@@ -65,6 +67,7 @@ const Features: React.FC = () => {
               </motion.div>
             );
           })}
+
         </div>
 
       </div>
