@@ -4,12 +4,17 @@ import { Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Testimonial } from '../types';
 
+const DEFAULT_AVATAR =
+  "https://cdn.jsdelivr.net/gh/semantic-ui-org/examples/assets/images/avatar/large/steve.jpg";
+
 const Testimonials: React.FC = () => {
   const { t } = useTranslation();
-const testimonials = (t('testimonialsSection.items', {
-  returnObjects: true,
-  defaultValue: []
-}) as Testimonial[]) || [];
+
+  const testimonials =
+    (t('testimonialsSection.items', {
+      returnObjects: true,
+      defaultValue: []
+    }) as Testimonial[]) || [];
 
   return (
     <section className="py-20 bg-gray-50">
@@ -52,8 +57,8 @@ const testimonials = (t('testimonialsSection.items', {
               {/* Name + Role */}
               <div className="flex items-center gap-4">
                 <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
+                  src={DEFAULT_AVATAR}
+                  alt="User silhouette"
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
