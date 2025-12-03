@@ -3,11 +3,737 @@
     "home": "Home",
     "about": "About Us",
     "courses": "Courses",
-    "contact": "Contact",
-    "enroll": "Enroll"
+    "methodology": "Methodology",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
   },
-  "professors": {
-    "title": "Our Teachers",
-    "languages": "Languages"
+
+  "heroSection": {
+    "tagline": "High-quality language learning and academic support",
+    "title": {
+      "before": "Welcome to",
+      "brand": "Myker Academy"
+    },
+    "subtitle": "Learn English, French or improve your school subjects with close, practical and personalised support. At Myker Academy, we help you progress with confidence… and enjoy the process!",
+    "btnCourses": "Explore our courses",
+    "btnContact": "Contact us"
+  },
+
+  "aboutSection": {
+    "tag": "Who We Are",
+    "title": "Supporting your learning with closeness, motivation and quality",
+    "p1": "Myker Academy is a centre specialised in English, French and academic support for Primary, Secondary and Baccalaureate (High School). Our goal is to provide a space where every student feels supported, motivated and capable of achieving their academic and language goals.",
+    "p2": "We believe in a practical, dynamic and personalised teaching approach. That’s why we work with small groups, committed teachers and a methodology that blends real communication, foundational reinforcement and the student’s self-confidence. Whether you're learning English from scratch, improving French, passing maths or recovering a subject, Myker Academy helps you progress step by step with close and effective guidance.",
+    "quote": "“At Myker Academy we learn with confidence. Our aim is for every student to progress, improve and enjoy the journey.”"
+  },
+
+  "featuresSection": {
+    "tag": "Why Choose Us",
+    "title": "The Myker Difference",
+    "items": [
+      {
+        "title": "Friendly and specialised teachers",
+        "description": "A young, well-prepared team passionate about teaching languages and reinforcing key subjects."
+      },
+      {
+        "title": "Small groups",
+        "description": "Small class sizes to ensure real attention and active, engaging learning."
+      },
+      {
+        "title": "Flexible schedules",
+        "description": "Afternoon time slots and private-lesson packages adapted to every situation."
+      },
+      {
+        "title": "Practical and motivating method",
+        "description": "For both languages and school support, we teach through useful, dynamic activities focused on real understanding."
+      }
+    ]
+  },
+
+  "coursesSection": {
+    "tag": "Our Services",
+    "title": "Training tailored to you",
+    "subtitle": "We offer a wide variety of courses and formats so you can find the perfect path towards mastering the language.",
+    "more": "More information",
+    "ctaTitle": "Ready to take the first step?",
+    "ctaSubtitle": "Join our student community and start building your future today.",
+    "ctaButton": "Enroll now",
+
+    "items": {
+      "english": {
+        "title": "English Classes",
+        "desc": "Group and private English classes adapted to every age, level and objective. Group classes are organised by school year to ensure dynamic and effective learning."
+      },
+      "french": {
+        "title": "French Classes",
+        "desc": "Learn French through a practical and dynamic method. Conversation, useful vocabulary and real-life situations to help you communicate from day one."
+      },
+      "math": {
+        "title": "Math Classes",
+        "desc": "Math support for Primary, Secondary and Baccalaureate: guided exercises, clear explanations and foundational reinforcement. Ideal for improving grades, regaining motivation and understanding the subject better."
+      },
+      "school": {
+        "title": "School Support",
+        "desc": "Support in all subjects: languages, science, social studies, Catalan, study skills… We help students with homework, exams and organisation, turning studying into a healthy habit."
+      },
+      "modalities": {
+        "title": "Individual or Group",
+        "desc": "Choose the learning style that suits you best."
+      },
+      "schedule": {
+        "title": "Flexible Schedules",
+        "desc": "We adapt to your routine. Morning and afternoon classes available."
+      }
+    }
+  },
+
+  "courseDetail": {
+    "english": {
+      "title": "English Course",
+      "desc": "Learn English from scratch or improve your level with dynamic, practical classes adapted to your goals.",
+      "p1": "In this course you will work on listening comprehension, writing, vocabulary and grammar.",
+      "p2": "Ideal for students who need academic support, adults returning to the language or professionals who want to improve for work.",
+      "p3": "Methodology based on real communication and natural progression."
+    },
+
+    "french": {
+      "title": "French Course",
+      "desc": "Immerse yourself in French with practical classes focused on real communication.",
+      "p1": "Learn common expressions, grammar structures and conversation strategies.",
+      "p2": "A perfect course for both beginners and students with prior knowledge."
+    },
+
+    "german": {
+      "title": "German Course",
+      "desc": "Learn German with a clear, structured and motivating methodology.",
+      "p1": "We work on useful vocabulary, step-by-step grammar and listening comprehension.",
+      "p2": "Ideal for students seeking solid and consistent progress."
+    },
+
+    "school": {
+      "title": "Academic Support",
+      "desc": "Academic reinforcement for Primary, Secondary and Baccalaureate.",
+      "p1": "Support in Maths, languages, science and more.",
+      "p2": "Close guidance to improve study habits and self-confidence."
+    },
+
+    "modalities": {
+      "title": "Class Modalities",
+      "desc": "Choose between individual classes, pair lessons or small groups.",
+      "p1": "We adapt each session to your pace, time and learning style."
+    },
+
+    "schedule": {
+      "title": "Available Schedules",
+      "desc": "Check our morning and afternoon time slots.",
+      "p1": "Total flexibility so you can learn without sacrificing your responsibilities."
+    },
+
+    "englishFull": {
+      "title": "English Classes",
+      "description": "Group and private English classes adapted to every age, level and objective.",
+      "alt": "English class",
+      "intro": "Group classes are organised by school year to ensure appropriate, dynamic and effective learning. We also offer fully personalised private classes based on each student’s goals.",
+
+      "scheduleTitle": "English Group Class Schedules",
+      "scheduleNote": "(Small groups organised by school year and level)",
+
+      "days": {
+        "monday": {
+          "title": "Monday",
+          "block1": ["1st ESO", "2nd ESO", "2nd Baccalaureate"],
+          "block2": ["5th Primary", "6th Primary"],
+          "block3": ["5th & 6th Primary (extended group)"],
+          "block4": ["1st Primary"]
+        },
+
+        "tuesday": {
+          "title": "Tuesday",
+          "block1": ["3rd ESO", "4th ESO", "1st Baccalaureate"],
+          "block2": ["3rd Primary"],
+          "block3": ["Adults English"]
+        },
+
+        "wednesday": {
+          "title": "Wednesday",
+          "block1": ["1st ESO", "2nd ESO", "2nd Baccalaureate"],
+          "block2": ["P5 (EI5)", "1st Primary"],
+          "block3": ["4th ESO"]
+        },
+
+        "thursday": {
+          "title": "Thursday",
+          "block1": ["3rd ESO", "4th ESO", "1st Baccalaureate"]
+        }
+      },
+
+      "privateTitle": "Private English Classes",
+      "privateDesc1": "We offer both group and private English lessons, adapted to every age, level and objective. Group classes follow the school calendar to ensure dynamic and structured learning.",
+      "privateDesc2": "Available for all ages and levels: conversation, academic support, exam preparation, business English or job interviews. Schedules depend on the availability of the teacher and the student.",
+
+      "extrasTitle": "Included Extras",
+      "extras": [
+        "Free level test",
+        "Digital materials included for group classes",
+        "Cambridge preparation",
+        "Progress monitoring",
+        "Close and personalised support"
+      ]
+    },
+
+    "frenchFull": {
+      "title": "French Classes – Full Information",
+      "description": "Classes tailored to each student depending on their goals and level.",
+      "alt": "French class",
+
+      "desc1": "At Myker Academy, we offer personalised French classes according to each student’s needs. Most learners choose private lessons, as everyone has different goals: conversation, passing a subject, preparing an official exam, reinforcing grammar or starting from scratch.",
+      "desc2": "Individual lessons allow students to progress at the right pace and focus on their real needs.",
+
+      "scheduleTitle": "French Group Class Schedules",
+      "scheduleNote": "Available for learners who prefer to study in a group according to their level.",
+
+      "days": {
+        "monday": {
+          "title": "Monday",
+          "time": "19:15 – 20:15",
+          "groups": [
+            "French beginner group",
+            "Ideal for students who are starting from zero or have basic knowledge."
+          ]
+        },
+
+        "wednesday": {
+          "title": "Wednesday",
+          "time": "19:30 – 20:30",
+          "groups": [
+            "Intermediate level group",
+            "Designed for learners who already manage and want to gain fluency, vocabulary and confidence."
+          ]
+        },
+
+        "friday": {
+          "title": "Friday",
+          "time": "16:00 – 17:00",
+          "groups": [
+            "French speaking group",
+            "Sessions focused on conversation, pronunciation and spontaneous expression."
+          ]
+        }
+      },
+
+      "privateTitle": "Private French Classes",
+
+      "privateDesc1": "Perfect for learners with specific goals or different learning speeds. You can work on:",
+      "privateDesc2_list": [
+        "Conversation and fluency",
+        "Applied grammar",
+        "DELF/DALF exam preparation",
+        "Academic reinforcement",
+        "Interview or professional preparation",
+        "Support for school or university subjects"
+      ],
+      "privateDesc3": "Schedules are adapted to the student's and teacher's availability.",
+
+      "extrasTitle": "Included Extras",
+      "extras": [
+        "Free level test",
+        "Communicative and dynamic approach",
+        "Updated materials",
+        "Personalised monitoring",
+        "Practical methodology from day one"
+      ]
+    },
+
+    "mathFull": {
+      "title": "Math Classes",
+      "alt": "Math class",
+
+      "privateTitle": "Math Classes",
+
+      "desc1": "Most math classes at Myker Academy are private, as each student requires a different pace, level and type of reinforcement. Individual sessions allow us to work exactly on what the student needs: homework, exam preparation, foundational skills, problem-solving or comprehension improvement.",
+      "desc2": "We also have a small 4th ESO group, ideal for learners who want to progress in a shared environment with continuous support.",
+
+      "extrasTitle": "Included Extras",
+      "extras": [
+        "Free level test",
+        "Fully tailored reinforcement",
+        "Personalised monitoring",
+        "Guided and explained exercises",
+        "Clear and practical methodology"
+      ],
+
+      "scheduleTitle": "Math Group Class Schedules",
+      "scheduleNote": "(Small groups focused on reinforcement and comprehension)",
+
+      "days": {
+        "wednesday": {
+          "title": "Wednesday",
+          "block1": [
+            "4th ESO Math (small group) — 17:00 – 18:00"
+          ]
+        }
+      }
+    },
+
+    "schoolFull": {
+      "title": "School Support – Full Information",
+      "alt": "School support classes",
+
+      "privateTitle": "School Support",
+
+      "desc1": "At Myker Academy, school support is mainly delivered through private lessons, as every student has different needs, pace and difficulties. This format allows fully personalised work: homework, exam preparation, resits, organisation and study techniques, as well as reinforcement of specific subjects (languages, Catalan, science, social studies, etc.).",
+
+      "desc2": "Private lessons ensure close and effective guidance, adapted to the real level of each student and focused on improving academic performance and confidence. Schedules are arranged depending on teacher and student availability.",
+
+      "cards": {
+        "groupTitle": "Group Classes",
+        "groupDesc": "Small groups for learning in a motivating, dynamic and participative environment. Available for English, French and school reinforcement.",
+
+        "individualTitle": "Individual Classes",
+        "individualDesc": "100% personalised sessions for faster progress: languages, school support, exam preparation or specific help."
+      },
+
+      "extrasTitle": "Included Extras",
+      "extras": [
+        "Free level test",
+        "Personalised student monitoring",
+        "Reinforcement of habits and study techniques",
+        "Planning for exams and resits",
+        "Support material included"
+      ],
+
+      "scheduleTitle": "Available Schedules",
+      "scheduleNote": "School support schedules depend on the availability of teachers and students.",
+
+      "days": {}
+    }
+  },
+
+  "modalitiesSection": {
+    "tag": "Schedules & Modalities",
+    "title": "Classes adapted to your lifestyle",
+    "intro": "Choose the class format and schedule that best fit your daily routine. At Myker Academy, we adapt to your needs so learning a language is compatible with work, studies or family life.",
+
+    "modalities": {
+      "title": "1. Class Modalities",
+
+      "presential": {
+        "title": "In-person",
+        "desc": "Classes held in our classrooms, small groups and close interaction. Ideal for learning dynamically with classmates and a teacher."
+      },
+
+      "online": {
+        "title": "Online (Live)",
+        "desc": "Live video lessons with real interaction, speaking activities and access to digital materials."
+      },
+
+      "oneToOne": {
+        "title": "Individual / One-to-one",
+        "desc": "Fully personalised classes, ideal for fast progress or specific goals (exams, speaking practice, resits…)."
+      },
+
+      "groups": {
+        "title": "Small Groups",
+        "desc": "Small, comfortable groups designed to guarantee participation, close follow-up and effective learning."
+      }
+    },
+
+    "schedule": {
+      "title": "2. Schedules by age and class type",
+
+      "kids": {
+        "title": "Kids & Teens (ages 5 to 18)",
+        "subtitle": "Afternoon-only schedules",
+        "desc": "Designed to fit the school day.",
+        "groupsTitle": "Classes available between 16:00 and 20:00 depending on level and group:",
+        "groups": [
+          "Kindergarten",
+          "Primary",
+          "ESO (middle-high school)",
+          "Baccalaureate",
+          "English groups",
+          "French groups",
+          "School support & homework sessions"
+        ],
+        "footer": "A perfect space where students learn, study and grow in a safe and motivating environment."
+      },
+
+      "adults": {
+        "title": "Adults, university students and professionals",
+        "subtitle": "Flexible schedules: mornings or afternoons",
+        "desc": "Availability from 9:00 to 20:00, adapting to your routine and the teacher’s availability:",
+        "items": [
+          "Individual classes (morning or afternoon)",
+          "Group classes (morning or afternoon, depending on demand)",
+          "General or professional English",
+          "French from beginner to intermediate levels",
+          "Exam preparation",
+          "Conversation-focused classes",
+          "University support / specific tasks"
+        ],
+        "footer": "You choose the time slot; we find you the ideal teacher."
+      },
+
+      "noSchedule": {
+        "title": "Can't find a schedule that works for you?",
+        "desc1": "We create new groups based on demand, level and age.",
+        "desc2": "If you need a specific schedule, tell us and we’ll find the best option for you."
+      },
+
+      "cta": "Contact us to see current schedules and availability"
+    }
+  },
+
+  "methodologySection": {
+    "tag": "Methodology & Levels",
+
+    "title": "A practical methodology to help you progress step by step",
+
+    "subtitle": "We combine real communication, academic reinforcement, applied grammar and dynamic activities so you can use what you learn from day one.",
+
+    "methodology": {
+      "title": "Myker Method",
+      "intro": "In our classes, we prioritise:",
+      "items": [
+        "Real communication (speaking, listening, writing)",
+        "Practical pair and group activities",
+        "Authentic and digital materials",
+        "Useful and applicable exercises",
+        "Constant feedback",
+        "Regular assessments to measure progress"
+      ]
+    },
+
+    "followup": {
+      "title": "Follow-up & Objectives",
+      "intro": "We define clear goals with you and regularly review your progress.",
+      "listTitle": "Includes:",
+      "items": [
+        "Initial level test",
+        "Progress reports",
+        "Continuous teacher monitoring",
+        "Official exam preparation (English & French)",
+        "Direct communication with the teaching team"
+      ]
+    },
+
+    "levels": {
+      "tag": "Level {{code}}",
+      "ideal": "Ideal for:"
+    },
+
+    "levelsList": [
+      {
+        "code": "A1-A2",
+        "name": "Beginner",
+        "desc": "First contact with the language. Basic vocabulary, everyday expressions and simple structures.",
+        "ideal": "People starting from zero or with very basic knowledge."
+      },
+      {
+        "code": "B1",
+        "name": "Intermediate",
+        "desc": "Able to manage everyday situations, simple conversations and short texts.",
+        "ideal": "Learners who can defend themselves but want more confidence and fluency."
+      },
+      {
+        "code": "B2",
+        "name": "Upper Intermediate",
+        "desc": "Understanding more complex texts, debates and academic/work situations.",
+        "ideal": "People who need the language for academic or professional environments."
+      },
+      {
+        "code": "C1",
+        "name": "Advanced",
+        "desc": "Flexible, effective use of the language in formal and informal contexts with high precision.",
+        "ideal": "Advanced learners looking to refine nuances, vocabulary and register."
+      }
+    ],
+
+    "finalNote": "We provide a free initial level test to place you in the right group and recommend the ideal learning path for your goals."
+  },
+
+  "examsSection": {
+    "tag": "Exams & Certifications",
+
+    "title": "Prepare for your official certifications",
+
+    "subtitle":
+      "We design tailored study paths so you can take official exams with confidence. At Myker Academy we work with real exam formats, mock tests, strategies and personalised follow-up to help you pass successfully.",
+
+    "english": {
+      "language": "English",
+      "label": "Exam Preparation",
+
+      "exams": [
+        "A2 Key (KET)",
+        "B1 Preliminary (PET)",
+        "B2 First (FCE)",
+        "C1 Advanced (CAE)"
+      ],
+
+      "extrasTitle": "Additionally:",
+      "extras": [
+        "Internal tests to measure your progress",
+        "Full mock exams with real timing",
+        "Strategies for speaking, listening, reading and writing",
+        "Personalised recommendations to help you take the exam with confidence"
+      ],
+
+      "description":
+        "Our Cambridge preparation is designed to help you feel confident, prepared and ready to succeed.",
+
+      "footer":
+        "Check upcoming exam dates and available preparation groups."
+    },
+
+    "french": {
+      "language": "French",
+      "label": "Exam Preparation",
+
+      "exams": [
+        "DELF A1",
+        "DELF A2",
+        "DELF B1",
+        "DELF B2",
+        "DALF C1",
+        "DALF C2"
+      ],
+
+      "descriptionTitle":
+        "We help you prepare official French exams through:",
+
+      "descriptionList": [
+        "Real DELF/DALF exam-format practice",
+        "Specific activities for listening and reading comprehension",
+        "Written production with models, corrections and strategies",
+        "Speaking practice through real mock tests",
+        "Techniques to improve fluency, vocabulary and pronunciation"
+      ],
+
+      "footer":
+        "Our goal is to help you take your exam with confidence, mastering the format and practising what you truly need to succeed."
+    },
+
+    "cta": "Request your FREE level test!"
+  },
+
+  "pricesSection": {
+    "tag": "Prices",
+
+    "title": "Choose the plan that fits you best",
+
+    "subtitle": "These prices are approximate and may vary depending on level, class type and individual goals. We can adjust your plan according to your objectives, class frequency and course format.",
+
+    "groupsKids": {
+      "title": "Group Classes (ages 5–18)",
+      "desc": "Small-group classes for children and teenagers, organised by age and level.",
+
+      "pricesTitle": "Monthly Prices (ages 5–18)",
+      "prices": [
+        "1 hour / week → 33 € / month",
+        "2 hours / week → 64.5 € / month",
+        "1 hour 15 min / week → 38 € / month",
+        "1 hour 30 min / week → 43 € / month",
+        "2 hours 30 min / week → 74.5 € / month",
+        "FCE / C1 Advanced — 1 hour / week → 57 € / month"
+      ],
+
+      "mathTitle": "Math Group Classes (ages 5–18)",
+      "mathPrices": [
+        "1 hour / week → 38 € / month"
+      ],
+
+      "enrollmentTitle": "Enrollment & Materials",
+      "enrollmentItems": [
+        "Mandatory enrollment (one-time payment): 30 €",
+        "First-month materials: 15 €"
+      ]
+    },
+
+    "groupsAdults": {
+      "title": "Adult Group Classes",
+      "desc": "Designed for learners over 18 seeking to improve fluency, maintain their level or prepare specific goals.",
+
+      "pricesTitle": "Prices for Adults",
+      "prices": [
+        "1 hour / week → 57 € / month",
+        "(Morning/afternoon availability depending on teacher and student.)"
+      ]
+    },
+
+    "individual": {
+      "title": "Private Classes",
+      "desc": "Fully personalised one-to-one sessions.",
+
+      "pricesTitle": "Prices",
+      "prices": [
+        "Single 1-hour class → 22 €",
+        "10-hour pack → 200 € (20 €/hour)",
+        "20-hour pack → 350 € (17.5 €/hour)",
+        "20-hour pack for two people → 400 €"
+      ],
+
+      "details": [
+        "Flexible scheduling",
+        "In-person or online",
+        "No enrollment fee, no mandatory materials"
+      ]
+    },
+
+    "ctaNote": "Prices may vary depending on course duration, number of students and class format. Contact us for a personalised proposal.",
+
+    "ctaButton": "Book a free information session"
+  },
+
+  "teachersSection": {
+    "tag": "Our Teachers",
+
+    "items": [
+      {
+        "name": "Inés",
+        "subjects": "French · English · School Support",
+        "bio": "A native French speaker and passionate educator since childhood, Inés has always dreamed of teaching and sharing her knowledge with her students. She loves working with children and enjoys creating a fun, dynamic and friendly atmosphere where they can learn without fear. Languages are her greatest passion, and her energy makes every class special. She is also the person who will assist you personally when you contact us.",
+        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Alex",
+        "subjects": "English · School Support",
+        "bio": "Very popular among younger students, Alex combines teaching with a more active, energetic and sports-oriented approach. He loves engaging with children, motivating them and helping them overcome any academic challenge. His classes are filled with movement, laughter and meaningful learning.",
+        "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Mike",
+        "subjects": "English (Native)",
+        "bio": "A native English teacher with extensive experience. Mike stands out for his kindness, empathy and for turning every class into a positive and motivational experience. His main groups are adults, whom he helps with professional English, certification preparation and real communication skills. With him, learning English feels natural and achievable.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Noa",
+        "subjects": "English · School Support",
+        "bio": "A specialist in early education, Noa has a unique talent for connecting with young children. Her kindness, creativity and patience make students feel so comfortable that they always want to return. Her goal is to help them learn English naturally, through games and confidence-building activities.",
+        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "name": "Laia",
+        "subjects": "English",
+        "bio": "After living in Canada, Laia brings her love for authentic, real-world English. In her classes she shares her international experience through dynamic activities, fun exercises and a practical method that motivates every student. Her approach combines closeness, cultural immersion and genuine learning.",
+        "image": "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?auto=format&fit=crop&w=500&q=60"
+      }
+    ]
+  },
+
+  "faq": {
+    "title_pre": "Frequently Asked Questions",
+    "title": "We answer your most common questions",
+    "subtitle": "If you have any other question about schedules, prices, levels or availability, send us a message and we will get back to you as soon as possible.",
+
+    "items": [
+      {
+        "q": "How do I know my level?",
+        "a": "We offer a free level test, either online or in person, to assign you to the correct group or recommend the best class type (group or private). In less than 15 minutes we can determine your starting point."
+      },
+      {
+        "q": "Is there an enrollment fee?",
+        "a": "Yes. Group classes require an annual enrollment fee of 30 €, which secures your spot for the entire school year. Additionally, the first month requires a 15 € payment for materials (initial booklet and digital resources). Private classes do not require an enrollment fee."
+      },
+      {
+        "q": "Can I make up a missed class?",
+        "a": "Yes. In group classes, make-up options are available whenever there is availability in another group of the same level and age. If no alternative is available that week, we will provide resources so you can keep up with the class."
+      },
+      {
+        "q": "Do you prepare official exams?",
+        "a": "Yes! We prepare English exams (Cambridge): A2 Key · B1 Preliminary · B2 First · C1 Advanced. French exams: DELF A1–A2–B1–B2 · DALF C1. Other languages on request. Our courses include mock exams, strategies and specific preparation for each exam section."
+      },
+      {
+        "q": "Do you offer classes for children, teenagers and adults?",
+        "a": "Yes. At Myker Academy we work with all ages from 5 years old and up. Children (5–11): dynamic groups with natural learning. Teens (12–18): support, languages, certificates and study help. Adults: general English, conversation, exam prep and private lessons. Each group is organised by level and age to ensure an ideal learning environment."
+      },
+      {
+        "q": "What schedules do you offer?",
+        "a": "We are available from 9:00 to 20:00. Children & teens: afternoon group classes after school hours. Adults: morning or afternoon depending on availability. Private classes: flexible scheduling (morning/afternoon)."
+      },
+      {
+        "q": "Are private classes available?",
+        "a": "Yes. We offer private lessons with different pricing options: 1 hour: 22 €. 10-hour pack: 200 € (20 €/h). 20-hour pack: 350 € (17.5 €/h). These lessons are personalised, flexible and 100% focused on your goals."
+      }
+    ]
+  },
+
+  "contactSection": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help you with anything you need. If you want information about schedules, prices, levels or enrollment, you can call us, write to us or visit us. We will be happy to assist you!",
+
+    "phoneLabel": "Phone",
+    "phone": "+34 717 70 49 78",
+
+    "emailLabel": "Email",
+    "email": "mykeringlesacademia@gmail.com",
+
+    "instagramLabel": "Instagram",
+    "instagram": "@myker.academy",
+
+    "scheduleLabel": "Opening Hours",
+    "schedule": "Monday to Friday: 9:00 – 20:00",
+    "scheduleNote": "(We also reply to messages outside opening hours whenever possible.)",
+
+    "webLabel": "Web / Google",
+    "web": "Visit alternate site",
+
+    "addressLine1": "Av. Santa Coloma, 34",
+    "addressLine2": "08690 Santa Coloma de Cervelló (Barcelona)",
+    "addressNote": "We are located in the town center, just a few minutes from schools and the bus stop."
+  },
+
+  "testimonialsSection": {
+    "tag": "Testimonials",
+    "title": "What Our Students Say",
+    "items": [
+      {
+        "name": "Pedro Taqi",
+        "role": "French Student",
+        "text": "I needed to pass a French subject and I exceeded the level required. The intensive course with Inés was amazing. She is an excellent professional and thanks to her… I passed!",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Martín Sánchez",
+        "role": "English Student",
+        "text": "An unbeatable experience at this English academy. The teacher was always kind, attentive and ready to help. The teaching method is dynamic and motivating. Totally recommended!",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80&auto=format&fit=crop"
+      },
+      {
+        "name": "Arianna Pairada",
+        "role": "Student",
+        "text": "Mike is exceptional. His empathy, patience and teaching approach make learning easy and enjoyable. He creates an inclusive environment where you feel comfortable from day one.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "ctaFinal": {
+    "tag": "Take the Next Step",
+    "title": "Do you want to improve your English, French or school subjects?",
+    "text": "Book a free information session and find the perfect course for your level, goals and schedule.",
+    "button": "Book Your Free Session",
+    "note": "No commitment. We only need your approximate level and goals to guide you properly."
+  },
+
+  "contact": {
+    "title": "Contact",
+    "subtitle": "We are here to help you",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully",
+    "error": "An error occurred. Please try again."
+  },
+
+  "footer": {
+    "rights": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms and Conditions"
+    }
   }
 }
+
