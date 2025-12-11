@@ -10,11 +10,6 @@ const Hero: React.FC = () => {
     <section id="home" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
-          alt="" 
-          className="w-full h-full object-cover"
-        />
         <div className="absolute inset-0 bg-gray-900/60 mix-blend-multiply"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 to-transparent opacity-80"></div>
       </div>

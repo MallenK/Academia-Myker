@@ -74,8 +74,12 @@ const Header: React.FC = () => {
           to="/"
           className="flex items-center gap-2 font-bold text-2xl tracking-tight"
         >
-          <div className="bg-primary-600 text-black p-2 rounded-lg">
-            <GraduationCap size={24} />
+          <div className="text-black p-2 rounded-lg">
+              <img 
+                src="../src/assets/logo/MykerLogo1.png" 
+                alt="Myker Academy" 
+                className="w-full object-cover h-[40px] lg:h-[40px]"
+              />
           </div>
           <span className={shouldBeTransparent ? 'text-white' : 'text-black'}>
             Myker<span className="text-primary-600 font-light">Academy</span>

@@ -20,7 +20,7 @@ const About: React.FC = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                src="../src/assets/img/imgHero.jpeg" 
                 alt="Clase en Myker Academy" 
                 className="w-full object-cover h-[400px] lg:h-[500px]"
               />
