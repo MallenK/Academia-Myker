@@ -76,7 +76,7 @@ const Header: React.FC = () => {
         >
           <div className="text-black p-2 rounded-lg">
               <img 
-                src="../src/assets/logo/MykerLogo1.png" 
+                src="assets/logo/MykerLogo1.png" 
                 alt="Myker Academy" 
                 className="w-full object-cover h-[40px] lg:h-[40px]"
               />
