@@ -47,14 +47,6 @@ const Contact: React.FC = () => {
                     <p>Lunes a Viernes: 9:00–19:00</p>
                   </div>
                 </div>
-                
-                <div className="flex items-start gap-4">
-                   <Globe className="mt-1 text-primary-400" size={20} />
-                   <div>
-                       <h4 className="font-semibold text-sm text-primary-200 uppercase tracking-wider mb-1">Web Google</h4>
-                       <a href="https://sites.google.com/view/mykerenglishacademy" target="_blank" rel="noopener noreferrer" className="hover:text-primary-300 transition-colors text-sm underline decoration-primary-400/50">Visitar sitio alternativo</a>
-                   </div>
-                </div>
               </div>
             </div>
             

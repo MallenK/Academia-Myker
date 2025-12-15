@@ -315,7 +315,7 @@
     "intro": "Choisissez le format et l’horaire qui vous conviennent le mieux. Chez Myker Academy, nous nous adaptons à votre quotidien pour que l’apprentissage d’une langue soit compatible avec votre travail, vos études ou votre famille.",
 
     "modalities": {
-      "title": "1. Modalités de cours",
+      "title": "Modalités de cours",
 
       "presential": {
         "title": "Présentiel",
@@ -339,7 +339,7 @@
     },
 
     "schedule": {
-      "title": "2. Horaires selon l’âge et le type de cours",
+      "title": "Horaires selon l’âge et le type de cours",
 
       "kids": {
         "title": "Enfants et adolescents (5 à 18 ans)",

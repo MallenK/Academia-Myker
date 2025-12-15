@@ -43,84 +43,84 @@ const Tarifas: React.FC = () => {
         {/* GRID PRINCIPAL */}
         <div className="grid gap-10 md:grid-cols-3">
 
-          {/* BLOQUE — GRUPALES NIÑOS/ADOLESCENTES */}
-          <motion.div
-            className="bg-gray-50 rounded-2xl border border-gray-100 shadow-sm p-8 flex flex-col"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <h4 className="text-lg font-semibold text-gray-900 mb-2">
-              {t('pricesSection.groupsKids.title')}
-            </h4>
-
-            <p className="text-sm text-gray-600 mb-4">
-              {t('pricesSection.groupsKids.desc')}
-            </p>
-
-            <h5 className="text-sm font-semibold text-primary-600 uppercase mb-2">
-              {t('pricesSection.groupsKids.pricesTitle')}
-            </h5>
-
-            <ul className="text-sm text-gray-700 space-y-2 mb-6">
-              {kidsPrices.map((line, idx) => (
-                <li key={idx}>• {line}</li>
-              ))}
-            </ul>
-
-            <h5 className="text-sm font-semibold text-primary-600 uppercase mb-2">
-              {t('pricesSection.groupsKids.mathTitle')}
-            </h5>
-
-            <ul className="text-sm text-gray-700 space-y-2 mb-6">
-              {kidsMath.map((line, idx) => (
-                <li key={idx}>• {line}</li>
-              ))}
-            </ul>
-
-            <h5 className="text-sm font-semibold text-primary-600 uppercase mb-2">
-              {t('pricesSection.groupsKids.enrollmentTitle')}
-            </h5>
-
-            <ul className="text-sm text-gray-700 space-y-2">
-              {kidsEnrollment.map((item, idx) => (
-                <li key={idx}>• {item}</li>
-              ))}
-            </ul>
-          </motion.div>
-
-          {/* BLOQUE — GRUPALES ADULTOS */}
+          {/* BLOQUE — GRUPALES NIÑOS/ADOLESCENTES (RECOMENDADO) */}
           <motion.div
             className="relative bg-primary-600 text-white rounded-2xl shadow-xl p-8 flex flex-col border border-primary-500"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
+            transition={{ duration: 0.5 }}
           >
             <div className="absolute -top-3 right-6 inline-flex items-center rounded-full bg-white text-primary-700 text-xs font-semibold px-3 py-1 shadow-md">
               {t('general.recommended', 'Recomendado')}
             </div>
 
             <h4 className="text-lg font-semibold mb-2">
-              {t('pricesSection.groupsAdults.title')}
+              {t('pricesSection.groupsKids.title')}
             </h4>
 
             <p className="text-sm text-primary-50 mb-4">
-              {t('pricesSection.groupsAdults.desc')}
+              {t('pricesSection.groupsKids.desc')}
             </p>
 
             <h5 className="text-sm font-semibold text-white uppercase mb-2">
-              {t('pricesSection.groupsAdults.pricesTitle')}
+              {t('pricesSection.groupsKids.pricesTitle')}
             </h5>
 
             <ul className="text-sm text-primary-50 space-y-2 mb-6">
+              {kidsPrices.map((line, idx) => (
+                <li key={idx}>• {line}</li>
+              ))}
+            </ul>
+
+            <h5 className="text-sm font-semibold text-white uppercase mb-2">
+              {t('pricesSection.groupsKids.mathTitle')}
+            </h5>
+
+            <ul className="text-sm text-primary-50 space-y-2 mb-6">
+              {kidsMath.map((line, idx) => (
+                <li key={idx}>• {line}</li>
+              ))}
+            </ul>
+
+            <h5 className="text-sm font-semibold text-white uppercase mb-2">
+              {t('pricesSection.groupsKids.enrollmentTitle')}
+            </h5>
+
+            <ul className="text-sm text-primary-50 space-y-2">
+              {kidsEnrollment.map((item, idx) => (
+                <li key={idx}>• {item}</li>
+              ))}
+            </ul>
+          </motion.div>
+
+          {/* BLOQUE — GRUPALES ADULTOS (NORMAL) */}
+          <motion.div
+            className="bg-gray-50 rounded-2xl border border-gray-100 shadow-sm p-8 flex flex-col"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <h4 className="text-lg font-semibold text-gray-900 mb-2">
+              {t('pricesSection.groupsAdults.title')}
+            </h4>
+
+            <p className="text-sm text-gray-600 mb-4">
+              {t('pricesSection.groupsAdults.desc')}
+            </p>
+
+            <h5 className="text-sm font-semibold text-primary-600 uppercase mb-2">
+              {t('pricesSection.groupsAdults.pricesTitle')}
+            </h5>
+
+            <ul className="text-sm text-gray-700 space-y-2 mb-6">
               {adultsPrices.map((line, idx) => (
                 <li key={idx}>• {line}</li>
               ))}
             </ul>
 
-            <button className="mt-auto inline-flex items-center justify-center rounded-full bg-white text-primary-700 text-sm font-medium px-5 py-2.5 hover:bg-primary-50 transition">
+            <button className="mt-auto inline-flex items-center justify-center rounded-full bg-primary-600 text-white text-sm font-medium px-5 py-2.5 hover:bg-primary-700 transition">
               {t('cta.moreInfo', 'Consultar plazas')}
             </button>
           </motion.div>
@@ -163,6 +163,7 @@ const Tarifas: React.FC = () => {
           </motion.div>
 
         </div>
+
 
         {/* NOTA FINAL + BOTÓN CTA */}
         <motion.div

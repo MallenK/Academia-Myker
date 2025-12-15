@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
+
 
 const Certificaciones: React.FC = () => {
   const { t } = useTranslation();
@@ -144,13 +146,14 @@ const Certificaciones: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <a
-            href="#contacto"
+          <Link
+            to="/contacto"
             className="inline-block px-8 py-4 bg-primary-600 hover:bg-primary-500 text-white text-lg font-semibold rounded-xl shadow-lg transition-all"
           >
             {t('examsSection.cta')}
-          </a>
+          </Link>
         </motion.div>
+
 
       </div>
     </section>

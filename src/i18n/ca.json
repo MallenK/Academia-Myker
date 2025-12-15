@@ -314,7 +314,7 @@
     "intro": "Tria el format i l’horari que millor encaixin amb tu. A Myker Academy ens adaptem al teu dia a dia perquè aprendre un idioma sigui compatible amb la teva feina, els teus estudis o la teva família.",
 
     "modalities": {
-      "title": "1. Modalitats de classe",
+      "title": "Modalitats de classe",
 
       "presential": {
         "title": "Presencial",
@@ -338,7 +338,7 @@
     },
 
     "schedule": {
-      "title": "2. Horaris segons edat i tipus de classe",
+      "title": "Horaris segons edat i tipus de classe",
 
       "kids": {
         "title": "Nens i adolescents (5 a 18 anys)",
@@ -592,31 +592,31 @@
         "name": "Inés",
         "subjects": "Francès · Anglès · Reforç Escolar",
         "bio": "Nativa francesa i apassionada de l’ensenyament des de petita, la Inés sempre ha somiat a ser professora i transmetre tot el que sap als seus alumnes. Li encanten els nens i gaudeix creant un ambient divertit, dinàmic i proper perquè aprenguin sense por. Els idiomes són la seva gran passió, i la seva energia contagiosa fa que cada classe sigui especial. A més, si ens escriviu, serà ella qui us atendrà i us acompanyarà en tot el procés.",
-        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=60"
+        "image": "/src/assets/img/profesors/ProfeInes.jpeg"
       },
       {
         "name": "Alex",
         "subjects": "Anglès · Reforç Escolar",
         "bio": "Molt estimat pels alumnes més joves, l’Alex combina l’ensenyament amb un estil més esportiu, dinàmic i ple d’energia. Li encanta passar-ho bé amb els nens, motivar-los i ajudar-los a superar qualsevol dificultat escolar. Les seves classes estan plenes de moviment, rialles i aprenentatge significatiu.",
-        "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=60"
+        "image": "/src/assets/img/profesors/ProfeAlex.jpeg"
       },
       {
         "name": "Mike",
         "subjects": "Anglès (Natiu)",
         "bio": "Professor natiu amb una llarga trajectòria en l’ensenyament de l’anglès. En Mike destaca per la seva proximitat, empatia i per convertir cada classe en una experiència especial i motivadora. Els seus principals grups són d’adults, a qui acompanya en objectius laborals, preparació de certificacions i millora de la comunicació real. Amb ell, aprendre anglès se sent natural i assequible.",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+        "image": "/src/assets/img/profesors/ProfeMyke.jpeg"
       },
       {
         "name": "Noa",
         "subjects": "Anglès · Reforç Escolar",
         "bio": "Especialista en educació primària, la Noa té un do únic per connectar amb els nens petits. La seva dolçor, creativitat i paciència fan que els alumnes gaudeixin tant que sempre vulguin tornar a classe. El seu objectiu és que aprenguin anglès de manera natural, jugant i sentint-se segurs.",
-        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=60"
+        "image": "/src/assets/img/profesors/ProfeNoa.jpeg"
       },
       {
         "name": "Laia",
         "subjects": "Anglès",
         "bio": "Després de viure al Canadà, la Laia porta amb ella el seu amor per la cultura anglosaxona i per un anglès real i actual. A les seves classes transmet la seva experiència internacional a través d’activitats dinàmiques, diversió i un mètode pràctic que motiva qualsevol alumne. El seu enfocament combina proximitat, immersió cultural i aprenentatge autèntic.",
-        "image": "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?auto=format&fit=crop&w=500&q=60"
+        "image": "/src/assets/img/profesors/ProfeLaia.jpeg"
       }
     ]
   },

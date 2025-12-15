@@ -8,14 +8,14 @@ import CTAFinal from '../components/CTAFinal';
 
 const CursosPage: React.FC = () => {
   return (
-    <>
+    <div style={{ marginTop: '5%' }}>
       <Courses />
       <HorariosModalidades />
       <MetodologiaNiveles />
       <Certificaciones />
       <Tarifas />
       <CTAFinal />
-    </>
+    </div>
   );
 };
 

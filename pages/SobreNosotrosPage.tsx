@@ -7,13 +7,13 @@ import CTAFinal from '../components/CTAFinal';
 
 const SobreNosotrosPage: React.FC = () => {
   return (
-    <>
+    <div style={{ marginTop: '5%' }}>
       <About />
       <Profesores />
       <Features />
       <Testimonials />
       <CTAFinal />
-    </>
+    </div>
   );
 };
 

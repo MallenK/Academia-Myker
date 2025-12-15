@@ -5,11 +5,11 @@ import CTAFinal from '../components/CTAFinal';
 
 const ContactoPage: React.FC = () => {
   return (
-    <>
+    <div style={{ marginTop: '5%' }}>
       <FAQ />
       <Contact />
       <CTAFinal />
-    </>
+    </div>
   );
 };
 

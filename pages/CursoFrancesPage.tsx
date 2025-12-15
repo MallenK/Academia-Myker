@@ -13,7 +13,7 @@ export default function CursoFrancesPage() {
       <section className="relative h-[75vh] min-h-[500px] flex items-center justify-center overflow-hidden shadow-xl">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1503676382383-91b51a53cf54?auto=format&fit=crop&w=1920&q=80"
+            src="src/assets/img/thumbnail/WhatsApp3.jpeg"
             alt={t("courseDetail.frenchFull.alt")}
             className="w-full h-full object-cover"
           />

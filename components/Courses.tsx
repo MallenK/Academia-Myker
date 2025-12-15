@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Languages, School } from 'lucide-react';
+import { BookOpen, Radical, School } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
 
@@ -11,28 +11,28 @@ const Courses: React.FC = () => {
     {
       title: t('courses.items.english.title'),
       description: t('courses.items.english.desc'),
-      icon: Languages,
+      icon: () => <span className="text-2xl">🇬🇧</span>,
       color: "bg-blue-50 text-blue-600",
       href: "/curso-ingles"
     },
     {
       title: t('courses.items.french.title'),
       description: t('courses.items.french.desc'),
-      icon: Languages,
+      icon: () => <span className="text-2xl">🇫🇷</span>,
       color: "bg-indigo-50 text-indigo-600",
       href: "/curso-frances"
     },
     {
       title: t('courses.items.math.title'),
       description: t('courses.items.math.desc'),
-      icon: BookOpen,
+      icon: Radical,
       color: "bg-yellow-50 text-yellow-600",
       href: "/curso-matematicas"
     },
     {
       title: t('courses.items.school.title'),
       description: t('courses.items.school.desc'),
-      icon: School,
+      icon: BookOpen,
       color: "bg-emerald-50 text-emerald-600",
       href: "/curso-repaso"
     }
