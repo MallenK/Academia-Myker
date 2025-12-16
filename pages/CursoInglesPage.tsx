@@ -13,7 +13,7 @@ export default function CursoInglesPage() {
       <section className="relative h-[75vh] min-h-[500px] flex items-center justify-center overflow-hidden shadow-xl">
         <div className="absolute inset-0">
           <img
-            src="src/assets/img/thumbnail/WhatsApp7.jpeg"
+            src="assets/img/thumbnail/WhatsApp7.jpeg"
             alt={t("courseDetail.englishFull.alt")}
             className="w-full h-full object-cover"
           />

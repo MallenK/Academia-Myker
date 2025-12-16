@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="src/assets/img/thumbnail/WhatsApp8.jpeg" 
+          src="assets/img/thumbnail/WhatsApp8.jpeg" 
           alt="Myker Academia" 
           className="w-full h-full object-cover"
         />

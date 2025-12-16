@@ -76,12 +76,16 @@ const Header: React.FC = () => {
         >
           <div className="text-black p-2 rounded-lg">
               <img 
-                src="assets/logo/MykerLogo1.png" 
+                src="src/assets/logo/MykerLogo1.png" 
                 alt="Myker Academy" 
                 className="w-full object-cover h-[40px] lg:h-[40px]"
               />
           </div>
-          <span className={shouldBeTransparent ? 'text-white' : 'text-black'}>
+          <span
+            className={`hidden md:inline ${
+              shouldBeTransparent ? 'text-white' : 'text-black'
+            }`}
+          >
             Myker<span className="text-primary-600 font-light">Academy</span>
           </span>
         </NavLink>

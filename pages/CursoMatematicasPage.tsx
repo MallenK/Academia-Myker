@@ -13,7 +13,7 @@ export default function CursoMatematicasPage() {
       <section className="relative h-[75vh] min-h-[500px] flex items-center justify-center overflow-hidden shadow-xl">
         <div className="absolute inset-0">
           <img
-            src="src/assets/img/thumbnail/WhatsApp2.jpeg"
+            src="assets/img/thumbnail/WhatsApp2.jpeg"
             alt={t("courseDetail.mathFull.alt")}
             className="w-full h-full object-cover"
           />

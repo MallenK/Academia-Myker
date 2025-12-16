@@ -20,7 +20,7 @@ const About: React.FC = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="src/assets/img/thumbnail/WhatsApp1.jpeg" 
+                src="assets/img/thumbnail/WhatsApp1.jpeg" 
                 alt="Clase en Myker Academy" 
                 className="w-full object-cover h-[400px] lg:h-[500px]"
               />
@@ -34,7 +34,7 @@ const About: React.FC = () => {
           {/* Text */}
           <motion.div 
             className="w-full lg:w-1/2"
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: 0 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
