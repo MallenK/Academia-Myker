@@ -593,31 +593,31 @@
         "name": "Inés",
         "subjects": "French · English · School Support",
         "bio": "A native French speaker passionate about teaching since childhood. Inés has always dreamed of becoming a teacher and sharing everything she knows. She loves working with children and creating a fun, dynamic, and warm environment for learning without fear. Languages are her great passion, and her contagious energy makes every class special. She also handles all student inquiries and accompanies families throughout the process.",
-        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=60"
+        "image": "/assets/img/profesors/ProfeInes.jpeg"
       },
       {
         "name": "Alex",
         "subjects": "English · School Support",
         "bio": "Highly appreciated by younger students, Alex combines teaching with an energetic, active, and playful style. He enjoys motivating children, helping them overcome academic challenges, and creating dynamic lessons full of movement, laughter, and meaningful learning.",
-        "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=60"
+        "image": "/assets/img/profesors/ProfeAlex.jpeg"
       },
       {
         "name": "Mike",
         "subjects": "English (Native)",
         "bio": "A native English teacher with extensive experience. Mike stands out for his approachability, empathy, and ability to turn each class into a motivating and enriching experience. He mainly teaches adults, helping them achieve professional goals, exam preparation, and real communication improvement. With him, learning English feels natural and achievable.",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+        "image": "/assets/img/profesors/ProfeMyke.jpeg"
       },
       {
         "name": "Noa",
         "subjects": "English · School Support",
         "bio": "A specialist in primary education with a unique talent for connecting with young children. Her sweetness, creativity, and patience make students enjoy lessons so much that they always want to return. Her aim is for children to learn English naturally, through play and in a safe environment.",
-        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=60"
+        "image": "/assets/img/profesors/ProfeNoa.jpeg"
       },
       {
         "name": "Laia",
         "subjects": "English",
         "bio": "After living in Canada, Laia brings her love for English-speaking culture and a real, modern English to her classes. She shares her international experience through dynamic activities, engaging lessons, and a practical method that motivates every student. Her approach combines closeness, cultural immersion, and authentic learning.",
-        "image": "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?auto=format&fit=crop&w=500&q=60"
+        "image": "/assets/img/profesors/ProfeLaia.jpeg"
       }
     ]
   },

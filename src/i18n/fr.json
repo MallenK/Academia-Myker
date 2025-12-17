@@ -550,31 +550,31 @@
         "name": "Inés",
         "subjects": "Français · Anglais · Soutien scolaire",
         "bio": "Née en France et passionnée d’enseignement depuis son enfance, Inés a toujours rêvé d’être professeure et de transmettre ses connaissances. Elle adore travailler avec les enfants et créer une ambiance amusante, dynamique et chaleureuse pour qu’ils apprennent sans peur. Les langues sont sa grande passion et son énergie communicative rend chaque cours unique. De plus, si vous nous écrivez, c’est elle qui vous répondra et vous accompagnera tout au long du processus.",
-        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=60"
+        "image": "/assets/img/profesors/ProfeInes.jpeg"
       },
       {
         "name": "Alex",
         "subjects": "Anglais · Soutien scolaire",
         "bio": "Très apprécié des plus jeunes, Alex combine l’enseignement avec un style sportif, dynamique et plein d’énergie. Il aime s’amuser avec les enfants, les motiver et les aider à surmonter toutes leurs difficultés scolaires. Ses cours sont remplis de mouvement, de rires et d’apprentissage significatif.",
-        "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=60"
+        "image": "/assets/img/profesors/ProfeAlex.jpeg"
       },
       {
         "name": "Mike",
         "subjects": "Anglais (Natif)",
         "bio": "Professeur natif avec une longue expérience dans l’enseignement de l’anglais. Mike se distingue par sa proximité, son empathie et sa capacité à transformer chaque cours en une expérience unique et motivante. Ses principaux groupes sont des adultes, qu’il accompagne dans leurs objectifs professionnels, préparations d’examens et amélioration de la communication réelle. Avec lui, apprendre l’anglais devient naturel et accessible.",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop"
+        "image": "/assets/img/profesors/ProfeMyke.jpeg"
       },
       {
         "name": "Noa",
         "subjects": "Anglais · Soutien scolaire",
         "bio": "Spécialisée en éducation primaire, Noa a un don unique pour connecter avec les plus petits. Sa douceur, sa créativité et sa patience font que les enfants apprécient tellement ses cours qu’ils veulent toujours revenir. Son objectif est qu’ils apprennent l’anglais de manière naturelle, en jouant et en se sentant en sécurité.",
-        "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=60"
+        "image": "/assets/img/profesors/ProfeNoa.jpeg"
       },
       {
         "name": "Laia",
         "subjects": "Anglais",
         "bio": "Après avoir vécu au Canada, Laia apporte avec elle son amour pour la culture anglophone et un anglais réel et actuel. Dans ses cours, elle transmet son expérience internationale à travers des activités dynamiques, du plaisir et une méthode pratique qui motive tous les élèves. Son approche combine proximité, immersion culturelle et apprentissage authentique.",
-        "image": "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?auto=format&fit=crop&w=500&q=60"
+        "image": "/assets/img/profesors/ProfeLaia.jpeg"
       }
     ]
   },
