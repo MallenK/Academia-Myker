@@ -36,7 +36,7 @@ export default function CursoRepasoPage() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            {t("courseDetail.schoolFull.description")}
+            {t("courses.items.school.desc")}
           </motion.p>
         </div>
       </section>

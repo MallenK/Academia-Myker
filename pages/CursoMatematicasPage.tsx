@@ -36,7 +36,7 @@ export default function CursoMatematicasPage() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            {t("courseDetail.mathFull.description")}
+            {t("courses.items.math.desc")}
           </motion.p>
         </div>
       </section>
