@@ -18,7 +18,7 @@ import CursoRepasoPage from './pages/CursoRepasoPage';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/Academia-Myker/">
       <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
         <Header />
 
