@@ -4,9 +4,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
+  const isProduction = mode === 'production';
+  
   return {
-    base: '/Academia-Myker/',
-
+    base: isProduction ? '/Academia-Myker/' : '/',
+    
     server: {
       port: 3000,
       host: '0.0.0.0',
