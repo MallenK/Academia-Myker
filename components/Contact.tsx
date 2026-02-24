@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
                   <Phone className="mt-1 text-primary-400" size={20} />
                   <div>
                     <h4 className="font-semibold text-sm text-primary-200 uppercase tracking-wider mb-1">Teléfono</h4>
-                    <a href="tel:+34717704978" className="hover:text-primary-300 transition-colors">+34 646 03 05 03</a>
+                    <a href="tel:+34646030503" className="hover:text-primary-300 transition-colors">+34 646 03 05 03</a>
                   </div>
                 </div>
 
