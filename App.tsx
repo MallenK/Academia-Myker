@@ -18,7 +18,7 @@ import CursoRepasoPage from './pages/CursoRepasoPage';
 
 function App() {
   return (
-    <BrowserRouter basename="/Academia-Myker/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
         <Header />
 
@@ -36,7 +36,7 @@ function App() {
             <Route path="/curso-matematicas" element={<CursoMatematicasPage />} />
             <Route path="/curso-repaso" element={<CursoRepasoPage />} />
 
-            <Route path="*" element={<HomePage />} />
+            <Route path="*" element={<div>404</div>} />
           </Routes>
         </main>
 
