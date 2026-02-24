@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
                   <Phone className="mt-1 text-primary-400" size={20} />
                   <div>
                     <h4 className="font-semibold text-sm text-primary-200 uppercase tracking-wider mb-1">Teléfono</h4>
-                    <a href="tel:+34717704978" className="hover:text-primary-300 transition-colors">+34 717 70 49 78</a>
+                    <a href="tel:+34717704978" className="hover:text-primary-300 transition-colors">+34 646 03 05 03</a>
                   </div>
                 </div>
 
@@ -54,8 +54,8 @@ const Contact: React.FC = () => {
                <div className="flex items-start gap-3">
                    <MapPin className="text-primary-400 shrink-0" size={24} />
                    <p className="font-medium leading-tight">
-                       Av. Santa Coloma 34, local 2<br/>
-                       Santa Coloma de Cervelló
+                       Av. Santa Coloma 3, local 3<br/>
+                       08690, Santa Coloma de Cervelló
                    </p>
                </div>
             </div>
@@ -63,17 +63,17 @@ const Contact: React.FC = () => {
 
           {/* Map */}
           <div className="w-full lg:w-2/3 min-h-[400px] lg:min-h-full">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.4862598822457!2d2.0135!3d41.3638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49b0000000001%3A0x0!2sAv.+Santa+Coloma+34,+Santa+Coloma+de+Cervell%C3%B3!5e0!3m2!1ses!2ses!4v1600000000000!5m2!1ses!2ses" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0, minHeight: '400px' }} 
-              allowFullScreen={true} 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación Myker Academy"
-              className="grayscale-[0.5] hover:grayscale-0 transition-all duration-500"
-            ></iframe>
+          <iframe 
+            src="https://www.google.com/maps?q=Av.+Santa+Coloma+3,+08690+Santa+Coloma+de+Cervelló&output=embed"
+            width="100%" 
+            height="100%" 
+            style={{ border: 0, minHeight: '400px' }} 
+            allowFullScreen={true} 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Ubicación Myker Academy"
+            className="grayscale-[0.5] hover:grayscale-0 transition-all duration-500"
+          ></iframe>
           </div>
         </div>
       </div>
